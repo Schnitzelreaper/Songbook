@@ -1,0 +1,93 @@
+# Song Ranking nach Kategorien
+
+── Kategorie [C] ───────────────────────────────────────
+  Rang  Song                                      Winrate  W / L
+  ────────────────────────────────────────────────────────────
+  1     + Griechischer Wein                         100.0%  8 / 0
+  2     + Hulapalu                                   80.0%  4 / 1
+  3     + Schrei nach Liebe                          80.0%  4 / 1
+  4     + The Lion Sleeps Tonight                    60.0%  3 / 2
+  5     + Holz                                       50.0%  4 / 4
+  6     + Eine Insel mit zwei Bergen                 50.0%  2 / 2
+  7     + kleine Wölfe                               42.9%  3 / 4
+  8     Bella Ciao                                 33.3%  2 / 4
+  9     Was wollen wir trinken                     20.0%  1 / 4
+  10    What Shall We Do With The Drunken Sailor    0.0%  0 / 9
+
+── Kategorie [D] ───────────────────────────────────────
+  Rang  Song                                      Winrate  W / L
+  ────────────────────────────────────────────────────────────
+  1     + BellaNapoli                              100.0%  20 / 0
+  2     + Geboren um zu Leben                        90.0%  18 / 2
+  3     + Ich Lass Für Dich Das Licht An             85.0%  17 / 3
+  4     + 99 Luftballons                             70.0%  14 / 6
+  5     + Tage Wie Diese                             70.0%  14 / 6
+  6     + Deine Schuld                               65.0%  13 / 7
+  7     + Fata Morgana                               55.0%  11 / 9
+  8     + Major Tom                                  55.0%  11 / 9
+  9     + Durch den Monsum                           50.0%  10 / 10
+  10    + Lieder                                     50.0%  10 / 10
+  11    + Auf Uns                                    45.0%  9 / 11
+  12    + Nur noch kurz die Welt Retten              45.0%  9 / 11
+  13    Ohne Dich (Schlaf Ich Heut Nacht Nicht Ein)   45.0%  9 / 11
+  14    Verdammt Ich lieb' dich                    45.0%  9 / 11
+  15    Au Revoir                                  40.0%  8 / 12
+  16    Chöre                                      40.0%  8 / 12
+  17    Irgendwie Irgendwo irgendwann              35.0%  7 / 13
+  18    Stadt                                      35.0%  7 / 13
+  19    Herz über Kopf                             20.0%  4 / 16
+  20    Bye Bye                                    10.0%  2 / 18
+  21    Westerland                                  0.0%  0 / 20
+
+── Kategorie [E] ───────────────────────────────────────
+  Rang  Song                                      Winrate  W / L
+  ────────────────────────────────────────────────────────────
+  1     + Viva La Vida                               93.8%  15 / 1
+  2     + Summer of 69                               92.9%  13 / 1
+  3     + 74-75                                      85.7%  12 / 2
+  4     + Yellow                                     84.6%  11 / 2
+  5     + Numb                                       82.4%  14 / 3
+  6     + This Is The Life                           75.0%  12 / 4
+  7     + Piano Man                                  66.7%  10 / 5
+  8     + Pompeii                                    64.3%  9 / 5
+  9     + Hold Back the River                        61.5%  8 / 5
+  10    + Complicated                                60.0%  9 / 6
+  11    + Unwritten                                  57.9%  11 / 8
+  12    + Good Riddance (Time Of Your Life)          54.5%  6 / 5
+  13    + Perfect                                    54.5%  6 / 5
+  14    + How You Remind Me                          52.9%  9 / 8
+  15    + Castle On The Hill                         50.0%  9 / 9
+  16    Africa                                     50.0%  8 / 8
+  17    + Eye of the Tiger                           50.0%  8 / 8
+  18    + Iris                                       50.0%  6 / 6
+  19    + Let Her Go                                 50.0%  4 / 4
+  20    + Hey Soul Sister                            46.2%  6 / 7
+  21    + Price Tag                                  41.7%  5 / 7
+  22    + Somwhere Only We Know                      41.7%  5 / 7
+  23    Yesterday                                  41.2%  7 / 10
+  24    Dust in the Wind                           38.5%  5 / 8
+  25    Otherside                                  36.4%  4 / 7
+  26    Wild World                                 35.7%  5 / 9
+  27    Ho Hey                                     33.3%  5 / 10
+  28    White Flag                                 30.8%  4 / 9
+  29    Umbrella                                   30.8%  4 / 9
+  30    Jar Of Hearts                              30.0%  3 / 7
+  31    Hero                                       25.0%  4 / 12
+  32    Shut up And Dance                          23.5%  4 / 13
+  33    Torn                                       22.2%  2 / 7
+  34    Thank You                                  21.1%  4 / 15
+  35    Father and Son                             15.4%  2 / 11
+  36    Breaking Free                              12.5%  1 / 7
+
+── Kategorie [L] ───────────────────────────────────────
+  Rang  Song                                      Winrate  W / L
+  ────────────────────────────────────────────────────────────
+  1     + Californication                            87.5%  7 / 1
+  2     + Losing My Religion                         75.0%  6 / 2
+  3     + Sound of Silence                           75.0%  6 / 2
+  4     + Chasing Cars                               62.5%  5 / 3
+  5     + Nothing Else Matters                       50.0%  4 / 4
+  6     Teenage Dirtbag                            37.5%  3 / 5
+  7     Mr Brightside                              25.0%  2 / 6
+  8     What's Up                                  25.0%  2 / 6
+  9     Wild Rover                                 12.5%  1 / 7

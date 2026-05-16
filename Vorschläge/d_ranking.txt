@@ -1,0 +1,40 @@
+# Song Ranking nach Kategorien
+
+── Kategorie [C] ───────────────────────────────────────
+  Rang  Song                                      Winrate  W / L
+  ────────────────────────────────────────────────────────────
+  1     Griechischer Wein                         100.0%  8 / 0
+  2     Hulapalu                                   80.0%  4 / 1
+  3     Schrei nach Liebe                          80.0%  4 / 1
+  4     The Lion Sleeps Tonight                    60.0%  3 / 2
+  5     Holz                                       50.0%  4 / 4
+  6     Eine Insel mit zwei Bergen                 50.0%  2 / 2
+  7     kleine Wölfe                               42.9%  3 / 4
+  8     Bella Ciao                                 33.3%  2 / 4
+  9     Was wollen wir trinken                     20.0%  1 / 4
+  10    What Shall We Do With The Drunken Sailor    0.0%  0 / 9
+
+── Kategorie [D] ───────────────────────────────────────
+  Rang  Song                                      Winrate  W / L
+  ────────────────────────────────────────────────────────────
+  1     Bella Napoli                              100.0%  20 / 0
+  2     Geboren um zu Leben                        90.0%  18 / 2
+  3     Ich Lass Für Dich Das Licht An             85.0%  17 / 3
+  4     99 Luftballons                             70.0%  14 / 6
+  5     Tage Wie Diese                             70.0%  14 / 6
+  6     Deine Schuld                               65.0%  13 / 7
+  7     Fata Morgana                               55.0%  11 / 9
+  8     Major Tom                                  55.0%  11 / 9
+  9     Durch den Monsum                           50.0%  10 / 10
+  10    Lieder                                     50.0%  10 / 10
+  11    Auf Uns                                    45.0%  9 / 11
+  12    Nur noch kurz die Welt Retten              45.0%  9 / 11
+  13    Ohne Dich (Schlaf Ich Heut Nacht Nicht Ein)   45.0%  9 / 11
+  14    Verdammt Ich lieb' dich                    45.0%  9 / 11
+  15    Au Revoir                                  40.0%  8 / 12
+  16    Chöre                                      40.0%  8 / 12
+  17    Irgendwie Irgendwo irgendwann              35.0%  7 / 13
+  18    Stadt                                      35.0%  7 / 13
+  19    Herz über Kopf                             20.0%  4 / 16
+  20    Bye Bye                                    10.0%  2 / 18
+  21    Westerland                                  0.0%  0 / 20

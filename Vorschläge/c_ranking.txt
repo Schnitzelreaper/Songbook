@@ -1,0 +1,15 @@
+# Song Ranking nach Kategorien
+
+── Kategorie [C] ───────────────────────────────────────
+  Rang  Song                                      Winrate  W / L
+  ────────────────────────────────────────────────────────────
+  1     Griechischer Wein                         100.0%  8 / 0
+  2     Hulapalu                                   80.0%  4 / 1
+  3     Schrei nach Liebe                          80.0%  4 / 1
+  4     The Lion Sleeps Tonight                    60.0%  3 / 2
+  5     Holz                                       50.0%  4 / 4
+  6     Eine Insel mit zwei Bergen                 50.0%  2 / 2
+  7     kleine Wölfe                               42.9%  3 / 4
+  8     Bella Ciao                                 33.3%  2 / 4
+  9     Was wollen wir trinken                     20.0%  1 / 4
+  10    What Shall We Do With The Drunken Sailor    0.0%  0 / 9
