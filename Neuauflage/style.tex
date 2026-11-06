@@ -1,0 +1,261 @@
+% ============================================================
+%  style.tex — Vintage-Liederbuch-Stil (DIN A5, Zweiseitig)
+% ============================================================
+
+% ============================================================
+%  ZENTRALE SCHRIFT-EINSTELLUNGEN  (hier ändern, sonst nirgends)
+% ============================================================
+
+% --- 1. Schrift-Pakete (pdfLaTeX) --------------------------
+%  Serifenschrift (Titel, Meta, Inhaltsverzeichnis, Seitenzahl)
+%  Beispiele: mathptmx (Times) | mathpazo (Palatino) | libertine | charter | tgtermes
+\usepackage{mathptmx}
+\newcommand{\FamSerif}{ptm}   % Familienname passend zum Paket:
+                              % mathpazo=ppl, charter=bch, libertine=LinuxLibertineT-LF, tgtermes=qtm
+
+%  Monospace (Akkorde + Songtext). MUSS dickten-gleich bleiben!
+%  Beispiele: courier | inconsolata | DejaVuSansMono | cmtt
+\usepackage{inconsolata}
+
+% --- 2. Schriftgrößen (Größe in pt) --------------------------
+\newcommand{\SzBody}{9.5}      \newcommand{\LdBody}{10.5}   % Songtext
+\newcommand{\SzSongNum}{28}    \newcommand{\LdSongNum}{22}  % Songnummer
+\newcommand{\SzSongTitle}{17}  \newcommand{\LdSongTitle}{19}% Songtitel
+\newcommand{\SzMeta}{9}        \newcommand{\LdMeta}{11}     % Interpret/Capo
+\newcommand{\SzCoverTitle}{28} \newcommand{\LdCoverTitle}{32}
+\newcommand{\SzCoverSub}{12}   \newcommand{\LdCoverSub}{14}
+\newcommand{\SzCat}{19}        \newcommand{\LdCat}{22}      % Kategorie
+\newcommand{\SzPageNum}{9}     \newcommand{\LdPageNum}{11}  % Seitenzahl
+\newcommand{\SzSummary}{8.5}   \newcommand{\LdSummary}{11}  % Zusammenfassung
+\newcommand{\SzGriffName}{11}  \newcommand{\LdGriffName}{13}% Griffbild-Name
+
+% --- Schrift-Kurzbefehl (nicht ändern) ----------------------
+\newcommand{\serif}{\fontfamily{\FamSerif}\selectfont}
+
+% ============================================================
+
+% ---------- Geometrie für Zweiseitigen Druck ----------
+\usepackage[
+  a5paper,
+  twoside,
+  inner=14mm,
+  outer=10mm,
+  top=12mm,
+  bottom=10mm,
+  footskip= 0mm,
+  bindingoffset=4mm
+]{geometry}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{alltt}          % Erlaubt LaTeX-Befehle in vorformatiertem Text
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{eso-pic}
+\usepackage[colorlinks=false,pdfborder={0 0 0}]{hyperref}
+\usepackage{titlesec}
+\usepackage{tocloft}
+
+% ---------- Farbpalette ----------------------------------------
+\definecolor{paperbg}{HTML}{fbfbf9}   % Papierfarbe (Vintage-Creme)
+\definecolor{inkmain}{HTML}{000000}   % Haupttext
+\definecolor{inkchords}{HTML}{232323} % Akkorde
+\definecolor{inkheading}{HTML}{282828}% Überschriften
+\definecolor{inkmeta}{HTML}{8e8e8e}   % Interpret / Capo-Zeile
+\definecolor{inksketch}{HTML}{b8b6b6} % Skizzen / Griffbilder
+\definecolor{rulecolor}{HTML}{999999} % Trennlinien / Punktlinien
+
+% ---------- Seitenhintergrund ----------
+\AddToShipoutPictureBG{%
+  \AtPageLowerLeft{%
+    \begin{tikzpicture}[x=1pt,y=1pt]
+      \fill[paperbg] (0,0) rectangle (\paperwidth,\paperheight);
+    \end{tikzpicture}%
+  }%
+}
+
+\color{inkmain}
+
+% ---------- Seitenstil & Seitenzahlen (Zweiseitig) ----------
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\fancyfoot[RO,LE]{\serif\fontsize{\SzPageNum}{\LdPageNum}\selectfont\color{inkmeta}\thepage}
+
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \renewcommand{\footrulewidth}{0pt}%
+  \fancyfoot[RO,LE]{\serif\fontsize{\SzPageNum}{\LdPageNum}\selectfont\color{inkmeta}\thepage}%
+}
+
+% ---------- Schriften ----------
+\newcommand{\songnumfont}{\serif\bfseries\fontsize{\SzSongNum}{\LdSongNum}\selectfont\color{inkheading}}
+\newcommand{\songtitlefont}{\serif\bfseries\fontsize{\SzSongTitle}{\LdSongTitle}\selectfont\color{inkheading}}
+\newcommand{\songmetafont}{\serif\itshape\fontsize{\SzMeta}{\LdMeta}\selectfont\color{inkmeta}}
+\newcommand{\songbodysize}{\fontsize{\SzBody}{\LdBody}\selectfont}
+\newcommand{\covertitlefont}{\serif\bfseries\fontsize{\SzCoverTitle}{\LdCoverTitle}\selectfont\color{inkheading}}
+\newcommand{\coversubfont}{\serif\itshape\fontsize{\SzCoverSub}{\LdCoverSub}\selectfont\color{inkmeta}}
+\newcommand{\cattitlefont}{\serif\bfseries\fontsize{\SzCat}{\LdCat}\selectfont\color{inkheading}}
+
+% ---------- Inhaltsverzeichnis-Optik ----------
+\renewcommand{\contentsname}{Inhaltsverzeichnis}
+\renewcommand{\cftsecfont}{\serif\color{inkmain}}
+\renewcommand{\cftsecpagefont}{\serif\color{inkmeta}}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftdot}{\textcolor{rulecolor}{.}}
+\setlength{\cftbeforesecskip}{1.1mm}
+\renewcommand{\cftsecafterpnum}{\vskip 0pt}
+
+\renewcommand{\cftpartfont}{\serif\bfseries\color{inkheading}}
+\renewcommand{\cftpartpagefont}{\serif\color{inkheading}}
+\setlength{\cftbeforepartskip}{4mm}
+\renewcommand{\cftpartleader}{\hfill}
+
+% Feste Breite für Nummer/Buchstabe im Inhaltsverzeichnis,
+% damit alle Titel gleich eingerückt beginnen (auch ab Nr. 10)
+\newlength{\tocnumw}\setlength{\tocnumw}{6mm}
+
+% ---------- Akkordzeile & Labels ----------
+\newcommand{\cl}[1]{\textbf{\color{inkchords}#1}}
+\newcommand{\slbl}[1]{\vspace{0mm}\textit{\color{inkmeta}#1}}
+\renewcommand{\|}{\textcolor{inkmeta}{|}}
+
+% ---------- Automatische Nummerierung ----------
+\newcounter{categorycount}
+\newcounter{songcount}[categorycount]
+
+\newcommand{\alphnum}[1]{\Alph{#1}}
+
+% ---------- Song-Umgebung ----------
+% \begin{song}{Titel}{Interpret}{Zusatzinfo (z.B. Capo)}
+\newenvironment{song}[3]{%
+  \stepcounter{songcount}%
+  \edef\currentsongnum{\alphnum{categorycount}\thesongcount}%
+  \clearpage
+  \thispagestyle{fancy}%
+  \phantomsection
+  \addcontentsline{toc}{section}{\makebox[\tocnumw][l]{\thesongcount}#1}%
+  \noindent
+  \begin{minipage}[t]{20mm}
+    \vspace{0pt}%
+    {\songnumfont \currentsongnum}
+  \end{minipage}%
+  \hspace{1mm}%
+  \begin{minipage}[t]{\dimexpr\linewidth-14mm\relax}
+    \vspace{0pt}%
+    {\songtitlefont #1\par}
+    \vspace{0.8mm}
+    {\songmetafont #2\ifx&#3&\else\ \textperiodcentered\ #3\fi\par}
+  \end{minipage}\par
+  \vspace{1.5mm}
+  {\color{rulecolor}\hrule height 0.4pt}
+  \vspace{1mm}%
+  \setlength{\topsep}{0pt}%
+  \setlength{\partopsep}{0pt}%
+  \begin{alltt}\songbodysize\color{inkmain}
+}{%
+  \end{alltt}
+}
+
+% 1. Zweitstimme / Hintergrundgesang
+\newcommand{\voice}[1]{\textit{\color{inkmeta}#1}}
+
+% 2. Zusatzinfos / Anweisungen
+\newcommand{\info}[1]{\textit{\color{inkmeta}#1}}
+
+% ---------- Zusammenfassung ----------
+\newenvironment{summary}{%
+  \vspace{-1mm}%
+  \hfill%
+  \begin{minipage}{0.88\linewidth}%
+  \normalfont\serif\fontsize{\SzSummary}{\LdSummary}\selectfont\color{inkmain}%
+  \setlength{\parindent}{0pt}%
+}{%
+  \end{minipage}%
+  \hfill\null\par\vspace{2mm}%
+}
+
+% ---------- Kategorie-Trenner ----------
+\newcommand{\category}[1]{%
+  \stepcounter{categorycount}%
+  \cleardoublepage
+  \thispagestyle{fancy}%
+  \phantomsection
+  \addcontentsline{toc}{part}{\makebox[\tocnumw][l]{\alphnum{categorycount}}#1}
+  \vspace*{2mm}
+  {\cattitlefont #1\par}
+  {\color{rulecolor}\hrule height 0.7pt}
+  \vspace{4mm}
+}
+
+% ---------- Bild frei platzieren ----------
+% \placeimg{Datei}{Breite}{x-Versatz von oben links}{y-Versatz}
+\newcommand{\placeimg}[5]{%
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[anchor=north west, inner sep=0pt] at
+      ($(current page.north west)+(#3,-#4)$)
+      {\includegraphics[width=#2]{graphics/#1.pdf}};
+  \end{tikzpicture}%
+}
+
+% ============================================================
+%  Griffbilder (Akkorddiagramme)
+% ============================================================
+\usepackage{xparse}
+\usepackage{etoolbox}
+
+\newlength{\griffsw}\setlength{\griffsw}{2.0mm} % Saitenabstand
+\newlength{\griffsh}\setlength{\griffsh}{2.5mm} % Bundabstand
+\newcommand{\griffnamefont}{\serif\bfseries\fontsize{\SzGriffName}{\LdGriffName}\selectfont\color{inkheading}}
+\newcommand{\grifffingerfont}{\serif\bfseries\fontsize{6.5}{6.5}\selectfont\color{inkmain}}
+\newcommand{\griffmarkfont}{\serif\bfseries\fontsize{7}{7}\selectfont\color{inkchords}}
+
+\def\GriffStop{}
+\def\griffbarreparse#1:#2:#3\GriffStop{%
+  \draw[inkchords,line width=4.2pt,line cap=round]
+  (#2-1,#1-0.42) -- (#3-1,#1-0.42);
+}
+\def\griffdotparse#1:#2:#3\GriffStop{%
+  \fill[inkchords] (#1-1,#2-0.5) circle (2.3pt);
+  \notblank{#3}{\node at (#1-1,4.35) {\grifffingerfont #3};}{}%
+}
+
+% #1 Name  #2 Topmarken (6x, kommagetrennt: x/o/.)
+% #3 Punkte (Saite:Bund:Finger, kommagetrennt, Finger optional)
+% #4 Startbund-Label (optional), #5 Barré Bund:StartSaite:EndSaite (optional)
+\NewDocumentCommand{\griff}{ m m m o o }{%
+  \begin{tikzpicture}[x=\griffsw,y=-\griffsh,baseline=(current bounding box.south)]
+    \node[anchor=south,align=center] at (2.5,-1.05) {\griffnamefont #1};
+    \foreach \i in {0,...,5}{
+        \draw[rulecolor,thin] (\i,0) -- (\i,4);
+      }
+    \IfNoValueTF{#4}{%
+      \draw[inkmain,line width=1pt] (0,0) -- (5,0);
+    }{%
+      \draw[rulecolor,thin] (0,0) -- (5,0);
+      \node[anchor=east] at (-0.3,0.5) {\griffmarkfont #4};
+    }%
+    \foreach \j in {1,...,4}{
+        \draw[rulecolor,thin] (0,\j) -- (5,\j);
+      }
+    \def\marklist{#2}
+    \foreach \m [count=\i from 0] in \marklist{
+      \ifdefstring{\m}{x}{\node at (\i,-0.32) {\griffmarkfont $\times$};}{}%
+      \ifdefstring{\m}{o}{\draw[inkchords,thin] (\i,-0.32) circle (2pt);}{}%
+    }
+    \IfNoValueF{#5}{%
+      \griffbarreparse#5\GriffStop
+    }%
+    \ifblank{#3}{}{%
+      \def\dotlist{#3}%
+      \foreach \d in \dotlist{
+        \expandafter\griffdotparse\d\GriffStop
+      }
+    }%
+  \end{tikzpicture}%
+}

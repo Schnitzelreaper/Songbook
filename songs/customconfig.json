@@ -1,0 +1,16 @@
+{
+  "pdf": {
+    "papersize": "a5",
+    "margin": "1.2cm"
+  },
+  "settings": {
+    "columns": 2,
+    "inline-chords": false,
+    "wraplines": true,
+    "suppress-empty-lyrics": true
+  },
+  "fonts": {
+    "text": "serif",
+    "chord": "mono"
+  }
+}
