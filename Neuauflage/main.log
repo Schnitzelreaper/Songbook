@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.4)  5 NOV 2026 15:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.4)  6 NOV 2026 19:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2249,7 +2249,7 @@ Overfull \hbox (14.75876pt too wide) in paragraph at lines 17--17
  []
 
 
-Overfull \hbox (14.75876pt too wide) in paragraph at lines 37--37
+Overfull \hbox (14.75876pt too wide) in paragraph at lines 34--34
 []\T1/zi4/m/it/9.5 the film and as I recall I think we both kind of liked it, and I said well that\TS1/zi4/m/n/9.5 '\T1/zi4/m/it/9.5 s[] 
  []
 
@@ -2263,12 +2263,12 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [100
 
 ]
-Overfull \hbox (14.75876pt too wide) in paragraph at lines 54--54
+Overfull \hbox (14.75876pt too wide) in paragraph at lines 51--51
 []\T1/zi4/m/it/9.5 the film and as I recall I think we both kind of liked it, and I said well that\TS1/zi4/m/n/9.5 '\T1/zi4/m/it/9.5 s[] 
  []
 
 
-Overfull \hbox (14.75876pt too wide) in paragraph at lines 64--64
+Overfull \hbox (14.75876pt too wide) in paragraph at lines 61--61
 []\T1/zi4/m/it/9.5 the film and as I recall I think we both kind of liked it, and I said well that\TS1/zi4/m/n/9.5 '\T1/zi4/m/it/9.5 s[] 
  []
 
@@ -3320,21 +3320,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [170
 
-]
+]) (songs/somwhere-only-we-know.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[171]) (songs/somwhere-only-we-know.tex
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
-
-[172]
+[171]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 2.
@@ -3355,7 +3348,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[173
+[172
 
 ]) (songs/streets-of-london.tex
 
@@ -3364,7 +3357,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[174]
+[173]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 2.
@@ -3385,7 +3378,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[175
+[174
 
 ]) (songs/summer-of-69.tex
 
@@ -3394,7 +3387,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[176]
+[175]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 2.
@@ -3415,7 +3408,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[177
+[176
 
 ]
 
@@ -3424,14 +3417,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[178]) (songs/teenage-dirtbag.tex
+[177]) (songs/teenage-dirtbag.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[179]
+[178]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 2.
@@ -3452,7 +3445,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[180
+[179
 
 ]
 
@@ -3461,14 +3454,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[181]) (songs/take-me-home-country-roads.tex
+[180]) (songs/take-me-home-country-roads.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[182]
+[181]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 2.
@@ -3494,7 +3487,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[183
+[182
 
 ]
 
@@ -3517,7 +3510,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[184
+[183
 
 ]) (songs/this-is-the-life.tex
 
@@ -3526,7 +3519,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[185]
+[184]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 2.
@@ -3547,7 +3540,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[186
+[185
 
 ]) (songs/unwritten.tex
 
@@ -3556,7 +3549,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[187]
+[186]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 2.
@@ -3577,7 +3570,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[188
+[187
 
 ]
 
@@ -3586,14 +3579,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[189]) (songs/viva-la-vida.tex
+[188]) (songs/viva-la-vida.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[190]
+[189]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 2.
@@ -3614,7 +3607,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[191
+[190
 
 ]
 
@@ -3623,14 +3616,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[192]) (songs/wonderwall.tex
+[191]) (songs/wonderwall.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[193]
+[192]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 2.
@@ -3651,16 +3644,44 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[194
+[193
 
-]
+]) (songs/yellow.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[195]) (songs/yellow.tex
+[194]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tocnumw' on input line 2.
+
+
+Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
+[] [] 
+ []
+
+
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 11.3pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.3pt}.
+
+[195
+
+]
+Overfull \hbox (184.18188pt too wide) in paragraph at lines 95--95
+[]\T1/zi4/m/it/9.5 Das Wort "Yellow" hat keinerlei bedeutung. Der Sänger Chris Martin hatte schlicht gefallen an seinem Klang gefunden.[] 
+ []
+
+) (songs/zombie.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -3689,41 +3710,6 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
 [197
-
-]
-Overfull \hbox (184.18188pt too wide) in paragraph at lines 95--95
-[]\T1/zi4/m/it/9.5 Das Wort "Yellow" hat keinerlei bedeutung. Der Sänger Chris Martin hatte schlicht gefallen an seinem Klang gefunden.[] 
- []
-
-) (songs/zombie.tex
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
-
-[198]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 2.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tocnumw' on input line 2.
-
-
-Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
-[] [] 
- []
-
-
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
-
-[199
 
 ]) (chords.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
@@ -3766,18 +3752,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--60
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 62--68
+
+ []
+
+
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[200]
-Underfull \hbox (badness 10000) in paragraph at lines 62--68
-
- []
-
-
+[198]
 Underfull \hbox (badness 10000) in paragraph at lines 70--76
 
  []
@@ -3788,12 +3774,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--84
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--92
+Underfull \hbox (badness 10000) in paragraph at lines 86--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--102
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 94--149
+Underfull \hbox (badness 10000) in paragraph at lines 103--149
 
  []
 
@@ -3804,7 +3795,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[201] (main.aux)
+[199] (main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
@@ -3818,20 +3809,20 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 600298D1CC38567930D46E64387109B1;15911.
+(rerunfilecheck)             Checksum: 253108F9271EA09FDB4B5329E5A115C9;15901.
  ) 
 Here is how much of TeX's memory you used:
- 22676 strings out of 469959
- 432378 string characters out of 5469835
- 994333 words of memory out of 5000000
- 48495 multiletter control sequences out of 15000+600000
+ 22682 strings out of 469959
+ 432574 string characters out of 5469835
+ 1027620 words of memory out of 5000000
+ 48503 multiletter control sequences out of 15000+600000
  684066 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  107i,11n,110p,475b,710s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\schni\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt0900.pk><C:/Users/schni/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Users/schni/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/schni/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/schni/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/schni/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/schni/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (201 pages, 501841 bytes).
+Output written on main.pdf (199 pages, 499599 bytes).
 PDF statistics:
- 1418 PDF objects out of 1440 (max. 8388607)
- 294 named destinations out of 1000 (max. 500000)
+ 1410 PDF objects out of 1440 (max. 8388607)
+ 292 named destinations out of 1000 (max. 500000)
  749 words of extra memory for PDF output out of 10000 (max. 10000000)
 
