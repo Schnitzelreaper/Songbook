@@ -1,0 +1,356 @@
+% ============================================================
+%  style/griffe.tex — \griffe: Griffbilder unter/neben dem Songtext platzieren
+%  (wird von style.tex eingebunden)
+% ============================================================
+% ------------------------------------------------------------
+% \griffe{F, A\#, Bb/D}   (als letzte Zeile vor \end{song}, ohne Leerzeile davor)
+% Griffbilder (aus chords.tex, griffe-zusatz.tex oder \defgriff), grau.
+%  - Passt der Block noch auf die Seite -> rechtsbündig unter den Text.
+%  - Sonst -> rechts NEBEN den Text, an die tiefste Stelle der Seite, an der
+%    er weder Text noch Schlagmuster überdeckt (ggf. mehrzeilig angeordnet).
+%    Dazu merkt sich jede Songzeile ihre Position in der .aux-Datei
+%    (braucht zwei Durchläufe, latexmk erledigt das).
+%  - Gibt es auch daneben keinen Platz -> auf die nächste Seite + Warnung.
+% Unbekannte Namen -> leeres Griffbrett + Warnung.
+% ------------------------------------------------------------
+\makeatletter
+
+% --- Positionen der Songzeilen/Schlagmuster in die .aux schreiben ---
+% Schlüssel: Song-Nr. + Seite innerhalb des Songs (stabil, auch wenn sich
+% die Seitenzahlen zwischen zwei Durchläufen verschieben).
+\newcounter{griffsong}
+\newcommand{\griffsongkey}{0}
+\newcommand{\griffsongstart}{0}
+\newcommand{\griffsongbeginn}{%
+  \stepcounter{griffsong}%
+  % fester Schlüssel pro Song (unabhängig von der Buchreihenfolge)
+  \ifx\aktuellesongid\empty
+    \xdef\griffsongkey{n\arabic{griffsong}}%
+  \else
+    \xdef\griffsongkey{\aktuellesongid}%
+  \fi
+  \xdef\griffsongstart{\the\c@page}%
+}
+\newcommand{\griffleftodd}{0}\newcommand{\griffleftevn}{0}\newcommand{\griffbottom}{0}
+\AtBeginDocument{%
+  \xdef\griffleftodd{\number\dimexpr 1in+\hoffset+\oddsidemargin\relax}%
+  \xdef\griffleftevn{\number\dimexpr 1in+\hoffset+\evensidemargin\relax}%
+  \xdef\griffbottom{\number\dimexpr\paperheight-1in-\voffset-\topmargin
+                     -\headheight-\headsep-\textheight\relax}%
+}
+\newcommand{\griffzeileoben}{524288}   % 8pt über der Grundlinie (in sp)
+\newcommand{\griffzeileunten}{196608}  % 3pt unter der Grundlinie (in sp)
+
+% #1 rechtes Ende (x relativ zum linken Textrand, sp)
+% #2 / #3 Ausdehnung über / unter der aktuellen Grundlinie (sp)
+\newcommand{\griffschreiben}[3]{%
+  \pdfsavepos
+  \edef\grifftmpwrite{\write\@auxout{\string\griffhindernis{\griffsongkey}%
+    {\noexpand\the\noexpand\numexpr\noexpand\c@page-\griffsongstart\noexpand\relax}%
+    {#1}%
+    {\noexpand\the\noexpand\numexpr\noexpand\pdflastypos+#2\noexpand\relax}%
+    {\noexpand\the\noexpand\numexpr\noexpand\pdflastypos-#3\noexpand\relax}}}%
+  \grifftmpwrite
+}
+\newcommand{\griffzeilenmarke}{%
+  \ifgriffeaus\else % Griffe ausgeblendet -> keine Positionen schreiben
+  \ifhmode
+    \griffschreiben
+      {\noexpand\the\noexpand\numexpr\noexpand\pdflastxpos
+        -\noexpand\ifodd\noexpand\c@page\space\griffleftodd
+         \noexpand\else\griffleftevn\noexpand\fi\noexpand\relax}%
+      {\griffzeileoben}{\griffzeileunten}%
+  \fi
+  \fi
+}
+% Zeilenende in alltt (aktives ^^M) um die Markierung erweitern
+\begingroup\catcode`\^^M=\active%
+\gdef\griffzeilenhook{\let\griffaltcr^^M\def^^M{\griffzeilenmarke\griffaltcr}\let\griffcrtoken^^M}%
+\endgroup
+
+% --- Bausteine ---
+\newcommand{\griffgrau}{% nur in \griffe grau, Grifftabelle bleibt unverändert
+  \colorlet{inkheading}{inkmeta}\colorlet{inkmain}{inkmeta}%
+  \colorlet{inkchords}{inkmeta}\colorlet{rulecolor}{inkmeta}%
+}
+\newcommand{\griffeinzelnbild}[1]{%
+  \ifcsdef{griffdef:\detokenize{#1}}%
+    {\csuse{griffdef:\detokenize{#1}}}%
+    {\PackageWarning{style}{Griff '\detokenize{#1}' nicht definiert}%
+     \griffzeichnen{#1}{.,.,.,.,.,.}{}}%
+}
+
+% --- Benutzerbefehl ---
+\newcommand{\griffe}{%
+  \begingroup
+  % alltt: Leerzeichen/Zeilenenden und aktive Zeichen normalisieren
+  \catcode`\ =10 \catcode`\^^M=10
+  \catcode`\,=12 \catcode`\-=12 \catcode`\'=12 \catcode`\`=12
+  \catcode`\<=12 \catcode`\>=12
+  \griffeintern}
+\newcommand{\griffeintern}[1]{%
+  \endgroup
+  \ifgriffeaus\else\griffeplatzieren{#1}\fi % \griffeaustrue -> nichts zeichnen
+  \futurelet\griff@next\griff@crweg % Zeilenende danach schlucken (keine Leerzeile)
+}
+\def\griff@crweg{\ifx\griff@next\griffcrtoken\expandafter\@gobble\fi}
+\makeatother
+
+\ExplSyntaxOn
+\cs_set_protected:Npn \griffhindernis #1#2#3#4#5
+  {
+    \seq_if_exist:cF { g__griff_#1_#2_seq } { \seq_new:c { g__griff_#1_#2_seq } }
+    \seq_gput_right:cn { g__griff_#1_#2_seq } { {#3}{#4}{#5} }
+  }
+\int_new:N \l__griff_n_int
+\int_new:N \l__griff_k_int
+\int_new:N \l__griff_rows_int
+\int_new:N \l__griff_limit_int
+\int_new:N \l__griff_h_int
+\int_new:N \l__griff_ymin_int
+\int_new:N \l__griff_ymax_int
+\int_new:N \l__griff_best_int
+\int_new:N \l__griff_bestk_int
+\int_new:N \l__griff_cbest_int
+\int_new:N \l__griff_vgap_int
+\dim_new:N \l__griff_w_dim
+\dim_new:N \g__griff_x_dim
+\dim_new:N \g__griff_y_dim
+\box_new:N \l__griff_row_box
+\box_new:N \g__griff_block_box
+\box_new:N \g__griff_flow_box
+\box_new:N \g__griff_place_box
+\bool_new:N \l__griff_ok_bool
+\tl_new:N \l__griff_seq_tl
+\tl_new:N \l__griff_scale_tl
+\tl_set:Nn \l__griff_scale_tl { 1 }
+% Verkleinerungsstufen, falls der Block in voller Größe nirgends daneben passt
+\clist_new:N \l__griff_scales_clist
+\clist_set:Nn \l__griff_scales_clist { 1, 0.85, 0.7 }
+\msg_new:nnn { griffe } { kein-platz }
+  { Kein~Platz~für~die~Griffe~(Song~#1)~-~sie~stehen~auf~der~nächsten~Seite. }
+
+% Einzelne Griffbilder in Boxen g__griff_item_<i>_box
+\cs_new_protected:Npn \__griff_items:n #1
+  {
+    \int_zero:N \l__griff_n_int
+    \clist_map_inline:nn {#1}
+      {
+        \int_incr:N \l__griff_n_int
+        \box_if_exist:cF { g__griff_item_ \int_use:N \l__griff_n_int _box }
+          { \box_new:c { g__griff_item_ \int_use:N \l__griff_n_int _box } }
+        \hbox_gset:cn { g__griff_item_ \int_use:N \l__griff_n_int _box }
+          { \griffgrau \griffeinzelnbild {##1} }
+      }
+  }
+% Zeile #1 (1-basiert) bei #2 Griffen pro Zeile -> \l__griff_row_box
+\cs_new_protected:Npn \__griff_row:nn #1#2
+  {
+    \hbox_set:Nn \l__griff_row_box
+      {
+        \int_step_inline:nnn { (#1 - 1) * #2 + 1 }
+          { \int_min:nn { #1 * #2 } { \l__griff_n_int } }
+          {
+            \int_compare:nNnT {##1} > { (#1 - 1) * #2 + 1 }
+              { \skip_horizontal:n { \griffeabstand } }
+            \box_use:c { g__griff_item_ ##1 _box }
+          }
+      }
+  }
+% Block mit #1 Griffen pro Zeile (rechtsbündig) -> \g__griff_block_box, Breite -> \l__griff_w_dim
+\cs_new_protected:Npn \__griff_build:n #1
+  {
+    \int_set:Nn \l__griff_rows_int { \int_div_truncate:nn { \l__griff_n_int + #1 - 1 } {#1} }
+    \dim_zero:N \l__griff_w_dim
+    \int_step_inline:nn { \l__griff_rows_int }
+      {
+        \__griff_row:nn {##1} {#1}
+        \dim_set:Nn \l__griff_w_dim
+          { \dim_max:nn { \l__griff_w_dim } { \box_wd:N \l__griff_row_box } }
+      }
+    \vbox_gset:Nn \g__griff_block_box
+      {
+        \cs_set_eq:NN \par \tex_par:D % alltt-\par würde eine Leerzeile erzeugen
+        \int_step_inline:nn { \l__griff_rows_int }
+          {
+            \int_compare:nNnT {##1} > {1} { \skip_vertical:n { \griffeabstand } }
+            \__griff_row:nn {##1} {#1}
+            \hbox_to_wd:nn { \l__griff_w_dim } { \tex_hfil:D \box_use:N \l__griff_row_box }
+          }
+      }
+    \tl_if_eq:NnF \l__griff_scale_tl { 1 }
+      {
+        \box_gscale:Nnn \g__griff_block_box { \l__griff_scale_tl } { \l__griff_scale_tl }
+        \dim_set:Nn \l__griff_w_dim { \box_wd:N \g__griff_block_box }
+      }
+  }
+
+% --- unter dem Text ---
+\cs_new_protected:Npn \__griff_flow:
+  {
+    \mode_if_horizontal:T { \tex_unskip:D \tex_par:D }
+    \skip_vertical:n { \griffeoben }
+    \tex_noindent:D \box_use:N \g__griff_flow_box \tex_par:D
+  }
+
+% --- neben dem Text ---
+\cs_new_protected:Npn \__griff_ymax:nnn #1#2#3
+  { \int_set:Nn \l__griff_ymax_int { \int_max:nn { \l__griff_ymax_int } {#2} } }
+\cs_new_protected:Npn \__griff_check:nnnn #1#2#3#4 % Kandidat, x, oben, unten
+  {
+    \bool_if:nT
+      {
+        \int_compare_p:nNn {#2} > { \l__griff_limit_int } &&
+        \int_compare_p:nNn { #3 + \l__griff_vgap_int } > {#1} &&
+        \int_compare_p:nNn { #4 - \l__griff_vgap_int } < { #1 + \l__griff_h_int }
+      }
+      { \bool_set_false:N \l__griff_ok_bool \seq_map_break: }
+  }
+\cs_new_protected:Npn \__griff_cand:n #1 % Unterkante-Kandidat
+  {
+    \bool_if:nT
+      {
+        \int_compare_p:nNn {#1} < { \l__griff_cbest_int } &&
+        ! \int_compare_p:nNn {#1} < { \l__griff_ymin_int } &&
+        ! \int_compare_p:nNn { #1 + \l__griff_h_int } > { \l__griff_ymax_int }
+      }
+      {
+        \bool_set_true:N \l__griff_ok_bool
+        \seq_map_inline:cn { \l__griff_seq_tl } { \__griff_check:nnnn {#1} ##1 }
+        \bool_if:NT \l__griff_ok_bool { \int_set:Nn \l__griff_cbest_int {#1} }
+      }
+  }
+\cs_new_protected:Npn \__griff_cand_from:nnn #1#2#3
+  {
+    \int_compare:nNnT {#1} > { \l__griff_limit_int }
+      { \__griff_cand:n { \int_eval:n { #2 + \l__griff_vgap_int } } }
+  }
+\cs_new_protected:Npn \__griff_try:n #1 % #1 Griffe pro Zeile
+  {
+    \__griff_build:n {#1}
+    \int_set:Nn \l__griff_limit_int
+      { \dim_to_decimal_in_sp:n { \textwidth - \l__griff_w_dim - \griffeabstand } }
+    \int_set:Nn \l__griff_h_int
+      { \dim_to_decimal_in_sp:n { \box_ht:N \g__griff_block_box + \box_dp:N \g__griff_block_box } }
+    \__griff_find:
+    \int_compare:nNnT { \l__griff_cbest_int } < { \l__griff_best_int }
+      {
+        \int_set_eq:NN \l__griff_best_int \l__griff_cbest_int
+        \int_set:Nn \l__griff_bestk_int {#1}
+      }
+  }
+% Suche vorbereiten: Positionsdaten der aktuellen Seite, untere/obere Grenze.
+% Ergebnis in \l__griff_setup_bool (false = keine Daten, z.B. erster Lauf)
+\bool_new:N \l__griff_setup_bool
+\cs_new_protected:Npn \__griff_setup:
+  {
+    \bool_set_false:N \l__griff_setup_bool
+    \tl_set:Nx \l__griff_seq_tl
+      { g__griff_ \griffsongkey _ \int_eval:n { \value{page} - \griffsongstart } _seq }
+    \seq_if_exist:cT { \l__griff_seq_tl }
+      {
+        \bool_set_true:N \l__griff_setup_bool
+        \int_set:Nn \l__griff_vgap_int { \dim_to_decimal_in_sp:n { 1.5mm } }
+        % Seitenzahl unten freihalten (immer, damit das Ergebnis nicht von
+        % gerader/ungerader Seite abhängt -> stabile Seitenzahl je Song)
+        % ... bzw. Platz für eine Anmerkung (\anmerkung) unten auf der Seite
+        \int_set:Nn \l__griff_ymin_int
+          {
+            \griffbottom + \int_max:nn { 786432 }
+              { \dim_to_decimal_in_sp:n { \l__note_need_dim } }
+          }
+        \int_set:Nn \l__griff_ymax_int { - \c_max_int }
+        \seq_map_inline:cn { \l__griff_seq_tl } { \__griff_ymax:nnn ##1 }
+      }
+  }
+% tiefste freie Unterkante für einen Block (Breite/Höhe in
+% \l__griff_limit_int / \l__griff_h_int) -> \l__griff_cbest_int
+\cs_new_protected:Npn \__griff_find:
+  {
+    \int_set:Nn \l__griff_cbest_int { \c_max_int }
+    \__griff_cand:n { \int_use:N \l__griff_ymin_int }
+    \seq_map_inline:cn { \l__griff_seq_tl } { \__griff_cand_from:nnn ##1 }
+  }
+\cs_new_protected:Npn \__griff_beside:
+  {
+    \bool_set_false:N \l__griff_ok_bool
+    \__griff_setup:
+    \bool_if:NT \l__griff_setup_bool
+      {
+        \int_set:Nn \l__griff_best_int { \c_max_int }
+        \clist_map_inline:Nn \l__griff_scales_clist
+          {
+            \tl_set:Nn \l__griff_scale_tl {##1}
+            \int_step_inline:nnnn { \l__griff_n_int } { -1 } { 1 } { \__griff_try:n {####1} }
+            \int_compare:nNnT { \l__griff_best_int } < { \c_max_int } { \clist_map_break: }
+          }
+        \int_compare:nNnT { \l__griff_best_int } < { \c_max_int }
+          {
+            \bool_set_true:N \l__griff_ok_bool
+            \__griff_build:n { \l__griff_bestk_int }
+            \box_gset_eq:NN \g__griff_place_box \g__griff_block_box
+            \dim_gset:Nn \g__griff_x_dim
+              {
+                \int_if_odd:nTF { \value{page} } { \griffleftodd } { \griffleftevn } sp
+                + \textwidth - \l__griff_w_dim
+              }
+            \dim_gset:Nn \g__griff_y_dim
+              { \int_use:N \l__griff_best_int sp + \box_dp:N \g__griff_place_box }
+            \AddToShipoutPictureFG*
+              {
+                \AtPageLowerLeft
+                  { \put(\LenToUnit{\g__griff_x_dim},\LenToUnit{\g__griff_y_dim}){\box_use:N \g__griff_place_box} }
+              }
+            % als Hindernis eintragen (z.B. für eine Anmerkung daneben)
+            \seq_gput_right:cx { \l__griff_seq_tl }
+              {
+                {1073741823}
+                { \int_eval:n { \l__griff_best_int
+                    + \dim_to_decimal_in_sp:n
+                        { \box_ht:N \g__griff_place_box + \box_dp:N \g__griff_place_box } } }
+                { \int_use:N \l__griff_best_int }
+              }
+          }
+      }
+  }
+
+\cs_new_protected:Npn \griffeplatzieren #1
+  {
+    \__griff_items:n {#1}
+    \tl_set:Nn \l__griff_scale_tl { 1 }
+    % Block für unter den Text: so viele pro Zeile wie in die Breite passen
+    \int_set_eq:NN \l__griff_k_int \l__griff_n_int
+    \__griff_build:n { \l__griff_k_int }
+    \bool_while_do:nn
+      {
+        \dim_compare_p:nNn { \l__griff_w_dim } > { \linewidth } &&
+        \int_compare_p:nNn { \l__griff_k_int } > { 1 }
+      }
+      { \int_decr:N \l__griff_k_int \__griff_build:n { \l__griff_k_int } }
+    \hbox_gset_to_wd:Nnn \g__griff_flow_box { \linewidth }
+      { \tex_hfil:D \box_use:N \g__griff_block_box }
+    \__note_need:
+    \bool_if:nTF
+      {
+        \dim_compare_p:nNn { \pagegoal } = { \c_max_dim } ||
+        \dim_compare_p:nNn
+          { \pagetotal + \griffeoben + \baselineskip
+            + \box_ht:N \g__griff_flow_box + \box_dp:N \g__griff_flow_box
+            + \l__note_need_dim }
+          < { \pagegoal }
+      }
+      { \__griff_flow: }
+      {
+        % passt eine offene Anmerkung nicht einmal allein unten hin, kommt
+        % sie zuerst neben den Text (die Griffe weichen ihr dann aus)
+        \bool_if:nT { \g__note_bool && ! \__note_fits_p: }
+          { \__note_beside: \__note_need: }
+        \__griff_beside:
+        \bool_if:NF \l__griff_ok_bool
+          {
+            \msg_warning:nnx { griffe } { kein-platz } { \griffsongkey }
+            \__griff_flow:
+          }
+      }
+  }
+

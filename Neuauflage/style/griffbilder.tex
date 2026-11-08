@@ -1,0 +1,123 @@
+% ============================================================
+%  style/griffbilder.tex — Griffbilder (Akkorddiagramme) definieren und zeichnen
+%  (wird von style.tex eingebunden)
+% ============================================================
+% ============================================================
+%  Griffbilder (Akkorddiagramme)
+% ============================================================
+\usepackage{xparse}
+\usepackage{etoolbox}
+
+\newlength{\griffsw}\setlength{\griffsw}{2.0mm} % Saitenabstand
+\newlength{\griffsh}\setlength{\griffsh}{2.5mm} % Bundabstand
+\newcommand{\griffnamefont}{\serif\bfseries\fontsize{\SzGriffName}{\LdGriffName}\selectfont\color{inkheading}}
+\newcommand{\grifffingerfont}{\serif\bfseries\fontsize{6.5}{6.5}\selectfont\color{inkmain}}
+\newcommand{\griffmarkfont}{\serif\bfseries\fontsize{7}{7}\selectfont\color{inkchords}}
+% Leeres Griffbrett zum handschriftlichen Eintragen eigener Akkorde
+\newcommand{\leergriff}{
+  \griff{}{.,.,.,.,.,.}{}%
+}
+
+\def\GriffStop{}
+\def\griffbarreparse#1:#2:#3\GriffStop{%
+  \draw[inkchords,line width=4.2pt,line cap=round]
+  (#2-1,#1-0.42) -- (#3-1,#1-0.42);
+}
+\def\griffdotparse#1:#2:#3\GriffStop{%
+  \fill[inkchords] (#1-1,#2-0.5) circle (2.3pt);
+  \notblank{#3}{\node at (#1-1,4.35) {\grifffingerfont #3};}{}%
+}
+
+% #1 Name  #2 Topmarken (6x, kommagetrennt: x/o/.)
+% #3 Punkte (Saite:Bund:Finger, kommagetrennt, Finger optional)
+% #4 Startbund-Label (optional), #5 Barré Bund:StartSaite:EndSaite (optional)
+%
+% \griff     zeichnet das Griffbild (und merkt es sich beim Einlesen von chords.tex)
+% \defgriff  merkt sich ein Griffbild nur für den NÄCHSTEN Song (z.B. eine
+%            besondere Version wie bei Wonderwall). VOR \begin{song} in die
+%            Song-Datei schreiben; nach \end{song} gilt wieder der normale Griff.
+% \griffzeichnen  eigentliche Zeichenroutine
+%
+% Griffe für \griffe kommen aus chords.tex (wird am Ende als Tabelle gedruckt)
+% und griffe-zusatz.tex (wird nur eingelesen, nicht gedruckt).
+\newif\ifgriffsammeln
+\NewDocumentCommand{\griffbauen}{ m m m o o }{%
+  \IfNoValueTF{#4}{\def\grifftmp{\griffzeichnen{#1}{#2}{#3}}}{%
+    \IfNoValueTF{#5}{\def\grifftmp{\griffzeichnen{#1}{#2}{#3}[#4]}}%
+                    {\def\grifftmp{\griffzeichnen{#1}{#2}{#3}[#4][#5]}}}%
+}
+\newcommand{\griffspeichern}[1]{%
+  \ifblank{#1}{}{\global\cslet{griffdef:\detokenize{#1}}\grifftmp}%
+}
+\NewDocumentCommand{\griff}{ m m m o o }{%
+  \IfNoValueTF{#4}{\griffbauen{#1}{#2}{#3}}{%
+    \IfNoValueTF{#5}{\griffbauen{#1}{#2}{#3}[#4]}{\griffbauen{#1}{#2}{#3}[#4][#5]}}%
+  \ifgriffsammeln\griffspeichern{#1}\else\grifftmp\fi
+}
+\NewDocumentCommand{\defgriff}{ m m m o o }{%
+  \IfNoValueTF{#4}{\griffbauen{#1}{#2}{#3}}{%
+    \IfNoValueTF{#5}{\griffbauen{#1}{#2}{#3}[#4]}{\griffbauen{#1}{#2}{#3}[#4][#5]}}%
+  \edef\grifflokalname{\detokenize{#1}}%
+  \xifinlist{\grifflokalname}{\griffelokal}{}{%
+    \ifcsdef{griffdef:\grifflokalname}%
+      {\global\csletcs{griffbak:\grifflokalname}{griffdef:\grifflokalname}}{}%
+    \listxadd{\griffelokal}{\grifflokalname}}%
+  \griffspeichern{#1}%
+}
+% songspezifische Griffe am Songende wieder auf den Normalgriff zurücksetzen
+\newcommand{\griffelokal}{}
+\newcommand{\grifflokalreset}[1]{%
+  \ifcsdef{griffbak:#1}%
+    {\global\csletcs{griffdef:#1}{griffbak:#1}%
+     \global\expandafter\let\csname griffbak:#1\endcsname\undefined}%
+    {\global\expandafter\let\csname griffdef:#1\endcsname\undefined}%
+}
+\newcommand{\griffelokalzuruecksetzen}{%
+  \forlistloop{\grifflokalreset}{\griffelokal}\gdef\griffelokal{}%
+}
+
+% Beim Dokumentstart alle Griffe aus chords.tex und griffe-zusatz.tex
+% einsammeln (ohne Ausgabe), damit sie in jedem Song per Name abrufbar sind.
+% (entfällt bei \griffeaustrue)
+\AtBeginDocument{%
+  \ifgriffeaus\else
+  \begingroup
+    \griffsammelntrue
+    \let\\\relax \let\hfill\relax
+    \setbox0=\vbox{\hsize=\textwidth \input{chords}\input{griffe-zusatz}}%
+  \endgroup
+  \fi
+}
+
+\NewDocumentCommand{\griffzeichnen}{ m m m o o }{%
+  \begin{tikzpicture}[x=\griffsw,y=-\griffsh,baseline=(current bounding box.south)]
+    \node[anchor=south,align=center] at (2.5,-1.05) {\griffnamefont #1};
+    \foreach \i in {0,...,5}{
+        \draw[rulecolor,thin] (\i,0) -- (\i,4);
+      }
+    \IfNoValueTF{#4}{%
+      \draw[inkmain,line width=1pt] (0,0) -- (5,0);
+    }{%
+      \draw[rulecolor,thin] (0,0) -- (5,0);
+      \node[anchor=east] at (-0.3,0.5) {\griffmarkfont #4};
+    }%
+    \foreach \j in {1,...,4}{
+        \draw[rulecolor,thin] (0,\j) -- (5,\j);
+      }
+    \def\marklist{#2}
+    \foreach \m [count=\i from 0] in \marklist{
+      \ifdefstring{\m}{x}{\node at (\i,-0.32) {\griffmarkfont $\times$};}{}%
+      \ifdefstring{\m}{o}{\draw[inkchords,thin] (\i,-0.32) circle (2pt);}{}%
+    }
+    \IfNoValueF{#5}{%
+      \griffbarreparse#5\GriffStop
+    }%
+        \ifblank{#3}{\node at (2.5,4.35) {\grifffingerfont\phantom{1}};}{%
+      \def\dotlist{#3}%
+      \foreach \d in \dotlist{
+        \expandafter\griffdotparse\d\GriffStop
+      }
+    }%
+  \end{tikzpicture}%
+}
+

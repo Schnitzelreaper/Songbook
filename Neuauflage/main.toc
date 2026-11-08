@@ -1,92 +1,92 @@
 \contentsline {part}{\makebox [\tocnumw ][l]{A}Pfadilieder}{7}{section*.1}%
-\contentsline {section}{\makebox [\tocnumw ][l]{1}Das Lied der Schlümpfe}{8}{section*.2}%
-\contentsline {section}{\makebox [\tocnumw ][l]{2}Die Internationale}{9}{section*.3}%
-\contentsline {section}{\makebox [\tocnumw ][l]{3}Die Moorsoldaten}{12}{section*.4}%
-\contentsline {section}{\makebox [\tocnumw ][l]{4}Er war ein Pfadfinder}{13}{section*.5}%
-\contentsline {section}{\makebox [\tocnumw ][l]{5}Es war an einem Sommertag}{16}{section*.6}%
-\contentsline {section}{\makebox [\tocnumw ][l]{6}Flinke Hände, flinke Füße}{18}{section*.7}%
-\contentsline {section}{\makebox [\tocnumw ][l]{7}Heute hier, morgen dort}{19}{section*.8}%
-\contentsline {section}{\makebox [\tocnumw ][l]{8}Laudato si}{21}{section*.9}%
-\contentsline {section}{\makebox [\tocnumw ][l]{9}Meine Oma fährt im Hühnerstall Motorrad}{22}{section*.10}%
-\contentsline {section}{\makebox [\tocnumw ][l]{10}Nehmt Abschied, Brüder}{23}{section*.11}%
-\contentsline {section}{\makebox [\tocnumw ][l]{11}Schilf}{24}{section*.12}%
-\contentsline {section}{\makebox [\tocnumw ][l]{12}Roter Wein im Becher}{26}{section*.13}%
-\contentsline {section}{\makebox [\tocnumw ][l]{13}Roter Mond}{27}{section*.14}%
-\contentsline {section}{\makebox [\tocnumw ][l]{14}Unter den Toren}{28}{section*.15}%
-\contentsline {part}{\makebox [\tocnumw ][l]{B}Deutsche Songs}{31}{section*.16}%
-\contentsline {section}{\makebox [\tocnumw ][l]{1}99 Luftballons}{32}{section*.17}%
-\contentsline {section}{\makebox [\tocnumw ][l]{2}Alles nur geklaut}{34}{section*.18}%
-\contentsline {section}{\makebox [\tocnumw ][l]{3}Auf Uns}{36}{section*.19}%
-\contentsline {section}{\makebox [\tocnumw ][l]{4}Bella Napoli}{39}{section*.20}%
-\contentsline {section}{\makebox [\tocnumw ][l]{5}Deine Schuld}{41}{section*.21}%
-\contentsline {section}{\makebox [\tocnumw ][l]{6}Denkmal}{43}{section*.22}%
-\contentsline {section}{\makebox [\tocnumw ][l]{7}Durch den Monsun}{45}{section*.23}%
-\contentsline {section}{\makebox [\tocnumw ][l]{8}Ein Kompliment}{48}{section*.24}%
-\contentsline {section}{\makebox [\tocnumw ][l]{9}Eine Insel Mit Zwei Bergen}{49}{section*.25}%
-\contentsline {section}{\makebox [\tocnumw ][l]{10}Geboren Um Zu Leben}{51}{section*.26}%
-\contentsline {section}{\makebox [\tocnumw ][l]{11}Griechischer Wein}{53}{section*.27}%
-\contentsline {section}{\makebox [\tocnumw ][l]{12}Holz}{55}{section*.28}%
-\contentsline {section}{\makebox [\tocnumw ][l]{13}Im Wagen vor mir}{57}{section*.29}%
-\contentsline {section}{\makebox [\tocnumw ][l]{14}Je Ne Parle Pas Français}{59}{section*.30}%
-\contentsline {section}{\makebox [\tocnumw ][l]{15}Lasse redn}{62}{section*.31}%
-\contentsline {section}{\makebox [\tocnumw ][l]{16}Lieder}{64}{section*.32}%
-\contentsline {section}{\makebox [\tocnumw ][l]{17}Major Tom}{66}{section*.33}%
-\contentsline {section}{\makebox [\tocnumw ][l]{18}Nur ein Wort}{69}{section*.34}%
-\contentsline {section}{\makebox [\tocnumw ][l]{19}Nur Noch Kurz Die Welt Retten}{72}{section*.35}%
-\contentsline {section}{\makebox [\tocnumw ][l]{20}Perfekte Welle}{74}{section*.36}%
-\contentsline {section}{\makebox [\tocnumw ][l]{21}Probier's mal mit Gemütlichkeit}{77}{section*.37}%
-\contentsline {section}{\makebox [\tocnumw ][l]{22}Schrei nach Liebe}{79}{section*.38}%
-\contentsline {section}{\makebox [\tocnumw ][l]{23}Skandal im Sperrbezirk}{81}{section*.39}%
-\contentsline {section}{\makebox [\tocnumw ][l]{24}Tage Wie Diese}{83}{section*.40}%
-\contentsline {section}{\makebox [\tocnumw ][l]{25}Up, up, up (nobody is perfect)}{85}{section*.41}%
-\contentsline {section}{\makebox [\tocnumw ][l]{26}Zwei Kleine Wölfe}{87}{section*.42}%
-\contentsline {part}{\makebox [\tocnumw ][l]{C}International}{89}{section*.43}%
-\contentsline {section}{\makebox [\tocnumw ][l]{1}74 - 75}{90}{section*.44}%
-\contentsline {section}{\makebox [\tocnumw ][l]{2}Africa}{92}{section*.45}%
-\contentsline {section}{\makebox [\tocnumw ][l]{3}Angels}{94}{section*.46}%
-\contentsline {section}{\makebox [\tocnumw ][l]{4}Behind Blue Eyes}{96}{section*.47}%
-\contentsline {section}{\makebox [\tocnumw ][l]{5}Boulevard of Broken Dreams}{98}{section*.48}%
-\contentsline {section}{\makebox [\tocnumw ][l]{6}Breakfast at Tiffany's}{100}{section*.49}%
-\contentsline {section}{\makebox [\tocnumw ][l]{7}Californication}{102}{section*.50}%
-\contentsline {section}{\makebox [\tocnumw ][l]{8}California Dreamin'}{106}{section*.51}%
-\contentsline {section}{\makebox [\tocnumw ][l]{9}Castle On The Hill}{108}{section*.52}%
-\contentsline {section}{\makebox [\tocnumw ][l]{10}Complicated}{110}{section*.53}%
-\contentsline {section}{\makebox [\tocnumw ][l]{11}Counting Stars}{112}{section*.54}%
-\contentsline {section}{\makebox [\tocnumw ][l]{12}Don't Look Back in Anger}{116}{section*.55}%
-\contentsline {section}{\makebox [\tocnumw ][l]{13}Dust in the Wind}{119}{section*.56}%
-\contentsline {section}{\makebox [\tocnumw ][l]{14}Eye Of The Tiger}{120}{section*.57}%
-\contentsline {section}{\makebox [\tocnumw ][l]{15}Father and Son}{122}{section*.58}%
-\contentsline {section}{\makebox [\tocnumw ][l]{16}Good Riddance (Time Of Your Life)}{124}{section*.59}%
-\contentsline {section}{\makebox [\tocnumw ][l]{17}Hallelujah}{126}{section*.60}%
-\contentsline {section}{\makebox [\tocnumw ][l]{18}Hey Jude}{128}{section*.61}%
-\contentsline {section}{\makebox [\tocnumw ][l]{19}Hey Soul Sister}{130}{section*.62}%
-\contentsline {section}{\makebox [\tocnumw ][l]{20}Hold Back The River}{132}{section*.63}%
-\contentsline {section}{\makebox [\tocnumw ][l]{21}House of the Rising Sun}{134}{section*.64}%
-\contentsline {section}{\makebox [\tocnumw ][l]{22}How You Remind Me}{136}{section*.65}%
-\contentsline {section}{\makebox [\tocnumw ][l]{23}Hotel California}{139}{section*.66}%
-\contentsline {section}{\makebox [\tocnumw ][l]{24}Iris}{141}{section*.67}%
-\contentsline {section}{\makebox [\tocnumw ][l]{25}Leaving on a Jet Plane}{143}{section*.68}%
-\contentsline {section}{\makebox [\tocnumw ][l]{26}Lemon Tree}{145}{section*.69}%
-\contentsline {section}{\makebox [\tocnumw ][l]{27}Let Her Go}{147}{section*.70}%
-\contentsline {section}{\makebox [\tocnumw ][l]{28}Let It Be}{149}{section*.71}%
-\contentsline {section}{\makebox [\tocnumw ][l]{29}Losing My Religion}{151}{section*.72}%
-\contentsline {section}{\makebox [\tocnumw ][l]{30}Mr. Brightside}{154}{section*.73}%
-\contentsline {section}{\makebox [\tocnumw ][l]{31}Nothing Else Matters}{155}{section*.74}%
-\contentsline {section}{\makebox [\tocnumw ][l]{32}Numb}{157}{section*.75}%
-\contentsline {section}{\makebox [\tocnumw ][l]{33}Perfect}{159}{section*.76}%
-\contentsline {section}{\makebox [\tocnumw ][l]{34}Piano Man}{161}{section*.77}%
-\contentsline {section}{\makebox [\tocnumw ][l]{35}Pompeii}{164}{section*.78}%
-\contentsline {section}{\makebox [\tocnumw ][l]{36}Price Tag}{167}{section*.79}%
-\contentsline {section}{\makebox [\tocnumw ][l]{37}Save Tonight}{170}{section*.80}%
-\contentsline {section}{\makebox [\tocnumw ][l]{38}Somwhere Only We Know}{172}{section*.81}%
-\contentsline {section}{\makebox [\tocnumw ][l]{39}Streets of London}{174}{section*.82}%
-\contentsline {section}{\makebox [\tocnumw ][l]{40}Summer Of 69}{176}{section*.83}%
-\contentsline {section}{\makebox [\tocnumw ][l]{41}Teenage Dirtbag}{179}{section*.84}%
-\contentsline {section}{\makebox [\tocnumw ][l]{42}Take Me Home, Country Roads}{182}{section*.85}%
-\contentsline {section}{\makebox [\tocnumw ][l]{43}The Sound Of Silence}{183}{section*.86}%
-\contentsline {section}{\makebox [\tocnumw ][l]{44}This Is The Life}{185}{section*.87}%
-\contentsline {section}{\makebox [\tocnumw ][l]{45}Unwritten}{187}{section*.88}%
-\contentsline {section}{\makebox [\tocnumw ][l]{46}Viva La Vida}{190}{section*.89}%
-\contentsline {section}{\makebox [\tocnumw ][l]{47}Wonderwall}{193}{section*.90}%
-\contentsline {section}{\makebox [\tocnumw ][l]{48}Yellow}{195}{section*.91}%
-\contentsline {section}{\makebox [\tocnumw ][l]{49}Zombie}{197}{section*.92}%
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:1-1}}\songtitel {1-1}}{\pageref *{song:1-1}}{songziel.1-1}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:1-2}}\songtitel {1-2}}{\pageref *{song:1-2}}{songziel.1-2}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:1-3}}\songtitel {1-3}}{\pageref *{song:1-3}}{songziel.1-3}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:1-4}}\songtitel {1-4}}{\pageref *{song:1-4}}{songziel.1-4}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:1-5}}\songtitel {1-5}}{\pageref *{song:1-5}}{songziel.1-5}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:1-6}}\songtitel {1-6}}{\pageref *{song:1-6}}{songziel.1-6}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:1-7}}\songtitel {1-7}}{\pageref *{song:1-7}}{songziel.1-7}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:1-8}}\songtitel {1-8}}{\pageref *{song:1-8}}{songziel.1-8}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:1-9}}\songtitel {1-9}}{\pageref *{song:1-9}}{songziel.1-9}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:1-10}}\songtitel {1-10}}{\pageref *{song:1-10}}{songziel.1-10}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:1-11}}\songtitel {1-11}}{\pageref *{song:1-11}}{songziel.1-11}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:1-12}}\songtitel {1-12}}{\pageref *{song:1-12}}{songziel.1-12}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:1-13}}\songtitel {1-13}}{\pageref *{song:1-13}}{songziel.1-13}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:1-14}}\songtitel {1-14}}{\pageref *{song:1-14}}{songziel.1-14}
+\contentsline {part}{\makebox [\tocnumw ][l]{B}Deutsche Songs}{31}{section*.2}%
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-1}}\songtitel {2-1}}{\pageref *{song:2-1}}{songziel.2-1}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-2}}\songtitel {2-2}}{\pageref *{song:2-2}}{songziel.2-2}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-3}}\songtitel {2-3}}{\pageref *{song:2-3}}{songziel.2-3}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-4}}\songtitel {2-4}}{\pageref *{song:2-4}}{songziel.2-4}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-5}}\songtitel {2-5}}{\pageref *{song:2-5}}{songziel.2-5}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-6}}\songtitel {2-6}}{\pageref *{song:2-6}}{songziel.2-6}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-7}}\songtitel {2-7}}{\pageref *{song:2-7}}{songziel.2-7}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-8}}\songtitel {2-8}}{\pageref *{song:2-8}}{songziel.2-8}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-9}}\songtitel {2-9}}{\pageref *{song:2-9}}{songziel.2-9}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-10}}\songtitel {2-10}}{\pageref *{song:2-10}}{songziel.2-10}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-11}}\songtitel {2-11}}{\pageref *{song:2-11}}{songziel.2-11}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-12}}\songtitel {2-12}}{\pageref *{song:2-12}}{songziel.2-12}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-13}}\songtitel {2-13}}{\pageref *{song:2-13}}{songziel.2-13}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-14}}\songtitel {2-14}}{\pageref *{song:2-14}}{songziel.2-14}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-15}}\songtitel {2-15}}{\pageref *{song:2-15}}{songziel.2-15}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-16}}\songtitel {2-16}}{\pageref *{song:2-16}}{songziel.2-16}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-17}}\songtitel {2-17}}{\pageref *{song:2-17}}{songziel.2-17}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-18}}\songtitel {2-18}}{\pageref *{song:2-18}}{songziel.2-18}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-19}}\songtitel {2-19}}{\pageref *{song:2-19}}{songziel.2-19}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-20}}\songtitel {2-20}}{\pageref *{song:2-20}}{songziel.2-20}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-21}}\songtitel {2-21}}{\pageref *{song:2-21}}{songziel.2-21}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-22}}\songtitel {2-22}}{\pageref *{song:2-22}}{songziel.2-22}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-23}}\songtitel {2-23}}{\pageref *{song:2-23}}{songziel.2-23}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-24}}\songtitel {2-24}}{\pageref *{song:2-24}}{songziel.2-24}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-25}}\songtitel {2-25}}{\pageref *{song:2-25}}{songziel.2-25}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-26}}\songtitel {2-26}}{\pageref *{song:2-26}}{songziel.2-26}
+\contentsline {part}{\makebox [\tocnumw ][l]{C}International}{91}{section*.3}%
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-1}}\songtitel {3-1}}{\pageref *{song:3-1}}{songziel.3-1}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-2}}\songtitel {3-2}}{\pageref *{song:3-2}}{songziel.3-2}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-3}}\songtitel {3-3}}{\pageref *{song:3-3}}{songziel.3-3}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-4}}\songtitel {3-4}}{\pageref *{song:3-4}}{songziel.3-4}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-5}}\songtitel {3-5}}{\pageref *{song:3-5}}{songziel.3-5}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-6}}\songtitel {3-6}}{\pageref *{song:3-6}}{songziel.3-6}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-7}}\songtitel {3-7}}{\pageref *{song:3-7}}{songziel.3-7}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-8}}\songtitel {3-8}}{\pageref *{song:3-8}}{songziel.3-8}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-9}}\songtitel {3-9}}{\pageref *{song:3-9}}{songziel.3-9}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-10}}\songtitel {3-10}}{\pageref *{song:3-10}}{songziel.3-10}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-11}}\songtitel {3-11}}{\pageref *{song:3-11}}{songziel.3-11}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-12}}\songtitel {3-12}}{\pageref *{song:3-12}}{songziel.3-12}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-13}}\songtitel {3-13}}{\pageref *{song:3-13}}{songziel.3-13}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-14}}\songtitel {3-14}}{\pageref *{song:3-14}}{songziel.3-14}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-15}}\songtitel {3-15}}{\pageref *{song:3-15}}{songziel.3-15}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-16}}\songtitel {3-16}}{\pageref *{song:3-16}}{songziel.3-16}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-17}}\songtitel {3-17}}{\pageref *{song:3-17}}{songziel.3-17}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-18}}\songtitel {3-18}}{\pageref *{song:3-18}}{songziel.3-18}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-19}}\songtitel {3-19}}{\pageref *{song:3-19}}{songziel.3-19}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-20}}\songtitel {3-20}}{\pageref *{song:3-20}}{songziel.3-20}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-21}}\songtitel {3-21}}{\pageref *{song:3-21}}{songziel.3-21}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-22}}\songtitel {3-22}}{\pageref *{song:3-22}}{songziel.3-22}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-23}}\songtitel {3-23}}{\pageref *{song:3-23}}{songziel.3-23}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-24}}\songtitel {3-24}}{\pageref *{song:3-24}}{songziel.3-24}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-25}}\songtitel {3-25}}{\pageref *{song:3-25}}{songziel.3-25}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-26}}\songtitel {3-26}}{\pageref *{song:3-26}}{songziel.3-26}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-27}}\songtitel {3-27}}{\pageref *{song:3-27}}{songziel.3-27}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-28}}\songtitel {3-28}}{\pageref *{song:3-28}}{songziel.3-28}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-29}}\songtitel {3-29}}{\pageref *{song:3-29}}{songziel.3-29}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-30}}\songtitel {3-30}}{\pageref *{song:3-30}}{songziel.3-30}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-31}}\songtitel {3-31}}{\pageref *{song:3-31}}{songziel.3-31}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-32}}\songtitel {3-32}}{\pageref *{song:3-32}}{songziel.3-32}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-33}}\songtitel {3-33}}{\pageref *{song:3-33}}{songziel.3-33}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-34}}\songtitel {3-34}}{\pageref *{song:3-34}}{songziel.3-34}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-35}}\songtitel {3-35}}{\pageref *{song:3-35}}{songziel.3-35}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-36}}\songtitel {3-36}}{\pageref *{song:3-36}}{songziel.3-36}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-37}}\songtitel {3-37}}{\pageref *{song:3-37}}{songziel.3-37}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-38}}\songtitel {3-38}}{\pageref *{song:3-38}}{songziel.3-38}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-39}}\songtitel {3-39}}{\pageref *{song:3-39}}{songziel.3-39}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-40}}\songtitel {3-40}}{\pageref *{song:3-40}}{songziel.3-40}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-41}}\songtitel {3-41}}{\pageref *{song:3-41}}{songziel.3-41}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-42}}\songtitel {3-42}}{\pageref *{song:3-42}}{songziel.3-42}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-43}}\songtitel {3-43}}{\pageref *{song:3-43}}{songziel.3-43}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-44}}\songtitel {3-44}}{\pageref *{song:3-44}}{songziel.3-44}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-45}}\songtitel {3-45}}{\pageref *{song:3-45}}{songziel.3-45}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-46}}\songtitel {3-46}}{\pageref *{song:3-46}}{songziel.3-46}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-47}}\songtitel {3-47}}{\pageref *{song:3-47}}{songziel.3-47}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-48}}\songtitel {3-48}}{\pageref *{song:3-48}}{songziel.3-48}
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-49}}\songtitel {3-49}}{\pageref *{song:3-49}}{songziel.3-49}

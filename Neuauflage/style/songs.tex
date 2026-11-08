@@ -1,0 +1,190 @@
+% ============================================================
+%  style/songs.tex — Akkordzeile, Labels, Song-Umgebung, Songreihenfolge, Kategorien
+%  (wird von style.tex eingebunden)
+% ============================================================
+% ---------- Akkordzeile & Labels ----------
+\newcommand{\cl}[1]{\textbf{\color{inkchords}#1}}
+\newcommand{\slbl}[1]{\vspace{0mm}\textit{\color{inkmeta}#1}}
+\renewcommand{\|}{\textcolor{inkmeta}{|}}
+
+% ---------- Automatische Nummerierung ----------
+\newcounter{categorycount}
+\newcounter{songcount}[categorycount]
+
+\newcommand{\alphnum}[1]{\Alph{#1}}
+
+% ---------- Song-Umgebung ----------
+% \begin{song}{Titel}{Interpret}{Zusatzinfo (z.B. Capo)}
+\newenvironment{song}[3]{%
+  \stepcounter{songcount}%
+  \edef\currentsongnum{\alphnum{categorycount}\thesongcount}%
+  \clearpage
+  \griffsongbeginn
+  \thispagestyle{fancy}%
+  \ifx\aktuellesongid\empty
+    % Song außerhalb von \songliste: wie früher direkt ins Inhaltsverzeichnis
+    \phantomsection
+    \addcontentsline{toc}{section}{\makebox[\tocnumw][l]{\thesongcount}#1}%
+  \else
+    % Song aus \songliste: Inhaltsverzeichnis-Eintrag schreibt \songliste
+    % (alphabetisch); hier nur Sprungziel, Nummer/Seite und Titel merken
+    \songmarke{#1}%
+  \fi
+  \noindent
+  \begin{minipage}[t]{20mm}
+    \vspace{0pt}%
+    {\songnumfont \currentsongnum}
+  \end{minipage}%
+  \hspace{1mm}%
+  \begin{minipage}[t]{\dimexpr\linewidth-14mm\relax}
+    \vspace{0pt}%
+    {\songtitlefont #1\par}
+    \vspace{0.8mm}
+    {\songmetafont #2\ifx&#3&\else\ \textperiodcentered\ #3\fi\par}
+  \end{minipage}\par
+  \vspace{1.5mm}
+  {\color{rulecolor}\hrule height 0.4pt}
+  \vspace{1mm}%
+  \setlength{\topsep}{0pt}%
+  \setlength{\partopsep}{0pt}%
+  \begin{alltt}\songbodysize\color{inkmain}\griffzeilenhook
+}{%
+  \end{alltt}
+  \anmerkungausgeben
+  \griffelokalzuruecksetzen
+  \ifx\aktuellesongid\empty\else\songseitenmerken\fi
+}
+
+% ============================================================
+%  Songreihenfolge & alphabetisches Inhaltsverzeichnis
+% ============================================================
+% \songliste{datei-a, datei-b, ...}   (Dateinamen aus songs/, ohne .tex)
+%  - Liste ALPHABETISCH (nach Titel) führen: so erscheint sie im
+%    Inhaltsverzeichnis.
+%  - Im Buch werden die Songs so umsortiert, dass Songs mit gerader
+%    Seitenzahl (2, 4 Seiten) immer auf einer linken (geraden) Seite
+%    beginnen -> liegen als Doppelseite offen. Ein- und dreiseitige Songs
+%    füllen die Lücken; sonst bleibt die Reihenfolge alphabetisch.
+%    Nur wenn es gar nicht anders geht, bleibt eine Seite leer.
+%  - Songnummern laufen in Buchreihenfolge.
+%  - Seitenzahl je Song kommt aus dem vorigen Lauf (.aux) -> latexmk.
+\makeatletter
+\newcommand*{\aktuellesongid}{}
+\newcommand{\songmarke}[1]{%
+  % Sprungziel wie \phantomsection, aber mit festem Namen
+  \edef\@currentHref{songziel.\aktuellesongid}%
+  \Hy@raisedlink{\hyper@anchorstart{\@currentHref}\hyper@anchorend}%
+  \protected@edef\@currentlabel{\thesongcount}%
+  \label{song:\aktuellesongid}%
+  \protected@write\@auxout{}{\string\songtiteldef{\aktuellesongid}{#1}}%
+  \xdef\songstartseite{\the\c@page}%
+}
+\newcommand{\songseitenmerken}{%
+  \immediate\write\@auxout{\string\songseitendef{\aktuellesongid}%
+    {\the\numexpr\c@page-\songstartseite+1\relax}}%
+}
+\newcommand{\songtiteldef}[2]{\global\@namedef{songtitel@#1}{#2}}
+\newcommand{\songseitendef}[2]{\global\@namedef{songseiten@#1}{#2}}
+\newcommand{\songtitel}[1]{%
+  \@ifundefined{songtitel@#1}{??}{\@nameuse{songtitel@#1}}}
+\newcommand{\songseiten}[1]{% expandierbar
+  \ifcsname songseiten@#1\endcsname\csname songseiten@#1\endcsname\else 1\fi}
+% Inhaltsverzeichnis-Eintrag (Nummer/Seite per Label)
+\newcommand{\songtoceintrag}[1]{%
+  \addtocontents{toc}{\protect\contentsline{section}%
+    {\protect\makebox[\protect\tocnumw][l]{\protect\ref*{song:#1}}\protect\songtitel{#1}}%
+    {\protect\pageref*{song:#1}}{songziel.#1}}%
+}
+% leere Seite einschieben (nur wenn kein passender Song übrig ist)
+\newcommand{\songleerseite}{\clearpage\thispagestyle{empty}\mbox{}}
+\makeatother
+
+\ExplSyntaxOn
+\int_new:N \l__songs_i_int
+\seq_new:N \l__songs_rest_seq
+\prop_new:N \l__songs_file_prop
+\tl_new:N \l__songs_pick_tl
+\bool_new:N \l__songs_found_bool
+\bool_new:N \l__songs_even_bool
+
+\NewDocumentCommand \songliste { m }
+  {
+    \int_zero:N \l__songs_i_int
+    \seq_clear:N \l__songs_rest_seq
+    \prop_clear:N \l__songs_file_prop
+    \clist_map_inline:nn {#1}
+      {
+        \int_incr:N \l__songs_i_int
+        \tl_set:Nx \l__songs_pick_tl
+          { \int_use:c { c@categorycount } - \int_use:N \l__songs_i_int }
+        \seq_put_right:NV \l__songs_rest_seq \l__songs_pick_tl
+        \prop_put:NVn \l__songs_file_prop \l__songs_pick_tl {##1}
+        \exp_args:NV \songtoceintrag \l__songs_pick_tl
+      }
+    \__songs_next:
+    \gdef \aktuellesongid {}
+  }
+\cs_new_protected:Npn \__songs_input:n #1 { \input { songs/#1 } }
+\cs_new_protected:Npn \__songs_next:
+  {
+    \seq_if_empty:NF \l__songs_rest_seq
+      {
+        % beginnt der nächste Song auf einer geraden (linken) Seite?
+        \int_if_even:nTF { \value{page} + 1 }
+          { \bool_set_true:N \l__songs_even_bool }
+          { \bool_set_false:N \l__songs_even_bool }
+        \bool_set_false:N \l__songs_found_bool
+        \seq_map_inline:Nn \l__songs_rest_seq
+          {
+            \bool_if:nT
+              { \l__songs_even_bool || \int_if_odd_p:n { \songseiten {##1} } }
+              {
+                \tl_set:Nn \l__songs_pick_tl {##1}
+                \bool_set_true:N \l__songs_found_bool
+                \seq_map_break:
+              }
+          }
+        \bool_if:NTF \l__songs_found_bool
+          {
+            \seq_remove_all:NV \l__songs_rest_seq \l__songs_pick_tl
+            \tl_gset_eq:NN \aktuellesongid \l__songs_pick_tl
+            \prop_get:NVN \l__songs_file_prop \l__songs_pick_tl \l_tmpa_tl
+            \exp_args:NV \__songs_input:n \l_tmpa_tl
+          }
+          { \songleerseite }
+        \__songs_next:
+      }
+  }
+\ExplSyntaxOff
+
+% 1. Zweitstimme / Hintergrundgesang
+\newcommand{\voice}[1]{\textit{\color{inkmeta}#1}}
+
+% 2. Zusatzinfos / Anweisungen
+\newcommand{\info}[1]{\textit{\color{inkmeta}#1}}
+
+% ---------- Zusammenfassung ----------
+\newenvironment{summary}{%
+  \vspace{-1mm}%
+  \hfill%
+  \begin{minipage}{0.88\linewidth}%
+  \normalfont\serif\fontsize{\SzSummary}{\LdSummary}\selectfont\color{inkmain}%
+  \setlength{\parindent}{0pt}%
+}{%
+  \end{minipage}%
+  \hfill\null\par\vspace{2mm}%
+}
+
+% ---------- Kategorie-Trenner ----------
+\newcommand{\category}[1]{%
+  \stepcounter{categorycount}%
+  \cleardoublepage
+  \thispagestyle{fancy}%
+  \phantomsection
+  \addcontentsline{toc}{part}{\makebox[\tocnumw][l]{\alphnum{categorycount}}#1}
+  \vspace*{2mm}
+  {\cattitlefont #1\par}
+  {\color{rulecolor}\hrule height 0.7pt}
+  \vspace{4mm}
+}
+

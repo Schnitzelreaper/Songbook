@@ -1,6 +1,10 @@
 \documentclass[a5paper,10pt]{article}
 \input{style.tex}
 
+% Griffbilder temporär ausblenden (schneller kompilieren).
+% Zum Drucken auskommentieren! (Seitenumbrüche ändern sich dadurch.)
+\griffeaustrue
+
 \usepackage{etoolbox}
 
 
@@ -47,104 +51,110 @@ Alle Rechte an den Texten und Melodien liegen bei den jeweiligen Urhebern.\\[2mm
 
 % ================= Pfadilieder =================
 \category{Pfadilieder}
-\input{songs/das-lied-der-schlümpfe.tex}
-\input{songs/die-internationale.tex}
-\input{songs/die-moorsoldaten.tex}
-\input{songs/er-war-ein-pfadfinder.tex}
-\input{songs/es-war-an-einem-sommertag.tex}
-\input{songs/flinke-hände-flinke-füße.tex}
-\input{songs/heute-hier-morgen-dort.tex}
-\input{songs/laudato-si.tex}
-\input{songs/meine-oma-fährt-im-hühnerstall-motorrad.tex}
-\input{songs/nehmt-abschied-brueder.tex}
-\input{songs/schilf.tex}
-\input{songs/roter-wein-im-becher.tex}
-\input{songs/roter-mond.tex}
-\input{songs/unter-den-toren.tex}
+\songliste{%  alphabetisch nach Titel (= Inhaltsverzeichnis)
+  das-lied-der-schlümpfe,
+  die-internationale,
+  die-moorsoldaten,
+  er-war-ein-pfadfinder,
+  es-war-an-einem-sommertag,
+  flinke-hände-flinke-füße,
+  heute-hier-morgen-dort,
+  laudato-si,
+  meine-oma-fährt-im-hühnerstall-motorrad,
+  nehmt-abschied-brueder,
+  roter-mond,
+  roter-wein-im-becher,
+  schilf,
+  unter-den-toren,
+}
 % ================= Deutsche Songs =================
 \category{Deutsche Songs}
-\input{songs/99-luftballons.tex}
-\input{songs/alles-nur-geklaut.tex}
-\input{songs/auf-uns.tex}
-\input{songs/bella-napoli.tex}
-\input{songs/deine-schuld.tex}
-\input{songs/denkmal}
-\input{songs/durch-den-monsun.tex}
-\input{songs/ein-kompliment}
-\input{songs/eine-insel-mit-zwei-bergen.tex}
-\input{songs/geboren-um-zu-leben.tex}
-\input{songs/griechischer-wein.tex}
-\input{songs/holz.tex}
-%\input{songs/hulappalu.tex}
-%\input{songs/ich-lass-fuer-dich-das-licht-an.tex}
-\input{songs/im-wagen-vor-mir.tex}
-\input{songs/je-ne-parle-pas-francais.tex}
-\input{songs/lasse-redn.tex}
-\input{songs/lieder.tex}
-\input{songs/major-tom.tex}
-\input{songs/nur-ein-wort.tex}
-\input{songs/nur-noch-kurz-die-welt-retten.tex}
-\input{songs/perfekte-welle.tex}
-\input{songs/probiers-mal-mit-gemuetlichkeit.tex}
-\input{songs/schrei-nach-liebe.tex}
-\input{songs/skandal-im-sperrbezirk.tex}
-\input{songs/tage-wie-diese.tex}
-\input{songs/up-up-up.tex}
-\input{songs/zwei-kleine-woelfe.tex}
+\songliste{%  alphabetisch nach Titel (= Inhaltsverzeichnis)
+  99-luftballons,
+  alles-nur-geklaut,
+  auf-uns,
+  bella-napoli,
+  deine-schuld,
+  denkmal,
+  durch-den-monsun,
+  ein-kompliment,
+  eine-insel-mit-zwei-bergen,
+  geboren-um-zu-leben,
+  griechischer-wein,
+  holz,
+  % hulappalu,
+  % ich-lass-fuer-dich-das-licht-an,
+  im-wagen-vor-mir,
+  je-ne-parle-pas-francais,
+  lasse-redn,
+  lieder,
+  major-tom,
+  nur-ein-wort,
+  nur-noch-kurz-die-welt-retten,
+  perfekte-welle,
+  probiers-mal-mit-gemuetlichkeit,
+  schrei-nach-liebe,
+  skandal-im-sperrbezirk,
+  tage-wie-diese,
+  up-up-up,
+  zwei-kleine-woelfe,
+}
 
 % ================= International =================
 \category{International}
-\input{songs/74-75.tex}
-\input{songs/africa}
-\input{songs/angels.tex}
-\input{songs/behind-blue-eyes.tex}
-\input{songs/boulevard-of-broken-dreams.tex}
-\input{songs/breakfast-at-tiffanys.tex}
-\input{songs/californication.tex}
-\input{songs/california-dreamin.tex}
-\input{songs/castle-on-the-hill.tex}
-\input{songs/complicated.tex}
-\input{songs/counting-stars.tex}
-\input{songs/dont-look-back-in-anger.tex}
-\input{songs/dust-in-the-wind}
-\input{songs/eye-of-the-tiger.tex}
-\input{songs/father-and-son.tex}
-\input{songs/good-riddance-time-of-your-life.tex}
-\input{songs/hallelujah.tex}
-\input{songs/hey-jude.tex}
-\input{songs/hey-soul-sister.tex}
-\input{songs/hold-back-the-river.tex}
-\input{songs/house-of-the-rising-sun.tex}
-\input{songs/how-you-remind-me.tex}
-\input{songs/hotel-california.tex}
-\input{songs/iris.tex}
-\input{songs/leaving-on-a-jet-plane.tex}
-\input{songs/lemon-tree.tex}
-\input{songs/let-her-go.tex}
-\input{songs/let-it-be}
-\input{songs/losing-my-religion.tex}
-\input{songs/mr-brightside}
-\input{songs/nothing-else-matters.tex}
-\input{songs/numb.tex}
-\input{songs/perfect.tex}
-\input{songs/piano-man.tex}
-\input{songs/pompeii.tex}
-\input{songs/price-tag.tex}
-\input{songs/save-tonight.tex}
-\input{songs/somwhere-only-we-know.tex}
-\input{songs/streets-of-london.tex}
-\input{songs/summer-of-69.tex}
-\input{songs/teenage-dirtbag}
-\input{songs/take-me-home-country-roads.tex}
-%\input{songs/the-lion-sleeps-tonight.tex}
-\input{songs/the-sound-of-silence.tex}
-\input{songs/this-is-the-life.tex}
-\input{songs/unwritten.tex}
-\input{songs/viva-la-vida.tex}
-\input{songs/wonderwall.tex}
-\input{songs/yellow.tex}
-\input{songs/zombie.tex}
+\songliste{%  alphabetisch nach Titel (= Inhaltsverzeichnis)
+  74-75,
+  africa,
+  angels,
+  behind-blue-eyes,
+  boulevard-of-broken-dreams,
+  breakfast-at-tiffanys,
+  california-dreamin,
+  californication,
+  castle-on-the-hill,
+  complicated,
+  counting-stars,
+  dont-look-back-in-anger,
+  dust-in-the-wind,
+  eye-of-the-tiger,
+  father-and-son,
+  good-riddance-time-of-your-life,
+  hallelujah,
+  hey-jude,
+  hey-soul-sister,
+  hold-back-the-river,
+  hotel-california,
+  house-of-the-rising-sun,
+  how-you-remind-me,
+  iris,
+  leaving-on-a-jet-plane,
+  lemon-tree,
+  let-her-go,
+  let-it-be,
+  losing-my-religion,
+  mr-brightside,
+  nothing-else-matters,
+  numb,
+  perfect,
+  piano-man,
+  pompeii,
+  price-tag,
+  save-tonight,
+  somwhere-only-we-know,
+  streets-of-london,
+  summer-of-69,
+  take-me-home-country-roads,
+  teenage-dirtbag,
+  % the-lion-sleeps-tonight,
+  the-sound-of-silence,
+  this-is-the-life,
+  unwritten,
+  viva-la-vida,
+  wonderwall,
+  yellow,
+  zombie,
+}
 
-\input{chords}
+\ifgriffeaus\else\input{chords}\fi
 
 \end{document}

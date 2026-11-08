@@ -1,0 +1,29 @@
+% ============================================================
+%  style/schriften.tex — Schriftarten & Schriftgrößen (hier ändern, sonst nirgends)
+%  (wird von style.tex eingebunden)
+% ============================================================
+% --- 1. Schrift-Pakete (pdfLaTeX) --------------------------
+%  Serifenschrift (Titel, Meta, Inhaltsverzeichnis, Seitenzahl)
+%  Beispiele: mathptmx (Times) | mathpazo (Palatino) | libertine | charter | tgtermes
+\usepackage{mathptmx}
+\newcommand{\FamSerif}{ptm}   % Familienname passend zum Paket:
+                              % mathpazo=ppl, charter=bch, libertine=LinuxLibertineT-LF, tgtermes=qtm
+
+%  Monospace (Akkorde + Songtext). MUSS dickten-gleich bleiben!
+%  Beispiele: courier | inconsolata | DejaVuSansMono | cmtt
+\usepackage{inconsolata}
+
+% --- 2. Schriftgrößen (Größe in pt) --------------------------
+\newcommand{\SzBody}{9.5}      \newcommand{\LdBody}{10.5}   % Songtext
+\newcommand{\SzSongNum}{28}    \newcommand{\LdSongNum}{22}  % Songnummer
+\newcommand{\SzSongTitle}{17}  \newcommand{\LdSongTitle}{19}% Songtitel
+\newcommand{\SzMeta}{9}        \newcommand{\LdMeta}{11}     % Interpret/Capo
+\newcommand{\SzCoverTitle}{28} \newcommand{\LdCoverTitle}{32}
+\newcommand{\SzCoverSub}{12}   \newcommand{\LdCoverSub}{14}
+\newcommand{\SzCat}{19}        \newcommand{\LdCat}{22}      % Kategorie
+\newcommand{\SzPageNum}{9}     \newcommand{\LdPageNum}{11}  % Seitenzahl
+\newcommand{\SzSummary}{8.5}   \newcommand{\LdSummary}{11}  % Zusammenfassung
+\newcommand{\SzGriffName}{11}  \newcommand{\LdGriffName}{13}% Griffbild-Name
+
+% --- Schrift-Kurzbefehl (nicht ändern) ----------------------
+\newcommand{\serif}{\fontfamily{\FamSerif}\selectfont}

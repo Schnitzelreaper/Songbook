@@ -1,0 +1,150 @@
+% ============================================================
+%  style/anmerkungen.tex — \anmerkung: Fußnote am Songende
+%  (wird von style.tex eingebunden)
+% ============================================================
+% ------------------------------------------------------------
+% Anmerkungen: \anmerkung{Text}  (vor \griffe bzw. \end{song})
+% Wird am Songende unten auf die letzte Seite gesetzt (wie eine Fußnote,
+% mit kurzem Trennstrich). Passt sie dort nicht mehr hin, kommt sie als
+% schmalerer Block rechts NEBEN den Text (gleiche Platzsuche wie \griffe),
+% damit keine neue Seite entsteht.
+% ------------------------------------------------------------
+\box_new:N \g__note_box
+\box_new:N \g__note_place_box
+\bool_new:N \g__note_bool
+\dim_new:N \l__note_need_dim
+\dim_new:N \g__note_x_dim
+\dim_new:N \g__note_y_dim
+\tl_new:N \g__note_text_tl
+\msg_new:nnn { anmerkung } { kein-platz }
+  { Anmerkung~in~Song~#1~passt~nicht~mehr~auf~die~Seite. }
+
+\cs_new_protected:Npn \anmerkungsetzen #1
+  {
+    \tl_gset:Nn \g__note_text_tl {#1}
+    \__note_build:n { \textwidth }
+    \bool_gset_true:N \g__note_bool
+  }
+\cs_new_protected:Npn \__note_build:n #1 % #1 Breite
+  {
+    \dim_set:Nn \anmerkungbreite {#1}
+    \vbox_gset:Nn \g__note_box
+      { \anmerkunginhalt { \tl_use:N \g__note_text_tl } }
+  }
+% neben den Text setzen; schmalere Breiten werden der Reihe nach probiert
+\cs_new_protected:Npn \__note_beside:
+  {
+    \dim_zero:N \l__note_need_dim
+    \__griff_setup:
+    \bool_if:NT \l__griff_setup_bool
+      {
+        \clist_map_inline:nn { 0.5, 0.42, 0.6, 0.35 }
+          {
+            \__note_build:n { ##1 \textwidth }
+            \int_set:Nn \l__griff_limit_int
+              { \dim_to_decimal_in_sp:n { \textwidth - \box_wd:N \g__note_box - \griffeabstand } }
+            \int_set:Nn \l__griff_h_int
+              { \dim_to_decimal_in_sp:n { \box_ht:N \g__note_box + \box_dp:N \g__note_box } }
+            \__griff_find:
+            \int_compare:nNnT { \l__griff_cbest_int } < { \c_max_int }
+              {
+                \box_gset_eq:NN \g__note_place_box \g__note_box
+                \dim_gset:Nn \g__note_x_dim
+                  {
+                    \int_if_odd:nTF { \value{page} } { \griffleftodd } { \griffleftevn } sp
+                    + \textwidth - \box_wd:N \g__note_place_box
+                  }
+                \dim_gset:Nn \g__note_y_dim
+                  { \int_use:N \l__griff_cbest_int sp + \box_dp:N \g__note_place_box }
+                \AddToShipoutPictureFG*
+                  {
+                    \AtPageLowerLeft
+                      { \put(\LenToUnit{\g__note_x_dim},\LenToUnit{\g__note_y_dim}){\box_use:N \g__note_place_box} }
+                  }
+                % als Hindernis für die Griffe eintragen (ganze Breite rechts)
+                \seq_gput_right:cx { \l__griff_seq_tl }
+                  {
+                    {1073741823}
+                    { \int_eval:n { \l__griff_cbest_int + \l__griff_h_int } }
+                    { \int_use:N \l__griff_cbest_int }
+                  }
+                \bool_gset_false:N \g__note_bool
+                \clist_map_break:
+              }
+          }
+      }
+    % kein Platz daneben -> wieder volle Breite für unten
+    \bool_if:NT \g__note_bool { \__note_build:n { \textwidth } }
+  }
+% benötigter Platz unten (0, wenn keine Anmerkung offen ist)
+\cs_new_protected:Npn \__note_need:
+  {
+    \bool_if:NTF \g__note_bool
+      {
+        \dim_set:Nn \l__note_need_dim
+          { \anmerkungabstand + \box_ht:N \g__note_box + \box_dp:N \g__note_box }
+      }
+      { \dim_zero:N \l__note_need_dim }
+  }
+\cs_new:Npn \__note_fits_p:
+  {
+    \dim_compare_p:nNn { \pagegoal } < { \c_max_dim } &&
+    % eine Zeile Reserve, damit die Entscheidung bei \griffe und am
+    % Songende (nach \end{alltt}) gleich ausfällt
+    \dim_compare_p:nNn { \pagetotal + \l__note_need_dim + \baselineskip } < { \pagegoal }
+  }
+% am Songende (nach \end{alltt}) aufrufen
+\cs_new_protected:Npn \anmerkungausgeben
+  {
+    \bool_if:NT \g__note_bool
+      {
+        \tex_par:D
+        \__note_need:
+        \bool_if:nF { \__note_fits_p: } { \__note_beside: }
+        \bool_if:NT \g__note_bool
+          {
+            \__note_need:
+            \bool_gset_false:N \g__note_bool
+            \bool_if:nF { \__note_fits_p: }
+              { \msg_warning:nnx { anmerkung } { kein-platz } { \griffsongkey } }
+            \tex_vfill:D
+            \skip_vertical:n { \anmerkungabstand }
+            \nointerlineskip
+            \box_use_drop:N \g__note_box
+          }
+      }
+  }
+\ExplSyntaxOff
+
+\makeatletter
+\newlength{\anmerkungabstand}\setlength{\anmerkungabstand}{3mm}
+\newcommand{\anmerkungfont}{\serif\itshape\fontsize{\SzSummary}{\LdSummary}\selectfont\color{inkmeta}}
+\newlength{\anmerkungbreite}
+% Inhalt des Anmerkungsblocks (Breite \anmerkungbreite)
+\newcommand{\anmerkunginhalt}[1]{%
+  \let\par\@@par
+  \hsize=\anmerkungbreite \linewidth=\anmerkungbreite
+  \leftskip=0pt \parindent=0pt \parfillskip=0pt plus 1fil
+  \ifdim\anmerkungbreite<\textwidth
+    \rightskip=0pt plus 3em\relax % schmal: Flattersatz
+  \else
+    \rightskip=0pt\relax
+  \fi
+  \nonfrenchspacing
+  {\color{rulecolor}\hrule width 25mm height 0.4pt}%
+  \vskip 1.2mm
+  \anmerkungfont #1\par
+}
+\newcommand{\anmerkung}{%
+  \begingroup
+  % alltt: Leerzeichen/Zeilenenden und aktive Zeichen normalisieren
+  \catcode`\ =10 \catcode`\^^M=10
+  \catcode`\,=12 \catcode`\-=12 \catcode`\'=12 \catcode`\`=12
+  \catcode`\<=12 \catcode`\>=12
+  \anmerkungintern}
+\newcommand{\anmerkungintern}[1]{%
+  \endgroup
+  \anmerkungsetzen{#1}%
+  \futurelet\griff@next\griff@crweg % Zeilenende danach schlucken
+}
+\makeatother

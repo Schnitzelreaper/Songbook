@@ -1,0 +1,38 @@
+% ============================================================
+%  style/illustrationen.tex — Illustrationen frei auf der Seite platzieren
+%  (wird von style.tex eingebunden)
+% ============================================================
+% ---------- Illustrationen frei platzieren ----------
+% \illustration[Breite]{Datei}{x}{y}[includegraphics-Optionen]
+%  - Datei: PDF in graphics/illustrationen/ (ohne .pdf)
+%  - x / y: Abstand der linken oberen Bildecke von der linken oberen
+%    PAPIERECKE (absolut, z.B. 95mm / 20mm). Achtung: linke/rechte Seiten
+%    haben unterschiedliche Ränder.
+%  - Breite optional (Standard 40mm), Höhe ergibt sich aus dem Seitenverhältnis
+%  - letzte Option z.B. "trim=163 79 156 36, clip" um Weißraum
+%    abzuschneiden (Werte in pt: links unten rechts oben)
+%  - Liegt IM VORDERGRUND (über Text/Akkorden).
+%  - Erscheint auf der Seite, auf der die Zeile mit dem Befehl landet
+%    (z.B. hinten an eine Songzeile hängen). Seite wird über die .aux
+%    ermittelt -> zwei Durchläufe (latexmk erledigt das).
+\makeatletter
+\NewDocumentCommand{\illustration}{ O{40mm} m m m O{} }{%
+  \edef\illu@tmp{\write\@auxout{\string\illustrationseite
+    {\noexpand\the\ReadonlyShipoutCounter}%
+    {\detokenize{#1}}{\detokenize{#2}}{\detokenize{#3}}{\detokenize{#4}}%
+    {\detokenize{#5}}}}%
+  \illu@tmp
+}
+% aus der .aux: Illustration für Seite #1 vormerken
+\newcommand{\illustrationseite}[6]{%
+  \csgappto{illu@seite@#1}{\illustrationzeichnen{#2}{#3}{#4}{#5}{#6}}%
+}
+\newcommand{\illustrationzeichnen}[5]{%
+  \AtPageUpperLeft{\put(\LenToUnit{#3},\LenToUnit{-#4}){%
+    \raisebox{-\height}{\includegraphics[width=#1,#5]{graphics/illustrationen/#2.pdf}}}}%
+}
+% beim zweiten Lesen der .aux (\end{document}) nicht doppelt eintragen
+\AtEndDocument{\renewcommand{\illustrationseite}[6]{}}
+\AddToShipoutPictureFG{\csuse{illu@seite@\the\ReadonlyShipoutCounter}}
+\makeatother
+

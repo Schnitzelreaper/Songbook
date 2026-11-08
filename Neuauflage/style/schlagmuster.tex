@@ -1,0 +1,51 @@
+% ============================================================
+%  style/schlagmuster.tex — Schlagmuster rechts am Rand
+%  (wird von style.tex eingebunden)
+% ============================================================
+% ============================================================
+%  Schlagmuster (rechts am Rand, über den Text gelegt; braucht zwei
+%  Durchläufe, latexmk erledigt das) & Griffe (normal im Textfluss)
+% ============================================================
+\usepackage{tikzpagenodes}
+\usepackage{svg} % nur für reine .svg-Dateien (braucht Inkscape + --shell-escape)
+
+% Einheitlicher Maßstab für alle Schlagmuster (gleiche Strichstärke/Notengröße);
+% 0.32 -> ein 16tel-Takt aus Inkscape (~352pt breit) wird ca. 40mm breit
+\newcommand{\schlagmusterskala}{0.32}
+\newlength{\griffeabstand}\setlength{\griffeabstand}{3mm}  % Abstand zw. Griffen
+\newlength{\griffeoben}\setlength{\griffeoben}{3mm}       % Abstand zum Text darüber
+\newcommand{\schlagmusterdeckkraft}{0.44} % 0.44 * Schwarz auf Papier ~ inkmeta (#8e8e8e)
+\newcommand{\schlagmusterfont}{\serif\itshape\fontsize{7.5}{8}\selectfont\color{inkmeta}}
+\newsavebox{\overlaybox}
+
+% Bild aus graphics/: bevorzugt PDF, sonst SVG
+\newcommand{\schlagmusterbild}[2]{%
+  \IfFileExists{graphics/#2.pdf}{\includegraphics[scale=#1]{graphics/#2.pdf}}{%
+    \IfFileExists{graphics/#2.svg}{\includesvg[scale=#1]{graphics/#2}}{%
+      \PackageWarning{style}{Schlagmuster 'graphics/#2' nicht gefunden}%
+      \fbox{\ttfamily #2?}}}%
+}
+
+% \schlagmuster[Skalierung]{Datei ohne Endung}[Beschriftung]
+% Skalierung optional (Standard \schlagmusterskala) -> alle Muster gleich groß,
+% die Breite ergibt sich aus der Länge des Musters.
+% Erscheint am rechten Textrand auf Höhe der Zeile, in der es steht.
+% In Songs einfach hinten an eine Zeile hängen, z.B.
+%   \slbl{Chorus:}\schlagmuster{summer-of-69-v}
+\NewDocumentCommand{\schlagmuster}{ O{\schlagmusterskala} m o }{%
+  \edef\schlagmusterdatei{\detokenize{#2}}% alltt macht "-" aktiv
+  \sbox{\overlaybox}{\schlagmusterbild{#1}{\schlagmusterdatei}}%
+  % Fläche als Hindernis für \griffe merken (ganze Breite rechts blockiert)
+  \griffschreiben{1073741823}%
+    {\number\dimexpr0.8\baselineskip\IfNoValueF{#3}{+4mm}\relax}%
+    {\number\dimexpr\ht\overlaybox+\dp\overlaybox-0.8\baselineskip\relax}%
+  \begin{tikzpicture}[remember picture,overlay]
+    % schwarzes Bild halbtransparent -> wirkt im selben Grau wie inkmeta
+    \node[anchor=north east,inner sep=0pt,opacity=\schlagmusterdeckkraft] (sm)
+      at ($(current page text area.east |- 0,0)+(0,0.8\baselineskip)$)
+      {\usebox{\overlaybox}};
+    \IfNoValueF{#3}{\node[anchor=south east,inner sep=0pt] at ($(sm.north east)+(0,0.5mm)$)
+      {\schlagmusterfont #3};}
+  \end{tikzpicture}%
+}
+
