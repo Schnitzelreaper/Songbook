@@ -178,7 +178,7 @@
 % ---------- Kategorie-Trenner ----------
 \newcommand{\category}[1]{%
   \stepcounter{categorycount}%
-  \cleardoublepage
+  \clearpage % Kategorien dürfen auch links beginnen
   \thispagestyle{fancy}%
   \phantomsection
   \addcontentsline{toc}{part}{\makebox[\tocnumw][l]{\alphnum{categorycount}}#1}

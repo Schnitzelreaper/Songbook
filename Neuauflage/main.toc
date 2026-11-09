@@ -1,4 +1,4 @@
-\contentsline {part}{\makebox [\tocnumw ][l]{A}Pfadilieder}{7}{section*.1}%
+\contentsline {part}{\makebox [\tocnumw ][l]{A}Pfadilieder}{6}{section*.1}%
 \contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:1-1}}\songtitel {1-1}}{\pageref *{song:1-1}}{songziel.1-1}
 \contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:1-2}}\songtitel {1-2}}{\pageref *{song:1-2}}{songziel.1-2}
 \contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:1-3}}\songtitel {1-3}}{\pageref *{song:1-3}}{songziel.1-3}
@@ -13,7 +13,8 @@
 \contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:1-12}}\songtitel {1-12}}{\pageref *{song:1-12}}{songziel.1-12}
 \contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:1-13}}\songtitel {1-13}}{\pageref *{song:1-13}}{songziel.1-13}
 \contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:1-14}}\songtitel {1-14}}{\pageref *{song:1-14}}{songziel.1-14}
-\contentsline {part}{\makebox [\tocnumw ][l]{B}Deutsche Songs}{29}{section*.2}%
+\contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:1-15}}\songtitel {1-15}}{\pageref *{song:1-15}}{songziel.1-15}
+\contentsline {part}{\makebox [\tocnumw ][l]{B}Deutsche Songs}{28}{section*.2}%
 \contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-1}}\songtitel {2-1}}{\pageref *{song:2-1}}{songziel.2-1}
 \contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-2}}\songtitel {2-2}}{\pageref *{song:2-2}}{songziel.2-2}
 \contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-3}}\songtitel {2-3}}{\pageref *{song:2-3}}{songziel.2-3}
@@ -40,7 +41,7 @@
 \contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-24}}\songtitel {2-24}}{\pageref *{song:2-24}}{songziel.2-24}
 \contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-25}}\songtitel {2-25}}{\pageref *{song:2-25}}{songziel.2-25}
 \contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:2-26}}\songtitel {2-26}}{\pageref *{song:2-26}}{songziel.2-26}
-\contentsline {part}{\makebox [\tocnumw ][l]{C}International}{87}{section*.3}%
+\contentsline {part}{\makebox [\tocnumw ][l]{C}International}{80}{section*.3}%
 \contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-1}}\songtitel {3-1}}{\pageref *{song:3-1}}{songziel.3-1}
 \contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-2}}\songtitel {3-2}}{\pageref *{song:3-2}}{songziel.3-2}
 \contentsline {section}{\makebox [\tocnumw ][l]{\ref *{song:3-3}}\songtitel {3-3}}{\pageref *{song:3-3}}{songziel.3-3}
