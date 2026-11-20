@@ -2,7 +2,7 @@
 \input{style.tex}
 
 % Griffbilder temporär ausblenden (schneller kompilieren):
-\griffeaustrue
+% \griffeaustrue
 
 \usepackage{etoolbox}
 
@@ -42,11 +42,8 @@ Alle Rechte an den Texten und Melodien liegen bei den jeweiligen Urhebern.\\[2mm
 % ---------------- Inhaltsverzeichnis ----------------
 \clearpage
 \thispagestyle{empty}
-\vspace*{2mm}
-{\cattitlefont Inhaltsverzeichnis\par}
-{\color{rulecolor}\hrule height 0.7pt}
-\vspace{4mm}
-\tableofcontents
+\vspace*{6mm}% (so steht die Überschrift auf gleicher Höhe wie beim Impressum)
+\tableofcontents % Überschrift kommt von \tableofcontents (Aussehen: style/layout.tex)
 
 % ================= Pfadilieder =================
 \category{Pfadilieder}
@@ -150,6 +147,7 @@ Alle Rechte an den Texten und Melodien liegen bei den jeweiligen Urhebern.\\[2mm
   streets-of-london,
   summer-of-69,
   take-me-home-country-roads,
+  take-on-me,
   teenage-dirtbag,
   % the-lion-sleeps-tonight,
   the-sound-of-silence,

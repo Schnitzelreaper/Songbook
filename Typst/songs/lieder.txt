@@ -1,0 +1,99 @@
+titel: Lieder
+interpret: Adel Tawil
+info: Capo 3
+---
+
+{Intro:}
+[Am]@schlagmuster{monsun}[Ganzes Lied]
+[                     C                       G]
+{1.}Ich ging wie ein Ägypter hab' mit Tauben geweint
+[              Em                       Am]
+War ein Voodookind wie ein rollender Stein.
+[         C                   G]
+Im Dornenwald sang Maria für mich.
+[                    Em                         Am]
+Ich starb in deinen Armen, Bochum 'Vierund-achtzig`
+[              C             Em]
+Ich ließ die Sonne nie untergeh`n
+[                          Em]
+...in meiner wundervollen Welt.
+
+{Refrain:}
+[                    C                              G]
+Und ich singe diese Lieder,tanz' mit Tränen in den Augen
+[                         D                          Em]
+Bowie war für'n Tag mein Held und EMF kann es nich' glauben
+[                      C                                G]
+Und ich steh' im lila Regen, ich will ein Feuerstarter sein
+[                        D                                     D]
+Whitney wird mich immer lieben und Michael lässt mich nich` allein.
+
+[  Am                     C                              G]
+{2.}Ich war willkommen im Dschungel und fremd im eigenen Land.
+[                  Em                         Am]
+Mein persönlicher Jesus und im Gehirn total krank.
+[                    C                                 G]
+Und ich frage mich, wann werd' ich, werd' ich berühmt sein.
+[                 Em                 Am]
+So wie Rio, mein König für die Ewigkeit.
+[                    C          G]
+Ich war am Ende der Straße angelangt,
+[                   Em                             Am]
+war ein Verlierer, Baby, doch dann hielt ich ein Cover in der Hand-
+[           C]
+darauf ein Mönch, der in Flammen stand
+[        Em                                     D]
+Kurt Cobain sagte mir, ich soll kommen wie ich bin...
+
+{Refrain:}
+[                    C                              G]
+Und ich singe diese Lieder tanz' mit Tränen in den Augen,
+
+[                         D                          Em]
+Bowie war für'n Tag mein Held und EMF kann es nich' glauben.
+[                      C                               G]
+Und ich steh' im lila Regen ich will ein Feuerstarter sein,
+[                        D                                    D]
+Whitney wird mich immer lieben und Michael lässt mich nich' allein
+
+[                         C                                     G]
+{3.}Ich war einer von fünf Jungs "One Minute" aus, dann war's vorbei.
+[                      D                             Em]
+Ich sang nur noch für mich, für 'ne unendlich lange Zeit.
+[                  C                     G]
+Dann traf ich auf sie und sie erinnerte mich.
+[                    D                         D]
+Wir waren Welten entfernt und doch vom selben Stern.
+
+{Bridge:}@griffe{Dsus4}
+[    Am    C     G     Em     Am    C        D     D   /]
+   Huuh, Huuh, Huuuh Huuuh, Huuh, Huuuuuh, Huuuuuh
+
+[Am                      C                       G]
+     Ich ging wie ein Ägypter hab' mit Tauben geweint.
+[                   Em                      Am]
+     War ein Voodookind wie ein rollender Stein.
+[                  C              Dsus4]
+     Ich ließ die Sonne nie untergehen...
+[                            Dsus4]
+  ...in meiner wundervollen Welt
+
+{Refrain:}
+[                         C                              G]
+Und jetzt sing ich meine Lieder tanz' mit Tränen in den Augen,
+[                         D                          Em]
+Bowie war für'n Tag mein Held und EMF kann es nich' glauben.
+[                      C                               G]
+Und ich steh' im lila Regen ich will ein Feuerstarter sein,
+[                        D                                    Em]
+Whitney wird mich immer lieben und Michael lässt uns nich' allein
+
+[                      C                               G]
+Denn wir singen diese Lieder tanzen mit Tränen in den Augen,
+[                        D                          Em]
+Bowie war für'n Tag ein Held und EMF kann es nich' glauben.
+[                       C                               G]
+Und wir steh'n im lila Regen, wir wollen  Feuerstarter sein,
+[                        D                                    D    C]
+Whitney wird uns immer lieben und Michael lässt uns nich' allein.
+@anmerkung{Jede Zeile des Liedes hat einen Bezug zu Liedern, die in Tawils Leben wichtig waren. Bei vielen Textstellen handelt es sich sogar um direkte Übersetzungen von englischsprachigen Songtiteln. Tatsäcliche Blasen wefen können sie leider nicht.}

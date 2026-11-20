@@ -1,0 +1,23 @@
+titel: Meine Oma fährt im Hühnerstall Motorrad
+interpret: Volkslied
+info: Capo -
+---
+
+[      D             G             D]
+{1.}Meine Oma fährt im Hühnerstall Motorrad,@schlagmuster{standard}[Ganzes Lied]
+[   A         D]
+Motorrad, Motorrad.@griffe{A7}
+[      D             G             D]
+Meine Oma fährt im Hühnerstall Motorrad,
+[      G           A7             D]
+meine Oma ist'ne ganz patente Frau!
+
+[      D           G               D]
+{2.}Meine Oma hat im hohlen Zahn ein Radio,
+{3.}Meine Oma hat 'nen Nachttopf mit Beleuchtung
+{4.}Meine Oma hat 'ne Glatze mit Geländer,
+{5.}Meine Oma hat 'ne Brille mit Gardinen,
+{6.}Meine Oma hat 'nen Petticoat aus Wellblech,
+{7.}Meine Oma hat im Strumpfband 'nen Revolver,
+{8.}Meine Oma spielt in Hollywood nen Cowboy,
+@illustration[30mm]{oma}{100mm}{170mm}

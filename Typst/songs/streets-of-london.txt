@@ -1,0 +1,91 @@
+titel: Streets of London
+interpret: Ralph McTell
+---
+
+{Intro:}@griffe[1]{C/G, Dm/F}
+[| C   | G    | Am   | Em   |]
+[| F   | C/G  | G    | C    |]
+
+[  C                 G              Am          Em]
+{1.}Have you seen the old man in the closed-down market
+[F              C/G            Dm/F     G]
+Kicking up the paper with his worn-out shoes?
+[C               G             Am               Em]
+In his eyes you see no pride, and held loosely at his side
+[F             C/G           G7          C       C]
+  Yesterday's paper telling yesterday's news
+
+{Chorus:}
+[   F           Em             C    G/B  Am   Am/G]
+So how can you tell me you're lo - ne - ly
+[D7/F#                                G    G7]
+  and say for you that the sun don't shine?
+[C               G               Am                   Em]
+Let me take you by the hand and lead you through the streets of London,
+[F               C/G          G7                   C]
+  I'll show you something to make you change your mind
+
+{Interlude:}@griffe[1]{G7, G/B}
+[| C   | G    | Am   | G   |]
+
+[  C                 G            Am                   Em]
+{2.}Have you seen the old girl who walks the streets of London
+[F           C/G          Dm/F       G]
+Dirt in her hair and her clothes in rags?
+[C                 G            Am                  Em]
+She's no time for talking, she just keeps right on walking
+[F            C/G     G7          C       C]
+Carrying her home in two carrier bags
+
+{Chorus:}
+[   F           Em             C    G/B  Am   Am/G]
+So how can you tell me you're lo - ne - ly
+[D7/F#                                G        G7]
+  and say for you that the sun don't shine?
+[C/G             G               Am                   Em]
+Let me take you by the hand and lead you through the streets of London,
+[F               C/G          G7                   C]
+  I'll show you something to make you change your mind
+@seite
+[  C                  G       Am            Em]
+{3.}In the all-night cafe at a quarter past eleven@griffe[1]{Am/G, D7/F#}
+[F        C/G         Dm/F         G]
+Same old man sitting there on his own
+[C              G              Am         Em]
+Looking at the world over the rim of his tea-cup
+[F                 C/G          G7            C       C]
+Each tea lasts an hour, and he wanders home alone
+
+{Chorus:}
+[   F           Em             C    G/B  Am   Am/G]
+So how can you tell me you're lo - ne - ly
+[D7/F#                                  G       G7]
+  Don't say for you that the sun don't shine
+[C/G             G               Am                   Em]
+Let me take you by the hand and lead you through the streets of London,
+[F               C/G          G7                   C]
+  I'll show you something to make you change your mind
+
+{Interlude:}@griffe[1]{F/C}
+[| C   | G    | Am   | G   |]
+
+[  C/G               G          Am                Em]
+{4.}Have you seen the old man outside the seaman's mission?
+[F             C/G            Dm/F            G]
+Memory fading with the medal ribbons that he wears
+[C             G             Am             Em]
+In our winter city the rain cries a little pity
+[    F                  C/G        G7                 C    C]
+For one more forgotten hero and a world that doesn't care
+
+{Chorus:}
+[   F           Em             C    G/B  Am   Am/G]
+So how can you tell me you're lo - ne - ly
+[D7/F#                                G        G7]
+  and say for you that the sun don't shine?
+[C/G             G               Am                   Em]
+Let me take you by the hand and lead you through the streets of London,
+[F               C/G          G7                   C      F/C     C]
+  I'll show you something to make you change your mind
+
+  @anmerkung{Das Lied entstand aus McTells Erfahrungen als Straßenmusiker und Tramper quer durch Europa, vor allem in Paris. Die einzelnen Geschichten stammen von Menschen aus Paris. Ursprünglich wollte McTell das Lied „Streets of Paris“ nennen, entschied sich am Ende aber für London, weil ihm klar wurde, dass er eigentlich über London sang. Außerdem gab es bereits ein Lied namens „The Poor People of Paris“.}

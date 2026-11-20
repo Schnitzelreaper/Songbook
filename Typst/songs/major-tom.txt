@@ -1,0 +1,92 @@
+titel: Major Tom
+interpret: Peter Schilling
+info: Capo -
+---
+
+[  Em]
+{1.}Gründlich durchgecheckt steht sie da und
+[Am                   D]
+Wartet auf den Start - Alles klar.
+[  Em]
+Experten streiten sich um ein paar Daten.
+[Am                    D                 C    Am            Em]
+Die Crew hat dann noch ein paar Fragen, doch der Countdown läuft.
+[  Em                               Am                     D]
+Effektivität bestimmt das Handeln, man verlässt sich blind auf den andern.
+[Em]
+Jeder weiß genau, was von ihm abhängt.
+[Am                 D            C   Am          Em]
+Jeder ist im Stress, doch Major Tom macht einen Scherz.
+
+{Refrain:}
+[Bm]
+Dann hebt er ab und...
+[G      D         Am      C]
+Völlig losgelöst von der Erde
+[G           D          Am     C      Em]
+Schwebt das Raumschiff völlig schwerelos.
+
+[      Em]
+{2.}Die Erdanziehungskraft ist überwunden,
+[Am                 D]
+Alles läuft perfekt, schon seit Stunden.
+[Em]
+Wissenschaftliche Experimente,
+[Am                 D         C     Am         Em]
+Doch was nützen die am Ende, denkt sich Major Tom.
+
+[Em]
+Im Kontrollzentrum, da wird man panisch.
+[    Am                  D]
+Der Kurs der Kapsel, der stimmt ja gar nicht.
+[Em                                                ]
+"Hallo Major Tom, können Sie hören?
+[Am                    D                    C    Am             Em]
+Woll'n Sie das Projekt denn so zerstören?" Doch er kann nichts hör'n.
+
+@seite
+{Refrain:}
+[Bm]
+Er schwebt weiter...
+[G      D         Am      C]
+Völlig losgelöst von der Erde
+[G           D          Am     C      Em]
+Schwebt das Raumschiff völlig schwerelos.
+
+[      Em                                            Am                 D]
+{3.}Die Erde schimmert blau, sein letzter Funk kommt: "Grüßt mir meine Frau."
+[Em            A   D   C ]
+Und er verstummt.
+[Em                               Am                  D]
+Unten trauern noch die Egoisten. Major Tom denkt sich: Wenn die wüssten...
+[Em]
+Mich führt hier ein Licht durch das All,
+[Am                      D           C    Am      Em]
+Das kennt ihr noch nicht. Ich komme bald. Mir wird kalt.
+
+{Pre-Refrain:}
+[Bm]
+
+{Refrain:}
+[G      D         Am      C]
+Völlig losgelöst von der Erde
+[G           D          Am     C]
+Schwebt das Raumschiff schwerelos.
+[G      D         Am      C]
+Völlig losgelöst von der Erde
+[G           D          Am     C]
+Schwebt das Raumschiff schwerelos.
+[G      D         Am      C]
+Völlig losgelöst von der Erde
+[G           D          Am     C              G   D   Am   C]
+Schwebt das Raumschiff völlig schwerelos...
+
+{Outro:}
+[G   D   Am   C]
+Los..
+[G   D   Am   C]
+Los..
+[G   D   Am   C]
+Los..                  
+@anmerkung{Major Tom ist eine vom Sänger David Bowie erschaffene Figur, die unter anderem in seinen Songs Space Oddity, Ashes to Ashes oder Hallo Spaceboy thematisiert wurde}
+@griffe{Bm}

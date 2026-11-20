@@ -1,0 +1,91 @@
+titel: Holz
+interpret: 257ers
+info: Capo -
+---
+
+{Intro:}
+[E             B] @schlagmuster{holz}[Ganzes Lied]
+Ich und mein Holz
+[              C#m    A]
+Ich und mein Holz
+
+[  E                  B                      C#m                 A]
+{1.}Okay, der Song beginnt und er bekommt ein Thema - ich und mein Holz
+[E              B              C#m                  A]
+Und das Thema heute, es heißt Holz - ich und mein, ich und mein Holz
+[E                  B                      C#m                 A]
+Holz sieht sehr schön aus, Holz ist vielseitig - ich und mein Holz
+[E              B              C#m                           A]
+Du kannst es verbrennen, du kannst es sägen - ich und mein, ich und mein Holz
+[E                  B                      C#m                   A]
+Ja, wenn du es verbrennst, dann spendet es Wärme - ich und mein, ich und mein Holz
+[E                B          C#m]
+Aber wenn du es sägst, dann nicht - eh!
+
+(Und jetzt mal alle in this wood, joa:)
+
+{Refrain: (2x) }
+[E             B                  C#m  A]
+Ich und mein Holz, ich und mein Holz, Holzi, Holzi, Holz
+[E             B                  C#m]
+Ich und mein Holz, ich und mein Holz
+[A]
+Ich und mein, ich und mein Holz (mein Holz)
+
+[  E                            B]
+{2.}Ich und mein Holz - best friends forever
+[ C#m  A              E]
+HDGDL - wir sind unzertrennlich
+[  B                             C#m]
+Unverständlich, warum heutzutage nicht jeder
+[               A                       E]
+Besitzer eines wunderbaren Exemplares Holz sein will
+[      B                                          C#m                     ]
+Und nicht nur, weil man es sich wunderschön ins Wohnzimmer stellen 
+[      A]
+kann, nein
+[E            B   C#m ]
+Man kann es auch lackieren
+
+(So, und jetzt nochmal alle in this wood, joa:)
+
+{Refrain (2x)} [(E B C#m A)]
+
+[  E                                B]
+{3.}Mit Holz kann man 'n voll guten Staudamm bauen
+[              C#m                  A]
+Und wenn der Staudamm bricht, ihm auch vertrauen
+[             E                    B]
+Denn das ist crazy, dieses Zeug, rettet nämlich Leute
+[         C#m                            A]
+Wie die Baywatch-Damen oder dieser David Hesselholz
+[            E                                 B]
+Du hast 'n Playsi-Pad aus Gold? Ich bin auf Kettensäge stolz
+[     C#m                             A]
+Der Mahagoni-Proll, ich bring kein' Pressspan unters Volk
+[       E                                 B]
+Let us take some Holz for Gebrauchsgegenstände
+[     C#m                             A]
+Es beginnt ein neues Leben, wenn ein Baumleben endet
+
+{Bridge:}
+[       E                        B]
+Meine Bank, mein Tisch, meine Treppe, meine Besen
+[      C#m                       A]
+Meine Vase, dein Zuhause, mein Kopf
+[         E                       B]
+Meine Gedanken, mein Herz, mein Leben, meine Welt
+[          C#m                        A]
+Ist der schwerste und der heftigste Stock
+
+(Put your hands in the air!)
+
+{Refrain (2x)} [(E B C#m A)] 
+
+{Outro:(2x)}
+[E             B]
+Ich und mein Holz
+[              C#m    A]
+Ich und mein Holz
+@anmerkung{Holz ist in der Tat sehr schön anzusehen: Gibt es das Holz je nach Holzart auch in vielen unterschiedlichen Brauntönen von hell-weißlich bis dunkel-rötlich, handelt es sich meistens um ein angenehmes warmes Braun. Hinzu kommen die verschiedenen Texturen und Musterungen auf jedem Stück Holz.}
+@griffe{C#m}

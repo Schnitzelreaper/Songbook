@@ -1,0 +1,57 @@
+titel: The Lion Sleeps Tonight
+interpret: The Tokens
+info: Capo 3
+---
+
+{Intro:}
+[D   G   D         A]
+Ee-e-e-um-um-a-weh
+[D   G   D         A]
+Ee-e-e-um-um-a-weh
+
+{Chorus:}
+[D              G]
+Wimoweh Wimoweh Wimoweh Wimoweh
+[D               A]
+Wimoweh Wimoweh Wimoweh Wimoweh
+[D              G]
+Wimoweh Wimoweh Wimoweh Wimoweh
+[D               A]
+Wimoweh Wimoweh Wimoweh Wimoweh
+
+[  D                 G]
+{1.}In the jungle the mighty jungle
+[    D                  A]
+the lion sleeps tonight
+[D                 G]
+In the jungle the quiet jungle
+[    D             A]
+the lion sleeps tonight
+
+{Chorus}
+
+[  D                    G]
+{2.}Near the village the peaceful village
+[    D                  A]
+the lion sleeps tonight
+[D                    G]
+Near the village the quiet village
+[    D             A]
+the lion sleeps tonight
+
+{Chorus}
+
+\[Verse 3\]
+[D                    G]
+Hush my darling dont fear my darling
+[    D                 A]
+the lion sleeps tonight
+[D                    G]
+Hush my darling dont fear my darling
+[   D              A]
+the lion sleeps tonight
+
+{Chorus}
+
+{Outro: (wie Intro)}
+@anmerkung{Ursprünglich als "Mbue" von Solomon Linda in Südafrika veröffentlicht, vielfach gecovert und zum Welthit aufgestiegen. Linda verkaufte die Lizenzrechte früh für heut etwa 7,50€ und bekam danach keinen Cent mehr}

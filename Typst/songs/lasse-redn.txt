@@ -1,0 +1,102 @@
+titel: Lasse redn
+interpret: Die Ärzte
+info: Album: Jazz ist anders
+---
+
+{Intro:}
+[B] @schlagmuster{16er-downstrokes}[Ganzes Lied]
+
+[  B]
+{1.}Hast du etwas getan, was sonst keiner tut?
+
+Hast du hohe Schuhe oder gar einen Hut
+[         E]
+Oder hast du etwa ein zu kurzes Kleid getragen
+[          F#]
+Ohne vorher deine Nachbarn um Erlaubnis zu fragen?
+[B]
+Jetzt wirst du natürlich mit Verachtung gestraft
+
+Bist eine Schande für die ganze Nachbarschaft
+[E]
+Du weißt noch nicht einmal genau, wie sie heißen
+[        F#]
+Während sie sich über dich schon ihre Mäuler zerreißen
+
+{Chorus:}
+[B]
+Lass die Leute reden und hör ihnen nicht zu
+
+Die meisten Leute haben ja nichts Besseres zu tun
+[E                         C#]
+Lass die Leute reden, bei Tag und auch bei Nacht
+[G#m                 F#                             B]
+Lass die Leute reden - das haben die immer schon gemacht
+
+[  B]
+{2.}Du hast doch sicherlich ne Bank überfallen
+
+Wie könntest du sonst deine Miete bezahlen?
+[    E]
+Und - du darfst nie mehr in die Vereinigten Staaten
+[     F#]
+Denn du bist die Geliebte von Osama bin Laden
+[B]
+Rasierst du täglich deinen Damenbart oder
+
+Hast du im Garten ein paar Leichen verscharrt?
+[E]
+Die Nachbarn haben da so was angedeutet
+[    F#]
+Also wunder dich nicht, wenn bald die Kripo bei dir läutet
+
+{Chorus:}
+[B]
+Lass die Leute reden und hör einfach nicht hin
+
+Die meisten Leute haben ja gar nichts Böses im Sinn
+[E                     C#]
+Es ist ihr eintöniges Leben, was sie quält
+[G#m                           F#]
+Und der Tag wird interessanter, wenn man Märchen erzählt
+
+{Bridge:}
+[G#m                               F#]
+Und wahrscheinlich ist ihnen das nicht mal peinlich
+[               E]
+Es fehlt ihnen jede Einsicht
+[                F#]
+Und wieder mal zeigt sich: Sie sind kleinlich
+
+Unvermeidlich fremdenfeindlich
+
+[  B]
+{3.}Hast du gehört und sag mal, wusstest du schon? Nämlich
+
+Du verdienst dein Geld mit Prostitution
+[E]
+Du sollst ja meistens vor dem Busbahnhof stehn
+[      F#]
+Der Kollege eines Schwagers hat dich neulich gesehn
+
+{Chorus:}
+[B]
+Lass die Leute reden und lächle einfach mild
+
+Die meisten Leute haben ihre Bildung aus der Bild
+[E]
+Und die besteht nun mal, wer wüsste das nicht
+[      F#   F#    F#             F#]
+Aus Angst, Hass, Titten und dem Wetterbericht
+[B]
+Lass die Leute reden, denn wie das immer ist:
+
+Solang die Leute reden, machen sie nichts Schlimmeres
+[E                                     C#]
+Und ein wenig Heuchelei kannst du dir durchaus leisten
+[G#m                          F#]
+Bleib höflich und sag nichts - das ärgert sie am meisten
+
+{Fade out:}
+[B]
+@griffe{F#, C#, G#m}

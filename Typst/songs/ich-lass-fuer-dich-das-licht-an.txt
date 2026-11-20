@@ -1,0 +1,109 @@
+titel: Ich Lass Für Dich Das Licht An
+interpret: Revolverheld
+info: Capo 4
+---
+
+{Intro:}
+[G  C  Em  D  C  x2]
+
+[  D                    Em]
+{1.}Wenn wir Nachts nach Hause geh'n,
+[    C               G]
+die Lippen blau vom Rotwein
+[    D                 Em]
+und wir uns bis vorne an der Ecke
+[C           G]
+meine große Jacke teilen.
+[    D                 Em]
+Der Himmel wird schon Morgenrot
+[     C                    G]
+doch du willst noch nicht schlafen
+[    D            Em]
+ich hole uns die alten Räder
+[C]
+und wir fahren zum Hafen.
+
+{Refrain:}
+[                      G]
+Ich lass für dich das Licht an, obwohl`s mir zu hell ist.
+[                C]
+Ich hör mit dir Platten, die ich nicht mag.
+[                 Em                D]
+Ich bin für dich leise, wenn du zu laut bist.
+[                  C]
+Renn für dich zum Kiosk, ob Nacht oder Tag.
+[                      G]
+Ich lass für dich das Licht an, obwohl`s mir zu hell ist
+[               C]
+Ich schaue mir Bands an, die ich nicht mag.
+[             Em                     D]
+Ich gehe mit dir in die schlimmsten Schnulzen
+[               C]
+is' mir alles egal, Hauptsache du bist da.
+
+[      D           Em]
+{1.}Ich würde meine Lieblingsplatten,
+[  C                G]
+sofort für dich verbrennen.
+[    D                Em]
+Und wenn es für dich wichtig ist,
+[         C         G]
+bis nach Barcelona trampen.
+[    D              Em]
+Die Morgenluft ist viel zu kalt,
+[        C             G]
+und ich werde langsam heiser.
+[    D               Em]
+Ich seh nur dich im Tunnelblick,
+[        C]
+und die Stadt wird langsam leiser.
+
+{Refrain:}
+[                      G]
+Ich lass für dich das Licht an, obwohl`s mir zu hell ist.
+[                C]
+Ich hör mit dir Platten, die ich nicht mag.
+[                 Em                D]
+Ich bin für dich leise, wenn du zu laut bist.
+[                  C]
+Renn für dich zum Kiosk, ob Nacht oder Tag.
+[                      G]
+Ich lass für dich das Licht an, obwohl`s mir zu hell ist
+[               C]
+Ich schaue mir Bands an, die ich nicht mag.
+[             Em                     D]
+Ich gehe mit dir in die schlimmsten Schnulzen
+[               C]
+is' mir alles egal, Hauptsache du bist da.
+
+{Instrumental:}
+[D  Em  C  Am  D]
+
+{Refrain:}
+[                      G]
+Ich lass für dich das Licht an, obwohl`s mir zu hell ist.
+[                C]
+Ich hör mit dir Platten, die ich nicht mag.
+[                 Em                D]
+Ich bin für dich leise, wenn du zu laut bist.
+[                  C]
+Renn für dich zum Kiosk, ob Nacht oder Tag.
+[                      G]
+Ich lass für dich das Licht an, obwohl`s mir zu hell ist
+[               C]
+Ich schaue mir Bands an, die ich nicht mag.
+[             Em                     D]
+Ich gehe mit dir in die schlimmsten Schnulzen
+[               C]
+is' mir alles egal, Hauptsache du bist da.
+
+{Outro:}
+[D                    Em]
+Wenn wir Nachts nach Hause geh'n
+[    C               G]
+die Lippen blau vom Rotwein.
+[    D                 Em]
+Und wir uns bis vorne an der Ecke
+[C]
+meine große Jacke teilen.
+@anmerkung{Laut einer IKEA Schlafstudie bevorzugen es rund 1/3 der Deutschen nicht im Stockdunklen zu schlafen}

@@ -1,0 +1,71 @@
+titel: Unter den Toren
+interpret: Erich Scholz
+---
+
+[  Em        G        D]
+{1.}Unter den Toren im Schatten der Stadt@schlagmuster{schilf}[Ganzes Lied]
+[            Am            C           B7]
+schläft man gut, wenn man sonst keine Schlafstelle hat.@griffe{B7}
+[Em          C            Am        G]
+Keiner, der fragt nach woher und wohin,
+[       B7                        Em]
+und zu kalt ist die Nacht für Gendarmen.
+[G   D       G         D       Em          B7     Em]
+He, ho, ein Feuerlein brennt, kalt ist es für Gendarmen.
+[G   D       G         D       Em          B7     Em]
+He, ho, ein Feuerlein brennt, kalt ist es für Gendarmen.
+
+[  Em       G          D]
+{2.}Silberne Löffel und Ketten im Sack
+[         Am          C            B7]
+legst du besser beim Schlafen dir unters Genack.
+[Em              C               Am          G]
+Zeig nichts und sag nichts, die Messer sind stumm,
+[       B7                        Em]
+und zu kalt ist die Nacht für Gendarmen.
+[G   D       G         D       Em          B7     Em]
+He, ho, ein Feuerlein brennt, kalt ist es für Gendarmen.
+[G   D       G         D       Em          B7     Em]
+He, ho, ein Feuerlein brennt, kalt ist es für Gendarmen.
+
+[  Em             G             D]
+{3.}Greif nach der Flasche, doch trink nicht zu viel.
+[      Am          C         B7]
+Deine Würfel sind gut, aber falsch ist das Spiel.
+[Em           C         Am           G]
+Spuck in die Asche und schau lieber zu,
+[        B7                        Em]
+denn zu kalt ist die Nacht für Gendarmen.
+[G   D       G         D       Em          B7     Em]
+He, ho, ein Feuerlein brennt, kalt ist es für Gendarmen.
+[G   D       G         D       Em          B7     Em]
+He, ho, ein Feuerlein brennt, kalt ist es für Gendarmen.
+
+[  Em            G           D]
+{4.}Rückt dir die freundliche Schwester zu nah,
+[        Am          C          B7]
+das ist nur für die Wärme, mal hier und mal da.
+[Em         C          Am         G]
+Niemand im Dunkeln verrät sein Gesicht,
+@seite
+[       B7                        Em]
+und zu kalt ist die Nacht für Gendarmen.
+[G   D       G         D       Em          B7     Em]
+He, ho, ein Feuerlein brennt, kalt ist es für Gendarmen.
+[G   D       G         D       Em          B7     Em]
+He, ho, ein Feuerlein brennt, kalt ist es für Gendarmen.
+
+[  Em          G             D]
+{5.}Geh mit der Nacht, eh der Frühnebel steigt.
+[        Am           C              B7]
+Nur das Feuer bleibt stumm, und das Steinpflaster schweigt.
+[Em            C            Am           G]
+Lass nichts zurück, und vergiss, was du sahst,
+[         B7                       Em]
+denn die Sonne bringt bald die Gendarmen.
+[G   D       G         D    Em          B7     Em]
+He, ho, das Feuer ist aus, bald kommen die Gendarmen.
+[G   D       G         D    Em          B7     Em]
+He, ho, das Feuer ist aus, bald kommen die Gendarmen.
+
+@illustration[70mm]{tor}{30mm}{90mm}

@@ -1,0 +1,87 @@
+titel: Schrei nach Liebe
+interpret: Die Ärtzte
+info: Capo 5
+---
+
+{Intro: (2x)}
+[|Am |F G |]
+
+[  Am                        F         G]
+{1.}Du bist wirklich saudumm,... darum geht's dir gut
+[ Am                      F           G]
+Hass ist deine Attitüde,... ständig kocht dein Blut
+[ Am                          F                    G]
+Alles muss man dir erklären,... weil du wirklich gar nichts weißt
+[ Am                                F           G]
+Höchstwahrscheinlich nicht einmal,... was Attitüde heißt
+
+{Refrain:}
+[ F       G                 Am                 G]
+Deine Gewalt ist nur ein stummer Schrei nach Liebe
+[ F              G             D                 E]
+Deine Springerstiefel sehnen sich nach Zärtlichkeit
+[ F       G               Am        G]
+Du hast nie gelernt dich zu artikulieren
+[ F                       E]
+Und deine Eltern hatten niemals für dich Zeit 
+[        F]
+Ohohoh / - ARSCHLOCH
+
+{Instrumental: (2x)}
+[|Am |F G |]
+
+[  Am                                   F         G]
+{2.}Warum hast du Angst vorm streicheln?  Was soll all der Terz
+[Am                              F              G]
+Unterm Lorbeerkranz mit Eicheln, weiss ich schlägt dein Herz
+[Am                              F                G]
+Und Romantik ist für dich nicht, .. bloß graue Theorie
+[Am                                F                 G]
+Zwischen Störkraft und den Onkelz, steht ne Kuschelrock LP
+
+{Refrain:}
+[F       G                 Am                       G]
+Deine Gewalt ist nur ein stummer Schrei nach Liebe
+[ F              G             D               E]
+Deine Springerstiefel sehnen sich nach Zärtlichkeit
+[ F       G                Am             G]
+Du hast nie gelernt dich zu artikulieren
+[ F                       E]
+Und deine Eltern hatten niemals für dich Zeit
+[        F]
+Ohohoh / - ARSCHLOCH
+
+{ Instrumental: Am, F,  G, (2x)}
+
+{Refrain:}
+[F          G             Am               G]
+Weil du Probleme hast die keinen intressieren,
+[F                 G               D                 E]
+Weil du Schiss vorm Schmusen hast, bist du ein Faschist
+[F              G                    Am              G]
+Du musst deinen Selbsthass nicht auf andre projizieren
+[F                                E]
+Damit keiner merkt was für eine dumme Sau du bist   
+
+Ohoho
+
+[F       G                 Am                  G]
+Deine Gewalt ist nur ein stummer Schrei nach Liebe
+[ F              G             D                E]
+Deine Springerstiefel sehnen sich nach Zärtlichkeit
+[ F       G               Am     G]
+Du hast nie gelernt dich artizukulieren
+[ F                           E]
+Und deine Freundin, die hat niemals für dich Zeit
+
+[        F            G            Am          Am]
+Ohohoh - ARSCHLOCH - ARSCHLOCH – ARSCHLOCH
+
+{Outro: (Pfeifen)}
+[F | G | Am | G]
+[F | G | D  | E]
+[F | G | Am | G]
+[F | % | E  | %]
+
+@illustration[40mm]{arschloch}{80mm}{145mm}
+@anmerkung{Attitüde (von französisch attitude, gesprochen /atityd/) bedeutet Haltung, Verhalten, Gebaren, Einstellung}

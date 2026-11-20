@@ -1,0 +1,51 @@
+titel: Take On Me
+interpret: a-ha
+info: Capo 2
+---
+
+{Intro:}
+[Am  D/F#  G  C  G/B    Am  D/F#  G  C  G/B]
+
+[  Am         D/F#       Em]
+{1.}Talking away,   well, I don't know what I'm to say
+[     Am          D/F#   Em]
+I'll say it anyway,   today's another day to find you
+[Am         D/F# Em                        C]
+Shying away,    I'll be coming for your love, ok?
+
+{Chorus:}
+[G      D    Em     D/F# G      Bm   Em   C]
+Take   on   me,         take   me   on
+[G      B7   Em   C            G   D/F#   C   D]
+I'll   be   gone,  in a day or two...
+
+[     Am           D/F#     Em]
+{2.}So needless to say,  I'm odds and ends, but that's me,
+[    Am            D/F# Em]
+I'm stumbling away,    slowly learning that life is ok and
+[Am           D/F# Em                    C]
+Say after me,     it's no better to be safe than sorry and
+
+{Chorus}
+
+{Bridge:}
+[Am  D  G  C  G/B    Am  D  G  C  G/B    Am  D  Am  D]
+
+[          Am                 D/F# Em]
+{3.}And all things that you say,    is it life or just to play
+[   Am          D/F#        Em]
+My worries away?    You're all the things I've got to remember
+[      Am        D/F# Em                     C]
+You're shying away,  I'll be coming for you anyway
+
+{Chorus:}@griffe{Bm, B7}
+[G      D    Em     D/F# G      Bm   Em   C]
+Take   on   me,         take   me   on
+[G      B7   Em   C            G    Bm   Em   C]
+I'll   be   gone,  in a day or two...
+
+{Outro:}@griffe{D/F#, G/B}
+[G      B7   Em   C            G   D/F#   Em   C]
+I'll   be   gone,  in a day or two...
+[           G    D/F#   C]
+In a day or two...

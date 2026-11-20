@@ -1,0 +1,46 @@
+titel: Take Me Home, Country Roads
+interpret: John Denver
+info: ggf. Capo 2
+---
+
+[G              Em             D                       C          G]
+{1.}Almost Heaven, West Virginia, Blue Ridge Mountains, Shenandoah River.
+[G                    Em                    D                           C]
+Life is old there, older than the trees, younger than the mountains, growin'
+[          G]
+like a breeze.
+
+{Chorus:}
+[        G              D            Em        C]
+Country Roads, take me home, to the place I belong
+[        G               D             C             G]
+West Virginia, mountain mama, take me home, country roads.
+
+[G               Em                 D               C                G]
+{2.}All my memories  gather 'round her, miner's lady, stranger to blue water.
+[G                 Em                  D                                     ]
+Dark and dusty, painted on the sky, misty taste of moonshine,
+[C               G]
+teardrop in my eye.
+
+{Chorus} [(G...)]
+
+{Bridge:}
+[Em          D/F#          G]
+I hear her voice, in the mornin' hour she calls me.
+[    C       G              D]
+The radio reminds me of my home far away.
+[    Em               F            C              G]
+And drivin' down the road I get a feelin' that I should have been home
+[D                D7]
+yesterday, yesterday.
+
+{Chorus 2x} [(G...)]
+
+{Outro:}
+[        D                    G]@schlagmuster{standard-16}[Whole Song]
+Take me home, (down) country roads.
+[        D                    G]@griffe{D/F#, D7}
+Take me home, (down) country roads.
+
+@anmerkung{Die Blue Ridge Mountains sind ein Gebirgszug im Osten der USA. Sie sind ein Teil der Appalachen. Der zu ihnen gehörige Mount Mitchell ist mit einer Höhe von 2037m der höchste Berg der Gebirgskette und zugleich die höchste Erhebung Nordamerikas östlich des Mississippi.}

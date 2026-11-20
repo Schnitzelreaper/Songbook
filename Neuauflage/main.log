@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.4)  14 NOV 2026 12:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.4)  20 NOV 2026 09:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -494,11 +494,16 @@ Package tocloft Info: The document has section divisions on input line 64.
 \c@categorycount=\count311
 \c@songcount=\count312
 \l__songs_i_int=\count313
-) (style/illustrationen.tex) (style/griffbilder.tex (C:\Users\schni\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty (C:\Users\schni\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+) (style/illustrationen.tex
+\c__mark_class_illustration_mark=\marks4
+\c@illustrationnr=\count314
+\illu@nr=\count315
+\illu@bis=\count316
+) (style/griffbilder.tex (C:\Users\schni\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty (C:\Users\schni\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2025-03-26 L3 programming layer (loader) 
  (C:\Users\schni\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-03-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count314
+\l__color_backend_stack_int=\count317
 ))
 Package: xparse 2024-08-16 L3 Experimental document command parser
 )
@@ -508,7 +513,7 @@ Package: xparse 2024-08-16 L3 Experimental document command parser
 Package: tikzpagenodes 2012/09/16 v1.1 Special PGF/TikZ nodes for areas of the page
  (C:\Users\schni\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count315
+\c@checkoddpage=\count318
 )) (C:\Users\schni\AppData\Local\Programs\MiKTeX\tex/latex/svg\svg.sty
 Package: svg 2020/11/26 v2.02k (include SVG pictures)
  (C:\Users\schni\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
@@ -528,9 +533,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-\c@svg@param@lastpage=\count316
+\c@svg@param@lastpage=\count319
 \svg@box=\box65
-\c@svg@param@currpage=\count317
+\c@svg@param@currpage=\count320
 ) (C:\Users\schni\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent.sty
 Package: transparent 2022-10-27 v1.5 Transparency with color stacks
  (C:\Users\schni\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent-nometadata.sty
@@ -541,35 +546,38 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 \griffeabstand=\skip102
 \griffeoben=\skip103
 \overlaybox=\box66
+\randbild=\box67
+\randtext=\box68
+\randhoch=\skip104
 ) (style/griffe.tex
-\c@griffsong=\count318
-\griffueberlagerbox=\box67
-\l__griff_n_int=\count319
-\l__griff_k_int=\count320
-\l__griff_rows_int=\count321
-\l__griff_limit_int=\count322
-\l__griff_h_int=\count323
-\l__griff_ymin_int=\count324
-\l__griff_ymax_int=\count325
-\l__griff_best_int=\count326
-\l__griff_bestk_int=\count327
-\l__griff_cbest_int=\count328
-\l__griff_vgap_int=\count329
+\c@griffsong=\count321
+\griffueberlagerbox=\box69
+\l__griff_n_int=\count322
+\l__griff_k_int=\count323
+\l__griff_rows_int=\count324
+\l__griff_limit_int=\count325
+\l__griff_h_int=\count326
+\l__griff_ymin_int=\count327
+\l__griff_ymax_int=\count328
+\l__griff_best_int=\count329
+\l__griff_bestk_int=\count330
+\l__griff_cbest_int=\count331
+\l__griff_vgap_int=\count332
 \l__griff_w_dim=\dimen274
 \g__griff_x_dim=\dimen275
 \g__griff_y_dim=\dimen276
-\l__griff_row_box=\box68
-\g__griff_block_box=\box69
-\g__griff_flow_box=\box70
-\g__griff_place_box=\box71
+\l__griff_row_box=\box70
+\g__griff_block_box=\box71
+\g__griff_flow_box=\box72
+\g__griff_place_box=\box73
 ) (style/anmerkungen.tex
-\g__note_box=\box72
-\g__note_place_box=\box73
+\g__note_box=\box74
+\g__note_place_box=\box75
 \l__note_need_dim=\dimen277
 \g__note_x_dim=\dimen278
 \g__note_y_dim=\dimen279
-\anmerkungabstand=\skip104
-\anmerkungbreite=\skip105
+\anmerkungabstand=\skip105
+\anmerkungbreite=\skip106
 )) (main.aux)
 \openout1 = `main.aux'.
 
@@ -632,16 +640,16 @@ Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbat
 
 (C:\Users\schni\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count330
+\scratchcounter=\count333
 \scratchdimen=\dimen281
-\scratchbox=\box74
-\nofMPsegments=\count331
-\nofMParguments=\count332
+\scratchbox=\box76
+\nofMPsegments=\count334
+\nofMParguments=\count335
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count333
+\MPscratchCnt=\count336
 \MPscratchDim=\dimen282
-\MPnumerator=\count334
-\makeMPintoPDFobject=\count335
+\MPnumerator=\count337
+\makeMPintoPDFobject=\count338
 \everyMPtoPDFconversion=\toks37
 ) (C:\Users\schni\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -654,7 +662,7 @@ Package hyperref Info: Link coloring OFF on input line 14.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
- (chords.tex) (griffe-zusatz.tex)
+ (chords.tex) (griffe-zusatz.tex) (griffe-cache-index.tex)
 
 [1
 
@@ -734,11 +742,11 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [5]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 52.
+(hyperref)                removing `\@ifnextchar' on input line 49.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tocnumw' on input line 52.
+(hyperref)                removing `\tocnumw' on input line 49.
 
 (songs/das-lied-der-schlümpfe.tex
 
@@ -774,8 +782,14 @@ LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
 (Font)              scaled to size 9.5pt on input line 11.
 LaTeX Font Info:    Font shape `T1/zi4/m/it' will be
 (Font)              scaled to size 9.5pt on input line 13.
-\g__griff_item_1_box=\box75
-<graphics/standard.pdf, id=243, 181.67876pt x 50.1875pt>
+\g__griff_item_1_box=\box77
+\griffbox:g:\griffzeichnen {E7}{o,.,o,.,o,o}{2:2:2,4:1:1}=\box78
+<griffe-cache.pdf, id=245, page=54, 32.85274pt x 58.42828pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 54>
+Package pdftex.def Info: griffe-cache.pdf , page54 used on input line 43.
+(pdftex.def)             Requested size: 32.85265pt x 58.42813pt.
+<graphics/standard.pdf, id=246, 181.67876pt x 50.1875pt>
 File: graphics/standard.pdf Graphic file (type pdf)
 <use graphics/standard.pdf>
 Package pdftex.def Info: graphics/standard.pdf  used on input line 48.
@@ -787,14 +801,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-<graphics/illustrationen/schlumpf.pdf, id=244, 287.0725pt x 234.8775pt>
+<graphics/illustrationen/schlumpf.pdf, id=247, 287.0725pt x 234.8775pt>
 File: graphics/illustrationen/schlumpf.pdf Graphic file (type pdf)
 <use graphics/illustrationen/schlumpf.pdf>
 Package pdftex.def Info: graphics/illustrationen/schlumpf.pdf  used on input line 2.
 (pdftex.def)             Requested size: 85.35826pt x 69.8366pt.
 [7
 
-{C:/Users/schni/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-ts1.enc} <./graphics/standard.pdf> <./graphics/illustrationen/schlumpf.pdf
+{C:/Users/schni/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-ts1.enc} <./griffe-cache.pdf> <./graphics/standard.pdf> <./graphics/illustrationen/schlumpf.pdf
 
 pdfTeX warning: pdflatex (file ./graphics/illustrationen/schlumpf.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
@@ -812,11 +826,19 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [8
 
 ]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
-\g__griff_item_2_box=\box76
+\griffbox:g:\griffzeichnen {C5}{x,.,.,.,x,x}{2:1:1,3:3:3,4:3:4}[3]=\box79
+<griffe-cache.pdf, id=269, page=190, 46.57802pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 190>
+Package pdftex.def Info: griffe-cache.pdf , page190 used on input line 96.
+(pdftex.def)             Requested size: 46.5779pt x 58.59877pt.
+\g__griff_item_2_box=\box80
+\griffbox:g:\griffzeichnen {D4}{x,x,o,.,.,.}{4:2:1,5:3:3,6:3:4}=\box81
+<griffe-cache.pdf, id=270, page=166, 39.46344pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 166>
+Package pdftex.def Info: griffe-cache.pdf , page166 used on input line 96.
+(pdftex.def)             Requested size: 39.46333pt x 58.46729pt.
 ) (songs/die-internationale.tex
 
 
@@ -824,16 +846,28 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[9]
+[9 <./griffe-cache.pdf> <./griffe-cache.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 3--3
 [] [] 
  []
 
-<graphics/8er-downstrokes.pdf, id=264, 177.66376pt x 50.1875pt>
+<graphics/8er-downstrokes.pdf, id=286, 177.66376pt x 50.1875pt>
 File: graphics/8er-downstrokes.pdf Graphic file (type pdf)
 <use graphics/8er-downstrokes.pdf>
 Package pdftex.def Info: graphics/8er-downstrokes.pdf  used on input line 5.
 (pdftex.def)             Requested size: 56.85356pt x 16.06032pt.
+\griffbox:g:\griffzeichnen {D7}{x,x,o,.,.,.}{4:2:2,5:1:1,6:2:3}=\box82
+<griffe-cache.pdf, id=287, page=30, 39.46344pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 30>
+Package pdftex.def Info: griffe-cache.pdf , page30 used on input line 7.
+(pdftex.def)             Requested size: 39.46333pt x 58.46729pt.
+\griffbox:g:\griffzeichnen {A7}{x,o,.,o,.,o}{3:2:2,5:2:3}=\box83
+<griffe-cache.pdf, id=288, page=112, 36.70512pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 112>
+Package pdftex.def Info: griffe-cache.pdf , page112 used on input line 7.
+(pdftex.def)             Requested size: 36.70502pt x 58.46729pt.
 
 
 
@@ -843,14 +877,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [10
 
- <./graphics/8er-downstrokes.pdf>]) (songs/die-moorsoldaten.tex
+ <./graphics/8er-downstrokes.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf>]) (songs/die-moorsoldaten.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-<graphics/illustrationen/kommis.pdf, id=271, 956.57375pt x 400.49625pt>
+<graphics/illustrationen/kommis.pdf, id=304, 956.57375pt x 400.49625pt>
 File: graphics/illustrationen/kommis.pdf Graphic file (type pdf)
 <use graphics/illustrationen/kommis.pdf>
 Package pdftex.def Info: graphics/illustrationen/kommis.pdf  used on input line 2.
@@ -860,10 +894,12 @@ Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
-
-Package anmerkung Warning: Anmerkung in Song 1-4 passt nicht mehr auf die
-(anmerkung)                Seite.
-
+\griffbox:g:\griffzeichnen {B7}{x,.,.,.,.,.}{2:2:2,3:1:1,4:2:3,6:2:4}=\box84
+<griffe-cache.pdf, id=311, page=136, 39.46344pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 136>
+Package pdftex.def Info: griffe-cache.pdf , page136 used on input line 4.
+(pdftex.def)             Requested size: 39.46333pt x 58.46729pt.
 ) (songs/flinke-hände-flinke-füße.tex
 
 
@@ -873,20 +909,57 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [12
 
-]
+ <./griffe-cache.pdf>]
+Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
+[] [] 
+ []
+
+\griffbox:g:\griffzeichnen {Bb}{x,x,.,.,.,.}{3:3:3,4:3:4,5:3:2,6:1:1}=\box85
+<griffe-cache.pdf, id=325, page=164, 39.46344pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 164>
+Package pdftex.def Info: griffe-cache.pdf , page164 used on input line 46.
+(pdftex.def)             Requested size: 39.46333pt x 58.59877pt.
+\g__griff_item_3_box=\box86
+\griffbox:g:\griffzeichnen {Gm}{.,.,.,.,.,.}{3:3:3,2:3:4}[3][1:1:6]=\box87
+<griffe-cache.pdf, id=326, page=88, 42.62625pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 88>
+Package pdftex.def Info: griffe-cache.pdf , page88 used on input line 46.
+(pdftex.def)             Requested size: 42.62613pt x 58.59877pt.
+\g__griff_item_4_box=\box88
+\griffbox:g:\griffzeichnen {Dm}{x,x,o,.,.,.}{4:2:2,5:3:3,6:1:1}=\box89
+<griffe-cache.pdf, id=327, page=28, 39.46344pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 28>
+Package pdftex.def Info: griffe-cache.pdf , page28 used on input line 46.
+(pdftex.def)             Requested size: 39.46333pt x 58.46729pt.
+) (songs/er-war-ein-pfadfinder.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[13]
+[13
+
+ <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
-\g__griff_item_3_box=\box77
-) (songs/heute-hier-morgen-dort.tex
+<graphics/standard-16.pdf, id=342, 353.32pt x 58.2175pt>
+File: graphics/standard-16.pdf Graphic file (type pdf)
+<use graphics/standard-16.pdf>
+Package pdftex.def Info: graphics/standard-16.pdf  used on input line 5.
+(pdftex.def)             Requested size: 113.0647pt x 18.62997pt.
+\griffbox:g:\griffzeichnen {G7}{.,.,o,o,o,.}{1:3:3,2:2:2,6:1:1}=\box90
+<griffe-cache.pdf, id=343, page=90, 38.36835pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 90>
+Package pdftex.def Info: griffe-cache.pdf , page90 used on input line 7.
+(pdftex.def)             Requested size: 38.36824pt x 58.59877pt.
+
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -895,26 +968,76 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [14
 
-]
-Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
-[] [] 
- []
-
-<graphics/standard-16.pdf, id=291, 353.32pt x 58.2175pt>
-File: graphics/standard-16.pdf Graphic file (type pdf)
-<use graphics/standard-16.pdf>
-Package pdftex.def Info: graphics/standard-16.pdf  used on input line 45.
-(pdftex.def)             Requested size: 113.0647pt x 18.62997pt.
-) (songs/er-war-ein-pfadfinder.tex
+ <./graphics/standard-16.pdf> <./griffe-cache.pdf>]) (songs/es-war-an-einem-sommertag.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[15
+[15]
+Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
+[] [] 
+ []
 
- <./graphics/standard-16.pdf>]
+<graphics/sommertag.pdf, id=359, 353.32pt x 58.2175pt>
+File: graphics/sommertag.pdf Graphic file (type pdf)
+<use graphics/sommertag.pdf>
+Package pdftex.def Info: graphics/sommertag.pdf  used on input line 5.
+(pdftex.def)             Requested size: 113.0647pt x 18.62997pt.
+
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 11.3pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.3pt}.
+
+[16
+
+ <./graphics/sommertag.pdf>]) (songs/heute-hier-morgen-dort.tex
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 11.3pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.3pt}.
+
+[17]
+Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
+[] [] 
+ []
+
+File: graphics/standard-16.pdf Graphic file (type pdf)
+<use graphics/standard-16.pdf>
+Package pdftex.def Info: graphics/standard-16.pdf  used on input line 48.
+(pdftex.def)             Requested size: 113.0647pt x 18.62997pt.
+) (songs/laudato-si.tex
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 11.3pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.3pt}.
+
+[18
+
+]
+Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
+[] [] 
+ []
+
+File: graphics/standard.pdf Graphic file (type pdf)
+<use graphics/standard.pdf>
+Package pdftex.def Info: graphics/standard.pdf  used on input line 5.
+(pdftex.def)             Requested size: 58.13838pt x 16.06032pt.
+) (songs/jasmin.tex
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 11.3pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.3pt}.
+
+[19
+
+]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -930,75 +1053,11 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[16
-
-]) (songs/es-war-an-einem-sommertag.tex
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
-
-<graphics/illustrationen/pfadfinder.pdf, id=302, 772.8875pt x 586.19pt>
-File: graphics/illustrationen/pfadfinder.pdf Graphic file (type pdf)
-<use graphics/illustrationen/pfadfinder.pdf>
-Package pdftex.def Info: graphics/illustrationen/pfadfinder.pdf  used on input line 2.
-(pdftex.def)             Requested size: 156.49014pt x 118.68494pt.
-[17 <./graphics/illustrationen/pfadfinder.pdf>]
-Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
-[] [] 
- []
-
-
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
-
-[18
-
-]) (songs/jasmin.tex
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
-
-[19]
-Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
-[] [] 
- []
-
-
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
-
 [20
 
 ]
 Overfull \hbox (2.67664pt too wide) in paragraph at lines 66--66
 []\T1/ptm/m/it/8.5 Der Ei-sack (ital-ienisch Is-arco, la-dinisch Is-arch, lateinisch Is-ar-cus) ist der zweitl�ng-ste Fluss S�dtirols,
- []
-
-) (songs/laudato-si.tex
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
-
-<graphics/illustrationen/jasmin.pdf, id=322, 1089.06876pt x 666.49pt>
-File: graphics/illustrationen/jasmin.pdf Graphic file (type pdf)
-<use graphics/illustrationen/jasmin.pdf>
-Package pdftex.def Info: graphics/illustrationen/jasmin.pdf  used on input line 2.
-(pdftex.def)             Requested size: 284.52756pt x 174.11723pt.
-[21 <./graphics/illustrationen/jasmin.pdf>]
-Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
-[] [] 
  []
 
 ) (songs/meine-oma-fährt-im-hühnerstall-motorrad.tex
@@ -1008,13 +1067,20 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[22
-
-]
+<graphics/illustrationen/jasmin.pdf, id=383, 1089.06876pt x 666.49pt>
+File: graphics/illustrationen/jasmin.pdf Graphic file (type pdf)
+<use graphics/illustrationen/jasmin.pdf>
+Package pdftex.def Info: graphics/illustrationen/jasmin.pdf  used on input line 2.
+(pdftex.def)             Requested size: 284.52756pt x 174.11723pt.
+[21 <./graphics/illustrationen/jasmin.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
+File: graphics/standard.pdf Graphic file (type pdf)
+<use graphics/standard.pdf>
+Package pdftex.def Info: graphics/standard.pdf  used on input line 5.
+(pdftex.def)             Requested size: 58.13838pt x 16.06032pt.
 ) (songs/nehmt-abschied-brueder.tex
 
 
@@ -1022,12 +1088,12 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-<graphics/illustrationen/oma.pdf, id=333, 426.59375pt x 393.47pt>
+<graphics/illustrationen/oma.pdf, id=390, 426.59375pt x 393.47pt>
 File: graphics/illustrationen/oma.pdf Graphic file (type pdf)
 <use graphics/illustrationen/oma.pdf>
 Package pdftex.def Info: graphics/illustrationen/oma.pdf  used on input line 2.
 (pdftex.def)             Requested size: 85.35826pt x 78.72862pt.
-[23
+[22
 
  <./graphics/illustrationen/oma.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
@@ -1041,7 +1107,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[24
+[23
 
 ]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
@@ -1059,13 +1125,17 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[25
+[24
 
 ]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
+File: graphics/standard.pdf Graphic file (type pdf)
+<use graphics/standard.pdf>
+Package pdftex.def Info: graphics/standard.pdf  used on input line 5.
+(pdftex.def)             Requested size: 58.13838pt x 16.06032pt.
 ) (songs/raubritter.tex
 
 
@@ -1073,7 +1143,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[26
+[25
 
 ]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
@@ -1087,6 +1157,24 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
+[26
+
+]
+Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
+[] [] 
+ []
+
+File: graphics/standard.pdf Graphic file (type pdf)
+<use graphics/standard.pdf>
+Package pdftex.def Info: graphics/standard.pdf  used on input line 5.
+(pdftex.def)             Requested size: 58.13838pt x 16.06032pt.
+) (songs/roter-wein-im-becher.tex
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 11.3pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.3pt}.
+
 [27
 
 ]
@@ -1094,7 +1182,11 @@ Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
-) (songs/roter-wein-im-becher.tex
+File: graphics/standard.pdf Graphic file (type pdf)
+<use graphics/standard.pdf>
+Package pdftex.def Info: graphics/standard.pdf  used on input line 5.
+(pdftex.def)             Requested size: 58.13838pt x 16.06032pt.
+)
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -1103,17 +1195,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [28
 
-]
-Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
-[] [] 
- []
-
-) (songs/schilf.tex
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
+] (songs/schilf.tex
 
 [29
 
@@ -1122,6 +1204,11 @@ Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
+<graphics/schilf.pdf, id=425, 254.9525pt x 51.19125pt>
+File: graphics/schilf.pdf Graphic file (type pdf)
+<use graphics/schilf.pdf>
+Package pdftex.def Info: graphics/schilf.pdf  used on input line 5.
+(pdftex.def)             Requested size: 81.58646pt x 16.38153pt.
 
 
 
@@ -1131,7 +1218,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [30
 
-]) (songs/unter-den-toren.tex
+ <./graphics/schilf.pdf>]) (songs/unter-den-toren.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -1143,6 +1230,10 @@ Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
+File: graphics/schilf.pdf Graphic file (type pdf)
+<use graphics/schilf.pdf>
+Package pdftex.def Info: graphics/schilf.pdf  used on input line 5.
+(pdftex.def)             Requested size: 81.58646pt x 16.38153pt.
 
 
 
@@ -1159,14 +1250,19 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[33]
+<graphics/illustrationen/tor.pdf, id=441, 626.34pt x 862.22125pt>
+File: graphics/illustrationen/tor.pdf Graphic file (type pdf)
+<use graphics/illustrationen/tor.pdf>
+Package pdftex.def Info: graphics/illustrationen/tor.pdf  used on input line 72.
+(pdftex.def)             Requested size: 199.16928pt x 274.1798pt.
+[33 <./graphics/illustrationen/tor.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 75.
+(hyperref)                removing `\@ifnextchar' on input line 72.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tocnumw' on input line 75.
+(hyperref)                removing `\tocnumw' on input line 72.
 
 (songs/ein-kompliment.tex
 
@@ -1182,6 +1278,11 @@ Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
+<graphics/kompliment.pdf, id=452, 353.32pt x 57.21375pt>
+File: graphics/kompliment.pdf Graphic file (type pdf)
+<use graphics/kompliment.pdf>
+Package pdftex.def Info: graphics/kompliment.pdf  used on input line 5.
+(pdftex.def)             Requested size: 113.0647pt x 18.30876pt.
 
 Overfull \hbox (8.44157pt too wide) in paragraph at lines 21--21
 [][]\T1/zi4/m/it/9.5 2.[]Wenn man so will bist du meine chill-out area, meine Feiertage in jedem Jahr[][][] 
@@ -1196,11 +1297,15 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [35
 
-]
+ <./graphics/kompliment.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
+File: graphics/standard-16.pdf Graphic file (type pdf)
+<use graphics/standard-16.pdf>
+Package pdftex.def Info: graphics/standard-16.pdf  used on input line 44.
+(pdftex.def)             Requested size: 113.0647pt x 18.62997pt.
 
 
 
@@ -1223,7 +1328,7 @@ Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
  []
 
 
-Overfull \hbox (16.3647pt too wide) in paragraph at lines 46--46
+Overfull \hbox (16.3647pt too wide) in paragraph at lines 44--44
 []\T1/zi4/m/it/9.5 Entschuldigung das hab ich mir erlaubt, Entschuldigung das hab ich mir erlaubt.[][][] 
  []
 
@@ -1237,10 +1342,19 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [38
 
 ]
-Overfull \hbox (16.3647pt too wide) in paragraph at lines 67--67
+Overfull \hbox (16.3647pt too wide) in paragraph at lines 65--65
 []\T1/zi4/m/it/9.5 Entschuldigung das hab ich mir erlaubt, Entschuldigung das hab ich mir erlaubt.[][][] 
  []
 
+File: graphics/standard.pdf Graphic file (type pdf)
+<use graphics/standard.pdf>
+Package pdftex.def Info: graphics/standard.pdf  used on input line 94.
+(pdftex.def)             Requested size: 58.13838pt x 16.06032pt.
+<graphics/16er-downstrokes.pdf, id=472, 353.32pt x 57.21375pt>
+File: graphics/16er-downstrokes.pdf Graphic file (type pdf)
+<use graphics/16er-downstrokes.pdf>
+Package pdftex.def Info: graphics/16er-downstrokes.pdf  used on input line 98.
+(pdftex.def)             Requested size: 113.0647pt x 18.30876pt.
 ) (songs/auf-uns.tex
 
 
@@ -1248,7 +1362,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[39]
+[39 <./graphics/16er-downstrokes.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -1274,6 +1388,26 @@ Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
+File: graphics/16er-downstrokes.pdf Graphic file (type pdf)
+<use graphics/16er-downstrokes.pdf>
+Package pdftex.def Info: graphics/16er-downstrokes.pdf  used on input line 5.
+(pdftex.def)             Requested size: 113.0647pt x 18.30876pt.
+File: graphics/standard.pdf Graphic file (type pdf)
+<use graphics/standard.pdf>
+Package pdftex.def Info: graphics/standard.pdf  used on input line 9.
+(pdftex.def)             Requested size: 58.13838pt x 16.06032pt.
+\griffbox:g:\griffzeichnen {Asus4}{x,o,.,.,.,o}{3:2:1,4:2:2,5:3:3}=\box91
+<griffe-cache.pdf, id=486, page=124, 37.66974pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 124>
+Package pdftex.def Info: griffe-cache.pdf , page124 used on input line 11.
+(pdftex.def)             Requested size: 37.66963pt x 58.59877pt.
+\griffbox:g:\griffzeichnen {Bm}{x,.,.,.,.,.}{3:3:4,4:3:3,5:2:2}[2][1:2:6]=\box92
+<griffe-cache.pdf, id=487, page=134, 42.62625pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 134>
+Package pdftex.def Info: griffe-cache.pdf , page134 used on input line 17.
+(pdftex.def)             Requested size: 42.62613pt x 58.46729pt.
 
 
 
@@ -1283,7 +1417,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [42
 
-]) (songs/deine-schuld.tex
+ <./griffe-cache.pdf> <./griffe-cache.pdf>]) (songs/deine-schuld.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -1304,19 +1438,26 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [44
 
-]) (songs/denkmal.tex
+]
+\griffbox:g:\griffzeichnen {F\#m}{.,.,.,.,.,.}{3:3:3,2:3:4}[2][1:1:6]=\box93
+<griffe-cache.pdf, id=511, page=76, 42.62625pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 76>
+Package pdftex.def Info: griffe-cache.pdf , page76 used on input line 79.
+(pdftex.def)             Requested size: 42.62613pt x 58.46729pt.
+) (songs/denkmal.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[45]
+[45 <./griffe-cache.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
-<graphics/monsun.pdf, id=432, 181.67876pt x 50.1875pt>
+<graphics/monsun.pdf, id=521, 181.67876pt x 50.1875pt>
 File: graphics/monsun.pdf Graphic file (type pdf)
 <use graphics/monsun.pdf>
 Package pdftex.def Info: graphics/monsun.pdf  used on input line 5.
@@ -1337,7 +1478,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-<graphics/illustrationen/denkmal.pdf, id=439, 432.61626pt x 522.95375pt>
+<graphics/illustrationen/denkmal.pdf, id=528, 432.61626pt x 522.95375pt>
 File: graphics/illustrationen/denkmal.pdf Graphic file (type pdf)
 <use graphics/illustrationen/denkmal.pdf>
 Package pdftex.def Info: graphics/illustrationen/denkmal.pdf  used on input line 2.
@@ -1347,10 +1488,6 @@ Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
-File: graphics/monsun.pdf Graphic file (type pdf)
-<use graphics/monsun.pdf>
-Package pdftex.def Info: graphics/monsun.pdf  used on input line 5.
-(pdftex.def)             Requested size: 58.13838pt x 16.06032pt.
 
 
 
@@ -1360,14 +1497,31 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [48
 
-]) (songs/eine-insel-mit-zwei-bergen.tex
+]
+File: graphics/monsun.pdf Graphic file (type pdf)
+<use graphics/monsun.pdf>
+Package pdftex.def Info: graphics/monsun.pdf  used on input line 89.
+(pdftex.def)             Requested size: 58.13838pt x 16.06032pt.
+\griffbox:g:\griffzeichnen {Cmaj7}{x,.,.,o,o,o}{2:3:3,3:2:2}=\box94
+<griffe-cache.pdf, id=539, page=10, 39.49556pt x 60.69977pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 10>
+Package pdftex.def Info: griffe-cache.pdf , page10 used on input line 91.
+(pdftex.def)             Requested size: 39.49545pt x 60.6996pt.
+\griffbox:g:\griffzeichnen {Csus4}{x,.,.,o,.,.}{2:3:3,3:3:4,5:1:1,6:1:1}=\box95
+<griffe-cache.pdf, id=540, page=146, 39.46344pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 146>
+Package pdftex.def Info: griffe-cache.pdf , page146 used on input line 91.
+(pdftex.def)             Requested size: 39.46333pt x 58.59877pt.
+) (songs/eine-insel-mit-zwei-bergen.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[49]
+[49 <./griffe-cache.pdf> <./griffe-cache.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -1454,7 +1608,19 @@ Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
-\g__griff_item_4_box=\box78
+\griffbox:g:\griffzeichnen {F\#7}{.,.,.,.,.,.}{2:3:4,4:2:2}[2][1:1:6]=\box96
+<griffe-cache.pdf, id=581, page=78, 42.62625pt x 58.42828pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 78>
+Package pdftex.def Info: griffe-cache.pdf , page78 used on input line 50.
+(pdftex.def)             Requested size: 42.62613pt x 58.42813pt.
+\griffbox:g:\griffzeichnen {F\#m7}{.,.,.,.,.,.}{2:3:3}[2][1:1:6]=\box97
+<griffe-cache.pdf, id=582, page=158, 43.07393pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 158>
+Package pdftex.def Info: griffe-cache.pdf , page158 used on input line 50.
+(pdftex.def)             Requested size: 43.0738pt x 58.46729pt.
+\g__griff_item_5_box=\box98
 
 
 
@@ -1471,7 +1637,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[57]
+[57 <./griffe-cache.pdf> <./griffe-cache.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -1490,12 +1656,12 @@ Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
-<graphics/francais.pdf, id=493, 353.32pt x 70.2625pt>
+<graphics/francais.pdf, id=600, 353.32pt x 70.2625pt>
 File: graphics/francais.pdf Graphic file (type pdf)
 <use graphics/francais.pdf>
 Package pdftex.def Info: graphics/francais.pdf  used on input line 5.
 (pdftex.def)             Requested size: 113.0647pt x 22.48445pt.
-<graphics/francais-b.pdf, id=494, 350.30875pt x 69.25874pt>
+<graphics/francais-b.pdf, id=601, 350.30875pt x 69.25874pt>
 File: graphics/francais-b.pdf Graphic file (type pdf)
 <use graphics/francais-b.pdf>
 Package pdftex.def Info: graphics/francais-b.pdf  used on input line 9.
@@ -1507,7 +1673,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-<graphics/illustrationen/franzosen.pdf, id=495, 284.06125pt x 195.73125pt>
+<graphics/illustrationen/franzosen.pdf, id=602, 284.06125pt x 195.73125pt>
 File: graphics/illustrationen/franzosen.pdf Graphic file (type pdf)
 <use graphics/illustrationen/franzosen.pdf>
 Package pdftex.def Info: graphics/illustrationen/franzosen.pdf  used on input line 50.
@@ -1534,7 +1700,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-<graphics/illustrationen/manif.pdf, id=508, 425.59pt x 553.06625pt>
+<graphics/illustrationen/manif.pdf, id=615, 425.59pt x 553.06625pt>
 File: graphics/illustrationen/manif.pdf Graphic file (type pdf)
 <use graphics/illustrationen/manif.pdf>
 Package pdftex.def Info: graphics/illustrationen/manif.pdf  used on input line 2.
@@ -1544,7 +1710,7 @@ Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
-<graphics/holz.pdf, id=516, 353.32pt x 58.2175pt>
+<graphics/holz.pdf, id=623, 353.32pt x 58.2175pt>
 File: graphics/holz.pdf Graphic file (type pdf)
 <use graphics/holz.pdf>
 Package pdftex.def Info: graphics/holz.pdf  used on input line 5.
@@ -1568,19 +1734,26 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [62
 
- <./graphics/holz.pdf>]) (songs/im-wagen-vor-mir.tex
+ <./graphics/holz.pdf>]
+\griffbox:g:\griffzeichnen {C\#m}{x,.,.,.,.,.}{4:3:3,3:3:4,5:2:2}[4][1:2:6]=\box99
+<griffe-cache.pdf, id=630, page=16, 42.62625pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 16>
+Package pdftex.def Info: griffe-cache.pdf , page16 used on input line 89.
+(pdftex.def)             Requested size: 42.62613pt x 58.59877pt.
+) (songs/im-wagen-vor-mir.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[63]
+[63 <./griffe-cache.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
-<graphics/im-wagen-vor-mir.pdf, id=527, 353.32pt x 70.2625pt>
+<graphics/im-wagen-vor-mir.pdf, id=644, 353.32pt x 70.2625pt>
 File: graphics/im-wagen-vor-mir.pdf Graphic file (type pdf)
 <use graphics/im-wagen-vor-mir.pdf>
 Package pdftex.def Info: graphics/im-wagen-vor-mir.pdf  used on input line 5.
@@ -1601,7 +1774,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-<graphics/illustrationen/ente.pdf, id=534, 923.45pt x 340.27126pt>
+<graphics/illustrationen/ente.pdf, id=651, 923.45pt x 340.27126pt>
 File: graphics/illustrationen/ente.pdf Graphic file (type pdf)
 <use graphics/illustrationen/ente.pdf>
 Package pdftex.def Info: graphics/illustrationen/ente.pdf  used on input line 2.
@@ -1611,7 +1784,6 @@ Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
-<graphics/16er-downstrokes.pdf, id=541, 353.32pt x 57.21375pt>
 File: graphics/16er-downstrokes.pdf Graphic file (type pdf)
 <use graphics/16er-downstrokes.pdf>
 Package pdftex.def Info: graphics/16er-downstrokes.pdf  used on input line 5.
@@ -1625,7 +1797,26 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [66
 
- <./graphics/16er-downstrokes.pdf>]
+]
+\griffbox:g:\griffzeichnen {F\#}{.,.,.,.,.,.}{3:3:3,2:3:4,4:2:2}[2][1:1:6]=\box100
+<griffe-cache.pdf, id=662, page=74, 42.62625pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 74>
+Package pdftex.def Info: griffe-cache.pdf , page74 used on input line 100.
+(pdftex.def)             Requested size: 42.62613pt x 58.46729pt.
+\griffbox:g:\griffzeichnen {C\#}{x,.,.,.,.,.}{4:3:3,3:3:4,5:3:2}[4][1:2:6]=\box101
+<griffe-cache.pdf, id=663, page=14, 42.62625pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 14>
+Package pdftex.def Info: griffe-cache.pdf , page14 used on input line 100.
+(pdftex.def)             Requested size: 42.62613pt x 58.59877pt.
+\griffbox:g:\griffzeichnen {G\#m}{.,.,.,.,.,.}{3:3:3,2:3:4}[4][1:1:6]=\box102
+<griffe-cache.pdf, id=664, page=100, 42.62625pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 100>
+Package pdftex.def Info: griffe-cache.pdf , page100 used on input line 100.
+(pdftex.def)             Requested size: 42.62613pt x 58.59877pt.
+
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -1639,7 +1830,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[68] (songs/lieder.tex
+[68 <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf>] (songs/lieder.tex
 
 [69
 
@@ -1671,6 +1862,13 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [70
 
 ]
+\griffbox:g:\griffzeichnen {Dsus4}{x,x,o,.,.,.}{4:2:1,5:3:3,6:3:4}=\box103
+<griffe-cache.pdf, id=691, page=34, 39.46344pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 34>
+Package pdftex.def Info: griffe-cache.pdf , page34 used on input line 66.
+(pdftex.def)             Requested size: 39.46333pt x 58.59877pt.
+
 
 Package anmerkung Warning: Anmerkung in Song 2-18 passt nicht mehr auf die
 (anmerkung)                Seite.
@@ -1682,14 +1880,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[71]
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
-
-[72]
+[71 <./griffe-cache.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -1701,20 +1892,16 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[73
+[72
 
-])
+]) (songs/nur-ein-wort.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[74] (songs/nur-ein-wort.tex
-
-[75
-
-]
+[73]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -1726,7 +1913,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[76
+[74
 
 ]) (songs/nur-noch-kurz-die-welt-retten.tex
 
@@ -1735,7 +1922,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[77]
+[75]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -1753,9 +1940,49 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
+[76
+
+]
+\griffbox:g:\griffzeichnen {Fmaj7}{x,x,.,.,.,o}{3:3:3,4:2:2,5:1:1}=\box104
+<griffe-cache.pdf, id=726, page=68, 38.88527pt x 60.69977pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 68>
+Package pdftex.def Info: griffe-cache.pdf , page68 used on input line 85.
+(pdftex.def)             Requested size: 38.88516pt x 60.6996pt.
+\griffbox:g:\griffzeichnen {Dm/F}{x,x,.,.,.,.}{3:3:3,4:2:2,5:3:4,6:1:1}=\box105
+<griffe-cache.pdf, id=727, page=172, 39.46344pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 172>
+Package pdftex.def Info: griffe-cache.pdf , page172 used on input line 85.
+(pdftex.def)             Requested size: 39.46333pt x 58.59877pt.
+\griffbox:g:\griffzeichnen {F/C}{x,.,.,.,.,.}{2:3:3,3:3:4,4:2:2,5:1:1,6:1:1}=\box106
+<griffe-cache.pdf, id=728, page=180, 39.46344pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 180>
+Package pdftex.def Info: griffe-cache.pdf , page180 used on input line 85.
+(pdftex.def)             Requested size: 39.46333pt x 58.59877pt.
+) (songs/perfekte-welle.tex
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 11.3pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.3pt}.
+
+[77 <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf>]
+Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
+[] [] 
+ []
+
+
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 11.3pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.3pt}.
+
 [78
 
-]) (songs/perfekte-welle.tex
+]) (songs/probiers-mal-mit-gemuetlichkeit.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -1776,14 +2003,27 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [80
 
-]) (songs/probiers-mal-mit-gemuetlichkeit.tex
+]
+\g__griff_item_6_box=\box107
+\griffbox:g:\griffzeichnen {Bm7}{x,.,o,.,.,.}{2:2:2,4:2:3,6:2:4}=\box108
+<griffe-cache.pdf, id=755, page=138, 39.46344pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 138>
+Package pdftex.def Info: griffe-cache.pdf , page138 used on input line 63.
+(pdftex.def)             Requested size: 39.46333pt x 58.46729pt.
+) (songs/schrei-nach-liebe.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[81]
+<graphics/illustrationen/balu.pdf, id=756, 563.10374pt x 624.3325pt>
+File: graphics/illustrationen/balu.pdf Graphic file (type pdf)
+<use graphics/illustrationen/balu.pdf>
+Package pdftex.def Info: graphics/illustrationen/balu.pdf  used on input line 2.
+(pdftex.def)             Requested size: 170.71652pt x 189.27318pt.
+[81 <./griffe-cache.pdf> <./graphics/illustrationen/balu.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -1797,22 +2037,19 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [82
 
-]
-\g__griff_item_5_box=\box79
-\g__griff_item_6_box=\box80
-) (songs/schrei-nach-liebe.tex
+]) (songs/skandal-im-sperrbezirk.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-<graphics/illustrationen/balu.pdf, id=615, 563.10374pt x 624.3325pt>
-File: graphics/illustrationen/balu.pdf Graphic file (type pdf)
-<use graphics/illustrationen/balu.pdf>
-Package pdftex.def Info: graphics/illustrationen/balu.pdf  used on input line 2.
-(pdftex.def)             Requested size: 170.71652pt x 189.27318pt.
-[83 <./graphics/illustrationen/balu.pdf>]
+<graphics/illustrationen/arschloch.pdf, id=776, 359.3425pt x 383.4325pt>
+File: graphics/illustrationen/arschloch.pdf Graphic file (type pdf)
+<use graphics/illustrationen/arschloch.pdf>
+Package pdftex.def Info: graphics/illustrationen/arschloch.pdf  used on input line 2.
+(pdftex.def)             Requested size: 113.81102pt x 121.43715pt.
+[83 <./graphics/illustrationen/arschloch.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -1826,19 +2063,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [84
 
-]) (songs/skandal-im-sperrbezirk.tex
+]) (songs/tage-wie-diese.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-<graphics/illustrationen/arschloch.pdf, id=626, 359.3425pt x 383.4325pt>
-File: graphics/illustrationen/arschloch.pdf Graphic file (type pdf)
-<use graphics/illustrationen/arschloch.pdf>
-Package pdftex.def Info: graphics/illustrationen/arschloch.pdf  used on input line 2.
-(pdftex.def)             Requested size: 113.81102pt x 121.43715pt.
-[85 <./graphics/illustrationen/arschloch.pdf>]
+[85]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -1852,35 +2084,27 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [86
 
-]) (songs/tage-wie-diese.tex
+]
+\griffbox:g:\griffzeichnen {Cadd9}{x,.,.,o,.,.}{2:3:2,3:2:1,5:3:3,6:3:4}=\box109
+<griffe-cache.pdf, id=796, page=144, 39.46344pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 144>
+Package pdftex.def Info: griffe-cache.pdf , page144 used on input line 92.
+(pdftex.def)             Requested size: 39.46333pt x 58.59877pt.
+\griffbox:g:\griffzeichnen {Em7}{o,.,.,o,.,.}{2:2:1,3:2:2,5:3:3,6:3:4}=\box110
+<griffe-cache.pdf, id=797, page=56, 35.61104pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 56>
+Package pdftex.def Info: griffe-cache.pdf , page56 used on input line 92.
+(pdftex.def)             Requested size: 35.61095pt x 58.46729pt.
+) (songs/up-up-up.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[87]
-Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
-[] [] 
- []
-
-
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
-
-[88
-
-]) (songs/up-up-up.tex
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
-
-[89]
+[87 <./griffe-cache.pdf> <./griffe-cache.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -1895,7 +2119,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[90
+[88
 
 ]
 LaTeX Info: Symbol \textasciigrave not provided by
@@ -1908,7 +2132,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[91]
+[89]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -1920,7 +2144,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[92
+[90
 
 ])
 
@@ -1929,14 +2153,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[93]
+[91]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 110.
+(hyperref)                removing `\@ifnextchar' on input line 107.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tocnumw' on input line 110.
+(hyperref)                removing `\tocnumw' on input line 107.
 
 (songs/74-75.tex
 
@@ -1945,14 +2169,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[94
+[92
 
 ]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
-<graphics/boulevard.pdf, id=671, 353.32pt x 58.2175pt>
+<graphics/boulevard.pdf, id=832, 353.32pt x 58.2175pt>
 File: graphics/boulevard.pdf Graphic file (type pdf)
 <use graphics/boulevard.pdf>
 Package pdftex.def Info: graphics/boulevard.pdf  used on input line 43.
@@ -1968,7 +2192,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[95
+[93
 
  <./graphics/boulevard.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
@@ -1982,19 +2206,19 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[96
+[94
 
 ]
-File: graphics/boulevard.pdf Graphic file (type pdf)
-<use graphics/boulevard.pdf>
-Package pdftex.def Info: graphics/boulevard.pdf  used on input line 91.
-(pdftex.def)             Requested size: 113.0647pt x 18.62997pt.
-<graphics/africa-c.pdf, id=682, 367.3725pt x 82.3075pt>
+<graphics/africa-c.pdf, id=843, 367.3725pt x 82.3075pt>
 File: graphics/africa-c.pdf Graphic file (type pdf)
 <use graphics/africa-c.pdf>
-Package pdftex.def Info: graphics/africa-c.pdf  used on input line 95.
+Package pdftex.def Info: graphics/africa-c.pdf  used on input line 92.
 (pdftex.def)             Requested size: 117.56158pt x 26.33893pt.
-<graphics/africa.pdf, id=683, 719.68875pt x 59.22125pt>
+File: graphics/boulevard.pdf Graphic file (type pdf)
+<use graphics/boulevard.pdf>
+Package pdftex.def Info: graphics/boulevard.pdf  used on input line 96.
+(pdftex.def)             Requested size: 113.0647pt x 18.62997pt.
+<graphics/africa.pdf, id=844, 719.68875pt x 59.22125pt>
 File: graphics/africa.pdf Graphic file (type pdf)
 <use graphics/africa.pdf>
 Package pdftex.def Info: graphics/africa.pdf  used on input line 99.
@@ -2006,7 +2230,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[97 <./graphics/africa-c.pdf> <./graphics/africa.pdf
+[95 <./graphics/africa-c.pdf> <./graphics/africa.pdf
 
 pdfTeX warning: pdflatex (file ./graphics/africa.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
@@ -2021,13 +2245,19 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[98
+[96
 
 ]
 File: graphics/holz.pdf Graphic file (type pdf)
 <use graphics/holz.pdf>
 Package pdftex.def Info: graphics/holz.pdf  used on input line 96.
 (pdftex.def)             Requested size: 113.0647pt x 18.62997pt.
+\griffbox:g:\griffzeichnen {C\#m7}{x,.,.,.,.,.}{3:3:4,5:2:2}[4][1:2:6]=\box111
+<griffe-cache.pdf, id=856, page=20, 43.68521pt x 58.55978pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 20>
+Package pdftex.def Info: griffe-cache.pdf , page20 used on input line 97.
+(pdftex.def)             Requested size: 43.68509pt x 58.55962pt.
 ) (songs/behind-blue-eyes.tex
 
 
@@ -2035,7 +2265,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[99]
+[97 <./griffe-cache.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -2044,6 +2274,18 @@ File: graphics/boulevard.pdf Graphic file (type pdf)
 <use graphics/boulevard.pdf>
 Package pdftex.def Info: graphics/boulevard.pdf  used on input line 45.
 (pdftex.def)             Requested size: 113.0647pt x 18.62997pt.
+\griffbox:g:\griffzeichnen {Asus2}{x,o,.,.,o,o}{3:2:1,4:2:2}=\box112
+<griffe-cache.pdf, id=871, page=122, 37.66974pt x 58.55978pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 122>
+Package pdftex.def Info: griffe-cache.pdf , page122 used on input line 46.
+(pdftex.def)             Requested size: 37.66963pt x 58.55962pt.
+\griffbox:g:\griffzeichnen {Dsus2}{x,x,o,.,.,o}{4:1:1,5:3:3}=\box113
+<griffe-cache.pdf, id=872, page=36, 37.66974pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 36>
+Package pdftex.def Info: griffe-cache.pdf , page36 used on input line 46.
+(pdftex.def)             Requested size: 37.66963pt x 58.59877pt.
 ) (songs/complicated.tex
 
 
@@ -2051,9 +2293,9 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[100
+[98
 
-]
+ <./griffe-cache.pdf> <./griffe-cache.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -2065,7 +2307,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[101
+[99
 
 ]
 
@@ -2074,14 +2316,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[102]) (songs/boulevard-of-broken-dreams.tex
+[100]) (songs/boulevard-of-broken-dreams.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[103]
+[101]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -2093,12 +2335,12 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-<graphics/illustrationen/boulevard.pdf, id=716, 254.9525pt x 438.63875pt>
+<graphics/illustrationen/boulevard.pdf, id=898, 254.9525pt x 438.63875pt>
 File: graphics/illustrationen/boulevard.pdf Graphic file (type pdf)
 <use graphics/illustrationen/boulevard.pdf>
 Package pdftex.def Info: graphics/illustrationen/boulevard.pdf  used on input line 50.
 (pdftex.def)             Requested size: 85.35826pt x 146.85954pt.
-[104
+[102
 
  <./graphics/illustrationen/boulevard.pdf>]
 File: graphics/boulevard.pdf Graphic file (type pdf)
@@ -2116,7 +2358,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[105]
+[103]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -2138,7 +2380,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[106
+[104
 
 ]
 Overfull \hbox (14.75876pt too wide) in paragraph at lines 51--51
@@ -2157,7 +2399,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[107]
+[105]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -2179,9 +2421,21 @@ Overfull \hbox (20.97905pt too wide) in paragraph at lines 24--24
 [][]                             \T1/zi4/m/it/9.5 (Preacher liked the cold)                  (Knows I\TS1/zi4/m/it/9.5 '\T1/zi4/m/it/9.5 m gonna stay)[][][][] 
  []
 
+\griffbox:g:\griffzeichnen {Esus4}{o,.,.,.,o,o}{2:2:2,3:2:3,4:2:4}=\box114
+<griffe-cache.pdf, id=918, page=58, 34.17668pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 58>
+Package pdftex.def Info: griffe-cache.pdf , page58 used on input line 44.
+(pdftex.def)             Requested size: 34.17657pt x 58.59877pt.
+\griffbox:g:\griffzeichnen {E7sus4}{o,.,o,.,o,o}{2:2:2,4:2:3}=\box115
+<griffe-cache.pdf, id=919, page=150, 39.67622pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 150>
+Package pdftex.def Info: griffe-cache.pdf , page150 used on input line 44.
+(pdftex.def)             Requested size: 39.67612pt x 58.59877pt.
 File: graphics/boulevard.pdf Graphic file (type pdf)
 <use graphics/boulevard.pdf>
-Package pdftex.def Info: graphics/boulevard.pdf  used on input line 47.
+Package pdftex.def Info: graphics/boulevard.pdf  used on input line 49.
 (pdftex.def)             Requested size: 113.0647pt x 18.62997pt.
 
 
@@ -2190,16 +2444,16 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[108
+[106
 
-]) (songs/californication.tex
+ <./griffe-cache.pdf> <./griffe-cache.pdf>]) (songs/californication.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[109]
+[107]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -2215,7 +2469,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[110
+[108
 
 ]) (songs/castle-on-the-hill.tex
 
@@ -2224,7 +2478,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[111]
+[109]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -2236,14 +2490,20 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[112
+[110
 
 ]
-<graphics/castle-v.pdf, id=756, 352.31625pt x 70.2625pt>
+<graphics/castle-v.pdf, id=946, 352.31625pt x 70.2625pt>
 File: graphics/castle-v.pdf Graphic file (type pdf)
 <use graphics/castle-v.pdf>
 Package pdftex.def Info: graphics/castle-v.pdf  used on input line 90.
 (pdftex.def)             Requested size: 112.7435pt x 22.48445pt.
+\griffbox:g:\griffzeichnen {D/F\#}{.,x,.,.,.,x}{1:2:1,4:2:2,5:3:3}=\box116
+<griffe-cache.pdf, id=947, page=38, 39.46344pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 38>
+Package pdftex.def Info: griffe-cache.pdf , page38 used on input line 91.
+(pdftex.def)             Requested size: 39.46333pt x 58.59877pt.
 ) (songs/counting-stars.tex
 
 
@@ -2251,12 +2511,12 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[113 <./graphics/castle-v.pdf>]
+[111 <./graphics/castle-v.pdf> <./griffe-cache.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 3--3
 [] [] 
  []
 
-<graphics/counting-stars.pdf, id=763, 353.32pt x 58.2175pt>
+<graphics/counting-stars.pdf, id=963, 353.32pt x 58.2175pt>
 File: graphics/counting-stars.pdf Graphic file (type pdf)
 <use graphics/counting-stars.pdf>
 Package pdftex.def Info: graphics/counting-stars.pdf  used on input line 6.
@@ -2268,7 +2528,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[114
+[112
 
  <./graphics/counting-stars.pdf>]
 
@@ -2277,24 +2537,36 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[115]) (songs/dust-in-the-wind.tex
+[113]) (songs/dust-in-the-wind.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-<graphics/illustrationen/counting-stars.pdf, id=775, 435.6275pt x 949.5475pt>
+<graphics/illustrationen/counting-stars.pdf, id=974, 435.6275pt x 949.5475pt>
 File: graphics/illustrationen/counting-stars.pdf Graphic file (type pdf)
 <use graphics/illustrationen/counting-stars.pdf>
 Package pdftex.def Info: graphics/illustrationen/counting-stars.pdf  used on input line 2.
 (pdftex.def)             Requested size: 130.88268pt x 285.28662pt.
-[116 <./graphics/illustrationen/counting-stars.pdf>]
+[114 <./graphics/illustrationen/counting-stars.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
-\g__griff_item_7_box=\box81
+\griffbox:g:\griffzeichnen {G/B}{x,.,o,o,o,.}{2:2:2,6:3:4}=\box117
+<griffe-cache.pdf, id=981, page=96, 39.46344pt x 58.55978pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 96>
+Package pdftex.def Info: griffe-cache.pdf , page96 used on input line 46.
+(pdftex.def)             Requested size: 39.46333pt x 58.55962pt.
+\griffbox:g:\griffzeichnen {Dm7}{x,x,o,.,.,.}{4:2:2,5:1:1,6:1:1}=\box118
+<griffe-cache.pdf, id=982, page=148, 39.46344pt x 58.42828pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 148>
+Package pdftex.def Info: griffe-cache.pdf , page148 used on input line 46.
+(pdftex.def)             Requested size: 39.46333pt x 58.42813pt.
+\g__griff_item_7_box=\box119
 ) (songs/dont-look-back-in-anger.tex
 
 
@@ -2302,10 +2574,44 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[117
+[115
+
+ <./griffe-cache.pdf> <./griffe-cache.pdf>]
+Overfull \hbox (19.91692pt too wide) in paragraph at lines 1--1
+[] [] 
+ []
+
+
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 11.3pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.3pt}.
+
+[116
 
 ]
-Overfull \hbox (19.91692pt too wide) in paragraph at lines 1--1
+\griffbox:g:\griffzeichnen {Fm6}{x,x,o,.,.,.}{4:1:1,5:1:1,6:1:1}=\box120
+<griffe-cache.pdf, id=1001, page=156, 39.46344pt x 58.55978pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 156>
+Package pdftex.def Info: griffe-cache.pdf , page156 used on input line 96.
+(pdftex.def)             Requested size: 39.46333pt x 58.55962pt.
+\griffbox:g:\griffzeichnen {E7/G\#}{.,x,o,.,o,o}{1:4:3,4:1:1}=\box121
+<griffe-cache.pdf, id=1002, page=176, 37.49408pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 176>
+Package pdftex.def Info: griffe-cache.pdf , page176 used on input line 96.
+(pdftex.def)             Requested size: 37.49397pt x 58.59877pt.
+) (songs/eye-of-the-tiger.tex
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 11.3pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.3pt}.
+
+[117 <./griffe-cache.pdf> <./griffe-cache.pdf>]
+Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
@@ -2318,27 +2624,6 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [118
 
-]) (songs/eye-of-the-tiger.tex
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
-
-[119]
-Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
-[] [] 
- []
-
-
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
-
-[120
-
 ]) (songs/father-and-son.tex
 
 
@@ -2346,7 +2631,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[121]
+[119]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -2363,21 +2648,34 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[122
+[120
 
-]) (songs/good-riddance-time-of-your-life.tex
+]
+\griffbox:g:\griffzeichnen {Am7}{x,o,.,o,.,o}{3:2:2,5:1:1}=\box122
+<griffe-cache.pdf, id=1028, page=116, 36.70512pt x 58.42828pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 116>
+Package pdftex.def Info: griffe-cache.pdf , page116 used on input line 59.
+(pdftex.def)             Requested size: 36.70502pt x 58.42813pt.
+\griffbox:g:\griffzeichnen {G/D}{x,x,o,o,o,.}{6:3:3}=\box123
+<griffe-cache.pdf, id=1029, page=184, 39.46344pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 184>
+Package pdftex.def Info: griffe-cache.pdf , page184 used on input line 59.
+(pdftex.def)             Requested size: 39.46333pt x 58.59877pt.
+) (songs/good-riddance-time-of-your-life.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-<graphics/illustrationen/corset.pdf, id=807, 903.375pt x 963.6pt>
+<graphics/illustrationen/corset.pdf, id=1030, 903.375pt x 963.6pt>
 File: graphics/illustrationen/corset.pdf Graphic file (type pdf)
 <use graphics/illustrationen/corset.pdf>
 Package pdftex.def Info: graphics/illustrationen/corset.pdf  used on input line 2.
 (pdftex.def)             Requested size: 284.52756pt x 303.4915pt.
-[123 <./graphics/illustrationen/corset.pdf>]
+[121 <./griffe-cache.pdf> <./griffe-cache.pdf> <./graphics/illustrationen/corset.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -2389,7 +2687,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[124
+[122
 
 ]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
@@ -2403,7 +2701,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[125
+[123
 
 ]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
@@ -2417,7 +2715,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[126
+[124
 
 ]
 Overfull \hbox (46.47064pt too wide) in paragraph at lines 94--94
@@ -2431,7 +2729,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[127]
+[125]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -2463,9 +2761,30 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[128
+[126
 
 ]) (songs/hey-soul-sister.tex
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 11.3pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.3pt}.
+
+[127]
+Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
+[] [] 
+ []
+
+
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 11.3pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.3pt}.
+
+[128
+
+]) (songs/hotel-california.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -2486,7 +2805,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [130
 
-]) (songs/hotel-california.tex
+]) (songs/house-of-the-rising-sun.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -2498,7 +2817,13 @@ Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
-
+\griffbox:g:\griffzeichnen {F7}{.,.,.,.,.,.}{2:3:4,4:2:2}[][1:1:6]=\box124
+<griffe-cache.pdf, id=1088, page=66, 39.12617pt x 58.42828pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 66>
+Package pdftex.def Info: griffe-cache.pdf , page66 used on input line 38.
+(pdftex.def)             Requested size: 39.12607pt x 58.42813pt.
+) (songs/piano-man.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -2507,28 +2832,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [132
 
-]) (songs/house-of-the-rising-sun.tex
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
-
-[133]
-Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
-[] [] 
- []
-
-) (songs/piano-man.tex
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
-
-[134
-
-]
+ <./griffe-cache.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -2540,7 +2844,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[135
+[133
 
 ]
 
@@ -2549,7 +2853,28 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[136]) (songs/how-you-remind-me.tex
+[134]) (songs/how-you-remind-me.tex
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 11.3pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.3pt}.
+
+[135]
+Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
+[] [] 
+ []
+
+
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 11.3pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.3pt}.
+
+[136
+
+]) (songs/iris.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -2570,14 +2895,33 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [138
 
-]) (songs/iris.tex
+]
+\griffbox:g:\griffzeichnen {Bsus2}{x,.,.,.,.,.}{3:3:3,4:3:4}[2][1:2:6]=\box125
+<griffe-cache.pdf, id=1123, page=160, 43.38809pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 160>
+Package pdftex.def Info: griffe-cache.pdf , page160 used on input line 63.
+(pdftex.def)             Requested size: 43.38797pt x 58.59877pt.
+\griffbox:g:\griffzeichnen {Gmaj7}{.,.,o,o,o,.}{1:3:3,2:2:2,6:2:1}=\box126
+<griffe-cache.pdf, id=1124, page=92, 39.0499pt x 60.69977pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 92>
+Package pdftex.def Info: griffe-cache.pdf , page92 used on input line 63.
+(pdftex.def)             Requested size: 39.04979pt x 60.6996pt.
+\griffbox:g:\griffzeichnen {Bm/A}{x,o,.,.,.,.}{3:3:3,4:3:4,5:2:2,6:1:1}[2]=\box127
+<griffe-cache.pdf, id=1125, page=188, 45.48393pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 188>
+Package pdftex.def Info: griffe-cache.pdf , page188 used on input line 63.
+(pdftex.def)             Requested size: 45.48381pt x 58.59877pt.
+) (songs/leaving-on-a-jet-plane.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[139]
+[139 <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -2591,7 +2935,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [140
 
-]) (songs/leaving-on-a-jet-plane.tex
+]) (songs/lemon-tree.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -2612,7 +2956,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [142
 
-]) (songs/lemon-tree.tex
+]) (songs/let-her-go.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -2633,7 +2977,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [144
 
-]) (songs/let-her-go.tex
+]) (songs/let-it-be.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -2654,14 +2998,39 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [146
 
-]) (songs/let-it-be.tex
+]
+\griffbox:g:\griffzeichnen {F6}{x,x,.,.,.,.}{3:3:3,4:2:2,5:3:4,6:1:1}=\box128
+<griffe-cache.pdf, id=1169, page=152, 39.46344pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 152>
+Package pdftex.def Info: griffe-cache.pdf , page152 used on input line 81.
+(pdftex.def)             Requested size: 39.46333pt x 58.59877pt.
+\griffbox:g:\griffzeichnen {C/E}{o,.,.,o,.,o}{2:3:3,3:2:2,5:1:1}=\box129
+<griffe-cache.pdf, id=1170, page=168, 32.85274pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 168>
+Package pdftex.def Info: griffe-cache.pdf , page168 used on input line 81.
+(pdftex.def)             Requested size: 32.85265pt x 58.59877pt.
+\griffbox:g:\griffzeichnen {Am/G}{.,o,.,.,.,o}{1:3:4,3:2:2,4:2:3,5:1:1}=\box130
+<griffe-cache.pdf, id=1171, page=118, 36.87778pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 118>
+Package pdftex.def Info: griffe-cache.pdf , page118 used on input line 81.
+(pdftex.def)             Requested size: 36.87767pt x 58.59877pt.
+\griffbox:g:\griffzeichnen {F/A}{x,o,.,.,.,.}{3:3:3,4:2:2,5:1:1,6:1:1}=\box131
+<griffe-cache.pdf, id=1172, page=178, 39.46344pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 178>
+Package pdftex.def Info: griffe-cache.pdf , page178 used on input line 81.
+(pdftex.def)             Requested size: 39.46333pt x 58.59877pt.
+) (songs/losing-my-religion.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[147]
+[147 <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -2675,7 +3044,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [148
 
-]) (songs/losing-my-religion.tex
+]) (songs/mr-brightside.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -2687,6 +3056,18 @@ Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
+\griffbox:g:\griffzeichnen {C/B}{x,.,.,o,.,o}{2:2:3,3:2:2,5:1:1}=\box132
+<griffe-cache.pdf, id=1194, page=12, 36.70512pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 12>
+Package pdftex.def Info: griffe-cache.pdf , page12 used on input line 50.
+(pdftex.def)             Requested size: 36.70502pt x 58.59877pt.
+\griffbox:g:\griffzeichnen {Fadd9}{x,x,.,.,.,.}{3:3:3,4:2:2,5:1:1,6:3:4}=\box133
+<griffe-cache.pdf, id=1195, page=154, 39.46344pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 154>
+Package pdftex.def Info: griffe-cache.pdf , page154 used on input line 50.
+(pdftex.def)             Requested size: 39.46333pt x 58.59877pt.
 
 
 
@@ -2696,14 +3077,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [150
 
-]) (songs/mr-brightside.tex
+]) (songs/nothing-else-matters.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[151]
+[151 <./griffe-cache.pdf> <./griffe-cache.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -2717,7 +3098,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [152
 
-]) (songs/nothing-else-matters.tex
+]) (songs/numb.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -2738,14 +3119,21 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [154
 
-]) (songs/numb.tex
+]
+\griffbox:g:\griffzeichnen {Bsus4}{x,x,.,.,.,.}{3:4:3,4:4:4,5:5:5,6:2:1}=\box134
+<griffe-cache.pdf, id=1226, page=142, 39.46344pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 142>
+Package pdftex.def Info: griffe-cache.pdf , page142 used on input line 54.
+(pdftex.def)             Requested size: 39.46333pt x 58.59877pt.
+) (songs/perfect.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[155]
+[155 <./griffe-cache.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -2759,7 +3147,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [156
 
-]) (songs/perfect.tex
+]) (songs/pompeii.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -2780,7 +3168,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [158
 
-]) (songs/pompeii.tex
+]) (songs/price-tag.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -2801,7 +3189,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [160
 
-]) (songs/price-tag.tex
+]) (songs/save-tonight.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -2822,7 +3210,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [162
 
-]) (songs/save-tonight.tex
+]) (songs/somwhere-only-we-know.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -2834,6 +3222,20 @@ Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
+File: graphics/monsun.pdf Graphic file (type pdf)
+<use graphics/monsun.pdf>
+Package pdftex.def Info: graphics/monsun.pdf  used on input line 5.
+(pdftex.def)             Requested size: 58.13838pt x 16.06032pt.
+File: graphics/holz.pdf Graphic file (type pdf)
+<use graphics/holz.pdf>
+Package pdftex.def Info: graphics/holz.pdf  used on input line 8.
+(pdftex.def)             Requested size: 113.0647pt x 18.62997pt.
+\griffbox:g:\griffzeichnen {G/F\#}{.,x,o,o,.,.}{1:2:1,5:3:3,6:3:4}=\box135
+<griffe-cache.pdf, id=1274, page=186, 38.36835pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 186>
+Package pdftex.def Info: griffe-cache.pdf , page186 used on input line 10.
+(pdftex.def)             Requested size: 38.36824pt x 58.59877pt.
 
 
 
@@ -2843,47 +3245,26 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [164
 
-]) (songs/somwhere-only-we-know.tex
+ <./griffe-cache.pdf>]
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[165]
-Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
-[] [] 
- []
-
-
+[165]) (songs/take-me-home-country-roads.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[166
-
-]
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
-
-<graphics/illustrationen/keane.pdf, id=993, 150.5625pt x 340.27126pt>
+<graphics/illustrationen/keane.pdf, id=1292, 150.5625pt x 340.27126pt>
 File: graphics/illustrationen/keane.pdf Graphic file (type pdf)
 <use graphics/illustrationen/keane.pdf>
-Package pdftex.def Info: graphics/illustrationen/keane.pdf  used on input line 100.
+Package pdftex.def Info: graphics/illustrationen/keane.pdf  used on input line 2.
 (pdftex.def)             Requested size: 51.21495pt x 115.7478pt.
-[167 <./graphics/illustrationen/keane.pdf>]) (songs/take-me-home-country-roads.tex
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
-
-[168]
+[166 <./graphics/illustrationen/keane.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -2895,7 +3276,7 @@ Overfull \hbox (0.52814pt too wide) in paragraph at lines 7--7
 
 File: graphics/standard-16.pdf Graphic file (type pdf)
 <use graphics/standard-16.pdf>
-Package pdftex.def Info: graphics/standard-16.pdf  used on input line 46.
+Package pdftex.def Info: graphics/standard-16.pdf  used on input line 39.
 (pdftex.def)             Requested size: 113.0647pt x 18.62997pt.
 ) (songs/streets-of-london.tex
 
@@ -2904,13 +3285,19 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[169
+[167
 
 ]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
+\griffbox:g:\griffzeichnen {C/G}{.,.,.,o,.,o}{1:3:3,2:3:4,3:2:2,5:1:1}=\box136
+<griffe-cache.pdf, id=1303, page=170, 35.61104pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 170>
+Package pdftex.def Info: griffe-cache.pdf , page170 used on input line 4.
+(pdftex.def)             Requested size: 35.61095pt x 58.59877pt.
 
 
 
@@ -2918,26 +3305,33 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[170
+[168
 
-]) (songs/summer-of-69.tex
+ <./griffe-cache.pdf>]
+\griffbox:g:\griffzeichnen {D7/F\#}{.,x,o,.,.,.}{1:2:,4:2:2,5:1:1,6:2:3}=\box137
+<griffe-cache.pdf, id=1313, page=174, 36.87778pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 174>
+Package pdftex.def Info: griffe-cache.pdf , page174 used on input line 50.
+(pdftex.def)             Requested size: 36.87767pt x 58.59877pt.
+) (songs/summer-of-69.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[171]
+[169 <./griffe-cache.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 5--5
 [] [] 
  []
 
-<graphics/summer-of-69-v.pdf, id=1017, 353.32pt x 69.25874pt>
+<graphics/summer-of-69-v.pdf, id=1328, 353.32pt x 69.25874pt>
 File: graphics/summer-of-69-v.pdf Graphic file (type pdf)
 <use graphics/summer-of-69-v.pdf>
 Package pdftex.def Info: graphics/summer-of-69-v.pdf  used on input line 8.
 (pdftex.def)             Requested size: 113.0647pt x 22.16324pt.
-<graphics/16-3er-vers.pdf, id=1018, 352.31625pt x 72.27pt>
+<graphics/16-3er-vers.pdf, id=1329, 352.31625pt x 72.27pt>
 File: graphics/16-3er-vers.pdf Graphic file (type pdf)
 <use graphics/16-3er-vers.pdf>
 Package pdftex.def Info: graphics/16-3er-vers.pdf  used on input line 12.
@@ -2953,19 +3347,47 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[172
+[170
 
  <./graphics/summer-of-69-v.pdf> <./graphics/16-3er-vers.pdf
 
 pdfTeX warning: pdflatex (file ./graphics/16-3er-vers.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]) (songs/teenage-dirtbag.tex
+>]) (songs/take-on-me.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[173]
+[171]
+Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
+[] [] 
+ []
+
+) (songs/this-is-the-life.tex
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 11.3pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.3pt}.
+
+[172
+
+]
+Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
+[] [] 
+ []
+
+) (songs/teenage-dirtbag.tex
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 11.3pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.3pt}.
+
+[173
+
+]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -3000,7 +3422,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [176
 
-]) (songs/this-is-the-life.tex
+]) (songs/unwritten.tex
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -3012,7 +3434,7 @@ Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
 
-)
+
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -3021,11 +3443,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [178
 
-] (songs/unwritten.tex
+]) (songs/viva-la-vida.tex
 
-[179
 
-]
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 11.3pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.3pt}.
+
+[179]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -3039,29 +3464,8 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [180
 
-]) (songs/viva-la-vida.tex
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
-
-[181]
-Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
-[] [] 
- []
-
-
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
-
-[182
-
 ]
-<graphics/viva.pdf, id=1068, 349.305pt x 57.21375pt>
+<graphics/viva.pdf, id=1378, 349.305pt x 57.21375pt>
 File: graphics/viva.pdf Graphic file (type pdf)
 <use graphics/viva.pdf>
 Package pdftex.def Info: graphics/viva.pdf  used on input line 98.
@@ -3073,12 +3477,12 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-<graphics/illustrationen/liberte.pdf, id=1069, 607.26875pt x 609.27625pt>
+<graphics/illustrationen/liberte.pdf, id=1379, 607.26875pt x 609.27625pt>
 File: graphics/illustrationen/liberte.pdf Graphic file (type pdf)
 <use graphics/illustrationen/liberte.pdf>
 Package pdftex.def Info: graphics/illustrationen/liberte.pdf  used on input line 4.
 (pdftex.def)             Requested size: 227.62204pt x 228.36646pt.
-[183 <./graphics/viva.pdf> <./graphics/illustrationen/liberte.pdf
+[181 <./graphics/viva.pdf> <./graphics/illustrationen/liberte.pdf
 
 pdfTeX warning: pdflatex (file ./graphics/illustrationen/liberte.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
@@ -3093,19 +3497,29 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[184
+[182
 
 ]
-<graphics/wonderwall-c.pdf, id=1081, 352.31625pt x 69.25874pt>
+<graphics/wonderwall-c.pdf, id=1392, 352.31625pt x 69.25874pt>
 File: graphics/wonderwall-c.pdf Graphic file (type pdf)
 <use graphics/wonderwall-c.pdf>
 Package pdftex.def Info: graphics/wonderwall-c.pdf  used on input line 94.
 (pdftex.def)             Requested size: 112.7435pt x 22.16324pt.
-<graphics/wonderwall.pdf, id=1082, 719.68875pt x 69.25874pt>
+<graphics/wonderwall.pdf, id=1393, 719.68875pt x 69.25874pt>
 File: graphics/wonderwall.pdf Graphic file (type pdf)
 <use graphics/wonderwall.pdf>
 Package pdftex.def Info: graphics/wonderwall.pdf  used on input line 98.
 (pdftex.def)             Requested size: 230.3051pt x 22.16324pt.
+\griffbox:g:\griffzeichnen {G}{.,.,o,o,.,.}{5:3:3,1:3:3,2:2:2,6:3:4}=\box138
+<griffe-cache.pdf, id=1394, page=86, 38.36835pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 86>
+Package pdftex.def Info: griffe-cache.pdf , page86 used on input line 100.
+(pdftex.def)             Requested size: 38.36824pt x 58.59877pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
 ) (songs/yellow.tex
 
 
@@ -3113,10 +3527,38 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[185 <./graphics/wonderwall-c.pdf> <./graphics/wonderwall.pdf
+[183 <./graphics/wonderwall-c.pdf> <./graphics/wonderwall.pdf
 
 pdfTeX warning: pdflatex (file ./graphics/wonderwall.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
+> <./griffe-cache.pdf>]
+Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
+[] [] 
+ []
+
+
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 11.3pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.3pt}.
+
+[184
+
+]
+\griffbox:g:\griffzeichnen {Gsus4}{.,.,o,o,.,.}{1:3:3,2:2:2,6:3:4,5:1:1}=\box139
+<griffe-cache.pdf, id=1412, page=94, 38.36835pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 94>
+Package pdftex.def Info: griffe-cache.pdf , page94 used on input line 73.
+(pdftex.def)             Requested size: 38.36824pt x 58.59877pt.
+) (songs/zombie.tex
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 11.3pt, for example:
+(fancyhdr)                \setlength{\footskip}{11.3pt}.
+
+[185 <./griffe-cache.pdf>]
 Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
 [] [] 
  []
@@ -3130,62 +3572,330 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [186
 
-]) (songs/zombie.tex
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
-
-[187]
-Overfull \hbox (19.91692pt too wide) in paragraph at lines 2--2
-[] [] 
- []
-
-
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 11.3pt, for example:
-(fancyhdr)                \setlength{\footskip}{11.3pt}.
-
-[188
-
 ]) (chords.tex
+\griffbox:n:\griffzeichnen {C}{x,.,.,o,.,o}{2:3:3,3:2:2,5:1:1}=\box140
+<griffe-cache.pdf, id=1426, page=1, 36.70512pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 1>
+Package pdftex.def Info: griffe-cache.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 36.70502pt x 58.59877pt.
+\griffbox:n:\griffzeichnen {Cm}{x,.,.,.,.,.}{4:3:3,3:3:4,5:2:2}[3][1:2:6]=\box141
+<griffe-cache.pdf, id=1427, page=3, 42.62625pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 3>
+Package pdftex.def Info: griffe-cache.pdf , page3 used on input line 7.
+(pdftex.def)             Requested size: 42.62613pt x 58.59877pt.
+\griffbox:n:\griffzeichnen {C7}{x,.,.,.,.,o}{2:3:3,3:2:2,4:3:4,5:1:1}=\box142
+<griffe-cache.pdf, id=1428, page=5, 36.70512pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 5>
+Package pdftex.def Info: griffe-cache.pdf , page5 used on input line 8.
+(pdftex.def)             Requested size: 36.70502pt x 58.59877pt.
+\griffbox:n:\griffzeichnen {Cm7}{x,.,.,.,.,.}{3:3:4,5:2:2}[3][1:2:6]=\box143
+<griffe-cache.pdf, id=1429, page=7, 42.62625pt x 58.55978pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 7>
+Package pdftex.def Info: griffe-cache.pdf , page7 used on input line 9.
+(pdftex.def)             Requested size: 42.62613pt x 58.55962pt.
+\griffbox:n:\griffzeichnen {Cmaj7}{x,.,.,o,o,o}{2:3:3,3:2:2}=\box144
+<griffe-cache.pdf, id=1430, page=9, 39.49556pt x 60.69977pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 9>
+Package pdftex.def Info: griffe-cache.pdf , page9 used on input line 10.
+(pdftex.def)             Requested size: 39.49545pt x 60.6996pt.
+\griffbox:n:\griffzeichnen {C/B}{x,.,.,o,.,o}{2:2:3,3:2:2,5:1:1}=\box145
+<griffe-cache.pdf, id=1431, page=11, 36.70512pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 11>
+Package pdftex.def Info: griffe-cache.pdf , page11 used on input line 11.
+(pdftex.def)             Requested size: 36.70502pt x 58.59877pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 6--12
 
  []
 
+\griffbox:n:\griffzeichnen {C\#}{x,.,.,.,.,.}{4:3:3,3:3:4,5:3:2}[4][1:2:6]=\box146
+<griffe-cache.pdf, id=1432, page=13, 42.62625pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 13>
+Package pdftex.def Info: griffe-cache.pdf , page13 used on input line 14.
+(pdftex.def)             Requested size: 42.62613pt x 58.59877pt.
+\griffbox:n:\griffzeichnen {C\#m}{x,.,.,.,.,.}{4:3:3,3:3:4,5:2:2}[4][1:2:6]=\box147
+<griffe-cache.pdf, id=1433, page=15, 42.62625pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 15>
+Package pdftex.def Info: griffe-cache.pdf , page15 used on input line 15.
+(pdftex.def)             Requested size: 42.62613pt x 58.59877pt.
+\griffbox:n:\griffzeichnen {C\#7}{x,x,.,.,.,.}{3:3:3,4:4:4,5:2:1,6:4:4}=\box148
+<griffe-cache.pdf, id=1434, page=17, 39.46344pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 17>
+Package pdftex.def Info: griffe-cache.pdf , page17 used on input line 16.
+(pdftex.def)             Requested size: 39.46333pt x 58.59877pt.
+\griffbox:n:\griffzeichnen {C\#m7}{x,.,.,.,.,.}{3:3:4,5:2:2}[4][1:2:6]=\box149
+<griffe-cache.pdf, id=1435, page=19, 43.68521pt x 58.55978pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 19>
+Package pdftex.def Info: griffe-cache.pdf , page19 used on input line 17.
+(pdftex.def)             Requested size: 43.68509pt x 58.55962pt.
+\griffbox:n:\griffzeichnen {C\#sus4}{x,x,.,.,.,.}{3:4:4,4:1:1,5:2:2,6:2:3}=\box150
+<griffe-cache.pdf, id=1436, page=21, 40.42001pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 21>
+Package pdftex.def Info: griffe-cache.pdf , page21 used on input line 18.
+(pdftex.def)             Requested size: 40.4199pt x 58.59877pt.
+\griffbox:n:\griffzeichnen {C\#dim7}{x,x,.,.,.,.}{3:2:2,4:3:3,5:2:1,6:3:4}=\box151
+<griffe-cache.pdf, id=1437, page=23, 43.94417pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 23>
+Package pdftex.def Info: griffe-cache.pdf , page23 used on input line 19.
+(pdftex.def)             Requested size: 43.94405pt x 58.59877pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--20
 
  []
 
+\griffbox:n:\griffzeichnen {D}{x,x,o,.,.,.}{4:2:1,5:3:3,6:2:2}=\box152
+<griffe-cache.pdf, id=1438, page=25, 39.46344pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 25>
+Package pdftex.def Info: griffe-cache.pdf , page25 used on input line 22.
+(pdftex.def)             Requested size: 39.46333pt x 58.46729pt.
+\griffbox:n:\griffzeichnen {Dm}{x,x,o,.,.,.}{4:2:2,5:3:3,6:1:1}=\box153
+<griffe-cache.pdf, id=1439, page=27, 39.46344pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 27>
+Package pdftex.def Info: griffe-cache.pdf , page27 used on input line 23.
+(pdftex.def)             Requested size: 39.46333pt x 58.46729pt.
+\griffbox:n:\griffzeichnen {D7}{x,x,o,.,.,.}{4:2:2,5:1:1,6:2:3}=\box154
+<griffe-cache.pdf, id=1440, page=29, 39.46344pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 29>
+Package pdftex.def Info: griffe-cache.pdf , page29 used on input line 24.
+(pdftex.def)             Requested size: 39.46333pt x 58.46729pt.
+\griffbox:n:\griffzeichnen {Dmaj7}{x,x,o,.,.,.}{4:2:1,5:2:2,6:2:3}=\box155
+<griffe-cache.pdf, id=1441, page=31, 39.49556pt x 60.69977pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 31>
+Package pdftex.def Info: griffe-cache.pdf , page31 used on input line 25.
+(pdftex.def)             Requested size: 39.49545pt x 60.6996pt.
+\griffbox:n:\griffzeichnen {Dsus4}{x,x,o,.,.,.}{4:2:1,5:3:3,6:3:4}=\box156
+<griffe-cache.pdf, id=1442, page=33, 39.46344pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 33>
+Package pdftex.def Info: griffe-cache.pdf , page33 used on input line 26.
+(pdftex.def)             Requested size: 39.46333pt x 58.59877pt.
+\griffbox:n:\griffzeichnen {Dsus2}{x,x,o,.,.,o}{4:1:1,5:3:3}=\box157
+<griffe-cache.pdf, id=1443, page=35, 37.66974pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 35>
+Package pdftex.def Info: griffe-cache.pdf , page35 used on input line 27.
+(pdftex.def)             Requested size: 37.66963pt x 58.59877pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 22--28
 
  []
 
+\griffbox:n:\griffzeichnen {D/F\#}{.,x,.,.,.,x}{1:2:1,4:2:2,5:3:3}=\box158
+<griffe-cache.pdf, id=1444, page=37, 39.46344pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 37>
+Package pdftex.def Info: griffe-cache.pdf , page37 used on input line 30.
+(pdftex.def)             Requested size: 39.46333pt x 58.59877pt.
+\griffbox:n:\griffzeichnen {D\#m}{x,x,.,.,.,.}{3:1:1,4:3:3,5:4:4,6:2:2}=\box159
+<griffe-cache.pdf, id=1445, page=39, 39.46344pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 39>
+Package pdftex.def Info: griffe-cache.pdf , page39 used on input line 31.
+(pdftex.def)             Requested size: 39.46333pt x 58.46729pt.
+\griffbox:n:\griffzeichnen {D\#7}{x,x,.,.,.,.}{4:3:2,5:2:1,6:3:3}=\box160
+<griffe-cache.pdf, id=1446, page=41, 39.46344pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 41>
+Package pdftex.def Info: griffe-cache.pdf , page41 used on input line 32.
+(pdftex.def)             Requested size: 39.46333pt x 58.46729pt.
+\griffbox:n:\griffzeichnen {D\#maj7}{x,x,.,.,.,.}{3:1:1,4:3:3,5:3:4,6:3:2}=\box161
+<griffe-cache.pdf, id=1447, page=43, 43.93414pt x 60.69977pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 43>
+Package pdftex.def Info: griffe-cache.pdf , page43 used on input line 33.
+(pdftex.def)             Requested size: 43.93402pt x 60.6996pt.
+\griffbox:n:\griffzeichnen {D\#sus4}{x,x,.,.,.,.}{4:3:2,5:4:4,6:4:3}=\box162
+<griffe-cache.pdf, id=1448, page=45, 40.42001pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 45>
+Package pdftex.def Info: griffe-cache.pdf , page45 used on input line 34.
+(pdftex.def)             Requested size: 40.4199pt x 58.59877pt.
+\griffbox:n:\griffzeichnen {D\#dim7}{x,x,.,.,.,.}{3:1:1,4:2:2,5:1:1,6:2:3}=\box163
+<griffe-cache.pdf, id=1449, page=47, 43.94417pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 47>
+Package pdftex.def Info: griffe-cache.pdf , page47 used on input line 35.
+(pdftex.def)             Requested size: 43.94405pt x 58.59877pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 30--36
 
  []
 
+\griffbox:n:\griffzeichnen {E}{o,.,.,.,o,o}{2:2:2,3:2:3,4:1:1}=\box164
+<griffe-cache.pdf, id=1450, page=49, 32.85274pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 49>
+Package pdftex.def Info: griffe-cache.pdf , page49 used on input line 38.
+(pdftex.def)             Requested size: 32.85265pt x 58.46729pt.
+\griffbox:n:\griffzeichnen {Em}{o,.,.,o,o,o}{2:2:2,3:2:3}=\box165
+<griffe-cache.pdf, id=1451, page=51, 32.85274pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 51>
+Package pdftex.def Info: griffe-cache.pdf , page51 used on input line 39.
+(pdftex.def)             Requested size: 32.85265pt x 58.46729pt.
+\griffbox:n:\griffzeichnen {E7}{o,.,o,.,o,o}{2:2:2,4:1:1}=\box166
+<griffe-cache.pdf, id=1452, page=53, 32.85274pt x 58.42828pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 53>
+Package pdftex.def Info: griffe-cache.pdf , page53 used on input line 40.
+(pdftex.def)             Requested size: 32.85265pt x 58.42813pt.
+\griffbox:n:\griffzeichnen {Em7}{o,.,.,o,.,.}{2:2:1,3:2:2,5:3:3,6:3:4}=\box167
+<griffe-cache.pdf, id=1453, page=55, 35.61104pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 55>
+Package pdftex.def Info: griffe-cache.pdf , page55 used on input line 41.
+(pdftex.def)             Requested size: 35.61095pt x 58.46729pt.
+\griffbox:n:\griffzeichnen {Esus4}{o,.,.,.,o,o}{2:2:2,3:2:3,4:2:4}=\box168
+<griffe-cache.pdf, id=1454, page=57, 34.17668pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 57>
+Package pdftex.def Info: griffe-cache.pdf , page57 used on input line 42.
+(pdftex.def)             Requested size: 34.17657pt x 58.59877pt.
+\griffbox:n:\griffzeichnen {Edim7}{x,x,.,.,.,.}{3:2:2,4:3:3,5:2:1,6:3:4}=\box169
+<griffe-cache.pdf, id=1455, page=59, 39.46344pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 59>
+Package pdftex.def Info: griffe-cache.pdf , page59 used on input line 43.
+(pdftex.def)             Requested size: 39.46333pt x 58.59877pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 38--44
 
  []
 
+\griffbox:n:\griffzeichnen {F}{.,.,.,.,.,.}{3:3:3,2:3:4,4:2:2}[][1:1:6]=\box170
+<griffe-cache.pdf, id=1456, page=61, 39.12617pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 61>
+Package pdftex.def Info: griffe-cache.pdf , page61 used on input line 46.
+(pdftex.def)             Requested size: 39.12607pt x 58.46729pt.
+\griffbox:n:\griffzeichnen {Fm}{.,.,.,.,.,.}{3:3:3,2:3:4}[][1:1:6]=\box171
+<griffe-cache.pdf, id=1457, page=63, 39.12617pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 63>
+Package pdftex.def Info: griffe-cache.pdf , page63 used on input line 47.
+(pdftex.def)             Requested size: 39.12607pt x 58.46729pt.
+\griffbox:n:\griffzeichnen {F7}{.,.,.,.,.,.}{2:3:4,4:2:2}[][1:1:6]=\box172
+<griffe-cache.pdf, id=1458, page=65, 39.12617pt x 58.42828pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 65>
+Package pdftex.def Info: griffe-cache.pdf , page65 used on input line 48.
+(pdftex.def)             Requested size: 39.12607pt x 58.42813pt.
+\griffbox:n:\griffzeichnen {Fmaj7}{x,x,.,.,.,o}{3:3:3,4:2:2,5:1:1}=\box173
+<griffe-cache.pdf, id=1459, page=67, 38.88527pt x 60.69977pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 67>
+Package pdftex.def Info: griffe-cache.pdf , page67 used on input line 49.
+(pdftex.def)             Requested size: 38.88516pt x 60.6996pt.
+\griffbox:n:\griffzeichnen {Fsus4}{x,x,.,.,.,.}{3:3:3,4:3:4,5:1:1,6:1:1}=\box174
+<griffe-cache.pdf, id=1460, page=69, 39.46344pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 69>
+Package pdftex.def Info: griffe-cache.pdf , page69 used on input line 50.
+(pdftex.def)             Requested size: 39.46333pt x 58.59877pt.
+\griffbox:n:\griffzeichnen {Fdim7}{x,x,o,.,o,.}{4:1:1,6:1:2}=\box175
+<griffe-cache.pdf, id=1461, page=71, 39.46344pt x 58.55978pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 71>
+Package pdftex.def Info: griffe-cache.pdf , page71 used on input line 51.
+(pdftex.def)             Requested size: 39.46333pt x 58.55962pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 46--52
 
  []
 
+\griffbox:n:\griffzeichnen {F\#}{.,.,.,.,.,.}{3:3:3,2:3:4,4:2:2}[2][1:1:6]=\box176
+<griffe-cache.pdf, id=1462, page=73, 42.62625pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 73>
+Package pdftex.def Info: griffe-cache.pdf , page73 used on input line 54.
+(pdftex.def)             Requested size: 42.62613pt x 58.46729pt.
+\griffbox:n:\griffzeichnen {F\#m}{.,.,.,.,.,.}{3:3:3,2:3:4}[2][1:1:6]=\box177
+<griffe-cache.pdf, id=1463, page=75, 42.62625pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 75>
+Package pdftex.def Info: griffe-cache.pdf , page75 used on input line 55.
+(pdftex.def)             Requested size: 42.62613pt x 58.46729pt.
+\griffbox:n:\griffzeichnen {F\#7}{.,.,.,.,.,.}{2:3:4,4:2:2}[2][1:1:6]=\box178
+<griffe-cache.pdf, id=1464, page=77, 42.62625pt x 58.42828pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 77>
+Package pdftex.def Info: griffe-cache.pdf , page77 used on input line 56.
+(pdftex.def)             Requested size: 42.62613pt x 58.42813pt.
+\griffbox:n:\griffzeichnen {F\#maj7}{x,x,.,.,.,.}{3:4:4,4:3:3,5:2:2,6:1:1}=\box179
+<griffe-cache.pdf, id=1465, page=79, 42.71257pt x 60.69977pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 79>
+Package pdftex.def Info: griffe-cache.pdf , page79 used on input line 57.
+(pdftex.def)             Requested size: 42.71245pt x 60.6996pt.
+\griffbox:n:\griffzeichnen {F\#sus4}{x,x,.,.,.,.}{3:4:4,4:4:4,5:2:2,6:2:2}=\box180
+<griffe-cache.pdf, id=1466, page=81, 39.80873pt x 58.55978pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 81>
+Package pdftex.def Info: griffe-cache.pdf , page81 used on input line 58.
+(pdftex.def)             Requested size: 39.80861pt x 58.55962pt.
+\griffbox:n:\griffzeichnen {F\#dim7}{x,x,.,.,.,.}{3:1:1,4:2:2,5:1:1,6:2:3}=\box181
+<griffe-cache.pdf, id=1467, page=83, 42.72362pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 83>
+Package pdftex.def Info: griffe-cache.pdf , page83 used on input line 59.
+(pdftex.def)             Requested size: 42.7235pt x 58.59877pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 54--60
 
  []
 
+\griffbox:n:\griffzeichnen {G}{.,.,o,o,.,.}{5:3:3,1:3:3,2:2:2,6:3:4}=\box182
+<griffe-cache.pdf, id=1468, page=85, 38.36835pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 85>
+Package pdftex.def Info: griffe-cache.pdf , page85 used on input line 62.
+(pdftex.def)             Requested size: 38.36824pt x 58.59877pt.
+\griffbox:n:\griffzeichnen {Gm}{.,.,.,.,.,.}{3:3:3,2:3:4}[3][1:1:6]=\box183
+<griffe-cache.pdf, id=1469, page=87, 42.62625pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 87>
+Package pdftex.def Info: griffe-cache.pdf , page87 used on input line 63.
+(pdftex.def)             Requested size: 42.62613pt x 58.59877pt.
+\griffbox:n:\griffzeichnen {G7}{.,.,o,o,o,.}{1:3:3,2:2:2,6:1:1}=\box184
+<griffe-cache.pdf, id=1470, page=89, 38.36835pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 89>
+Package pdftex.def Info: griffe-cache.pdf , page89 used on input line 64.
+(pdftex.def)             Requested size: 38.36824pt x 58.59877pt.
+\griffbox:n:\griffzeichnen {Gmaj7}{.,.,o,o,o,.}{1:3:3,2:2:2,6:2:1}=\box185
+<griffe-cache.pdf, id=1471, page=91, 39.0499pt x 60.69977pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 91>
+Package pdftex.def Info: griffe-cache.pdf , page91 used on input line 65.
+(pdftex.def)             Requested size: 39.04979pt x 60.6996pt.
+\griffbox:n:\griffzeichnen {Gsus4}{.,.,o,o,.,.}{1:3:3,2:2:2,6:3:4,5:1:1}=\box186
+<griffe-cache.pdf, id=1472, page=93, 38.36835pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 93>
+Package pdftex.def Info: griffe-cache.pdf , page93 used on input line 66.
+(pdftex.def)             Requested size: 38.36824pt x 58.59877pt.
+\griffbox:n:\griffzeichnen {G/B}{x,.,o,o,o,.}{2:2:2,6:3:4}=\box187
+<griffe-cache.pdf, id=1473, page=95, 39.46344pt x 58.55978pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 95>
+Package pdftex.def Info: griffe-cache.pdf , page95 used on input line 67.
+(pdftex.def)             Requested size: 39.46333pt x 58.55962pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 62--68
 
@@ -3198,28 +3908,167 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[189]
+[187 <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf>]
+\griffbox:n:\griffzeichnen {G\#}{.,.,.,.,.,.}{3:3:3,2:3:4,4:2:2}[4][1:1:6]=\box188
+<griffe-cache.pdf, id=1488, page=97, 42.62625pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 97>
+Package pdftex.def Info: griffe-cache.pdf , page97 used on input line 70.
+(pdftex.def)             Requested size: 42.62613pt x 58.59877pt.
+\griffbox:n:\griffzeichnen {G\#m}{.,.,.,.,.,.}{3:3:3,2:3:4}[4][1:1:6]=\box189
+<griffe-cache.pdf, id=1489, page=99, 42.62625pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 99>
+Package pdftex.def Info: griffe-cache.pdf , page99 used on input line 71.
+(pdftex.def)             Requested size: 42.62613pt x 58.59877pt.
+\griffbox:n:\griffzeichnen {G\#7}{x,x,.,.,.,.}{2:3:4,4:2:2}[4][1:1:6]=\box190
+<griffe-cache.pdf, id=1490, page=101, 42.62625pt x 58.55978pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 101>
+Package pdftex.def Info: griffe-cache.pdf , page101 used on input line 72.
+(pdftex.def)             Requested size: 42.62613pt x 58.55962pt.
+\griffbox:n:\griffzeichnen {G\#maj7}{x,x,.,.,.,.}{3:1:1,4:1:1,5:1:1,6:3:3}[4]=\box191
+<griffe-cache.pdf, id=1491, page=103, 48.57448pt x 60.69977pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 103>
+Package pdftex.def Info: griffe-cache.pdf , page103 used on input line 73.
+(pdftex.def)             Requested size: 48.57436pt x 60.6996pt.
+\griffbox:n:\griffzeichnen {G\#sus4}{x,x,.,.,.,.}{3:1:1,4:1:1,5:2:2,6:4:4}[4]=\box192
+<griffe-cache.pdf, id=1492, page=105, 46.74866pt x 58.55978pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 105>
+Package pdftex.def Info: griffe-cache.pdf , page105 used on input line 74.
+(pdftex.def)             Requested size: 46.74852pt x 58.55962pt.
+\griffbox:n:\griffzeichnen {G\#dim7}{x,x,o,.,o,.}{4:1:1,6:1:2}=\box193
+<griffe-cache.pdf, id=1493, page=107, 44.56049pt x 58.55978pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 107>
+Package pdftex.def Info: griffe-cache.pdf , page107 used on input line 75.
+(pdftex.def)             Requested size: 44.56036pt x 58.55962pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 70--76
 
  []
 
+\griffbox:n:\griffzeichnen {A}{x,o,.,.,.,o}{3:2:1,4:2:2,5:2:3}=\box194
+<griffe-cache.pdf, id=1494, page=109, 36.70512pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 109>
+Package pdftex.def Info: griffe-cache.pdf , page109 used on input line 78.
+(pdftex.def)             Requested size: 36.70502pt x 58.46729pt.
+\griffbox:n:\griffzeichnen {A7}{x,o,.,o,.,o}{3:2:2,5:2:3}=\box195
+<griffe-cache.pdf, id=1495, page=111, 36.70512pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 111>
+Package pdftex.def Info: griffe-cache.pdf , page111 used on input line 79.
+(pdftex.def)             Requested size: 36.70502pt x 58.46729pt.
+\griffbox:n:\griffzeichnen {Am}{x,o,.,.,.,o}{3:2:2,4:2:3,5:1:1}=\box196
+<griffe-cache.pdf, id=1496, page=113, 36.70512pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 113>
+Package pdftex.def Info: griffe-cache.pdf , page113 used on input line 80.
+(pdftex.def)             Requested size: 36.70502pt x 58.46729pt.
+\griffbox:n:\griffzeichnen {Am7}{x,o,.,o,.,o}{3:2:2,5:1:1}=\box197
+<griffe-cache.pdf, id=1497, page=115, 36.70512pt x 58.42828pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 115>
+Package pdftex.def Info: griffe-cache.pdf , page115 used on input line 81.
+(pdftex.def)             Requested size: 36.70502pt x 58.42813pt.
+\griffbox:n:\griffzeichnen {Am/G}{.,o,.,.,.,o}{1:3:4,3:2:2,4:2:3,5:1:1}=\box198
+<griffe-cache.pdf, id=1498, page=117, 36.87778pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 117>
+Package pdftex.def Info: griffe-cache.pdf , page117 used on input line 82.
+(pdftex.def)             Requested size: 36.87767pt x 58.59877pt.
+\griffbox:n:\griffzeichnen {Amaj7}{x,o,.,.,.,o}{3:2:2,4:1:1,5:2:3}=\box199
+<griffe-cache.pdf, id=1499, page=119, 39.49556pt x 60.69977pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 119>
+Package pdftex.def Info: griffe-cache.pdf , page119 used on input line 83.
+(pdftex.def)             Requested size: 39.49545pt x 60.6996pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 78--84
 
  []
 
+\griffbox:n:\griffzeichnen {Asus2}{x,o,.,.,o,o}{3:2:1,4:2:2}=\box256
+<griffe-cache.pdf, id=1500, page=121, 37.66974pt x 58.55978pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 121>
+Package pdftex.def Info: griffe-cache.pdf , page121 used on input line 86.
+(pdftex.def)             Requested size: 37.66963pt x 58.55962pt.
+\griffbox:n:\griffzeichnen {Asus4}{x,o,.,.,.,o}{3:2:1,4:2:2,5:3:3}=\box257
+<griffe-cache.pdf, id=1501, page=123, 37.66974pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 123>
+Package pdftex.def Info: griffe-cache.pdf , page123 used on input line 87.
+(pdftex.def)             Requested size: 37.66963pt x 58.59877pt.
+\griffbox:n:\griffzeichnen {A7sus4}{x,o,.,.,.,.}{3:2:1,4:2:2,5:3:3,6:3:4}=\box258
+<griffe-cache.pdf, id=1502, page=125, 40.42001pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 125>
+Package pdftex.def Info: griffe-cache.pdf , page125 used on input line 88.
+(pdftex.def)             Requested size: 40.4199pt x 58.59877pt.
+\griffbox:n:\griffzeichnen {A\#}{x,x,.,.,.,.}{3:3:3,4:3:4,5:3:2,6:1:1}=\box259
+<griffe-cache.pdf, id=1503, page=127, 39.46344pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 127>
+Package pdftex.def Info: griffe-cache.pdf , page127 used on input line 89.
+(pdftex.def)             Requested size: 39.46333pt x 58.46729pt.
+\griffbox:n:\griffzeichnen {A\#m}{x,x,.,.,.,.}{3:3:3,4:3:4,5:2:2,6:1:1}=\box260
+<griffe-cache.pdf, id=1504, page=129, 39.46344pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 129>
+Package pdftex.def Info: griffe-cache.pdf , page129 used on input line 90.
+(pdftex.def)             Requested size: 39.46333pt x 58.46729pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 86--94
 
  []
 
+\griffbox:n:\griffzeichnen {B}{x,.,.,.,.,.}{3:3:4,4:3:3,5:3:2}[2][1:2:6]=\box261
+<griffe-cache.pdf, id=1505, page=131, 42.62625pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 131>
+Package pdftex.def Info: griffe-cache.pdf , page131 used on input line 96.
+(pdftex.def)             Requested size: 42.62613pt x 58.46729pt.
+\griffbox:n:\griffzeichnen {Bm}{x,.,.,.,.,.}{3:3:4,4:3:3,5:2:2}[2][1:2:6]=\box262
+<griffe-cache.pdf, id=1506, page=133, 42.62625pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 133>
+Package pdftex.def Info: griffe-cache.pdf , page133 used on input line 97.
+(pdftex.def)             Requested size: 42.62613pt x 58.46729pt.
+\griffbox:n:\griffzeichnen {B7}{x,.,.,.,.,.}{2:2:2,3:1:1,4:2:3,6:2:4}=\box263
+<griffe-cache.pdf, id=1507, page=135, 39.46344pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 135>
+Package pdftex.def Info: griffe-cache.pdf , page135 used on input line 98.
+(pdftex.def)             Requested size: 39.46333pt x 58.46729pt.
+\griffbox:n:\griffzeichnen {Bm7}{x,.,o,.,.,.}{2:2:2,4:2:3,6:2:4}=\box264
+<griffe-cache.pdf, id=1508, page=137, 39.46344pt x 58.46744pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 137>
+Package pdftex.def Info: griffe-cache.pdf , page137 used on input line 99.
+(pdftex.def)             Requested size: 39.46333pt x 58.46729pt.
+\griffbox:n:\griffzeichnen {Bmaj7}{x,x,.,.,.,.}{3:4:4,4:3:2,5:4:3,6:2:1}=\box265
+<griffe-cache.pdf, id=1509, page=139, 39.46344pt x 60.69977pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 139>
+Package pdftex.def Info: griffe-cache.pdf , page139 used on input line 100.
+(pdftex.def)             Requested size: 39.46333pt x 60.6996pt.
+\griffbox:n:\griffzeichnen {Bsus4}{x,x,.,.,.,.}{3:4:3,4:4:4,5:5:5,6:2:1}=\box266
+<griffe-cache.pdf, id=1510, page=141, 39.46344pt x 58.59892pt>
+File: griffe-cache.pdf Graphic file (type pdf)
+<use griffe-cache.pdf, page 141>
+Package pdftex.def Info: griffe-cache.pdf , page141 used on input line 101.
+(pdftex.def)             Requested size: 39.46333pt x 58.59877pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 96--102
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 103--165
+Underfull \hbox (badness 10000) in paragraph at lines 103--163
 
  []
 
@@ -3230,7 +4079,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 11.3pt, for example:
 (fancyhdr)                \setlength{\footskip}{11.3pt}.
 
-[190] (main.aux)
+[188 <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf> <./griffe-cache.pdf>] (main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
@@ -3247,17 +4096,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 5F85AF044163B5206FDD56F7F6424374;415.
  ) 
 Here is how much of TeX's memory you used:
- 25394 strings out of 469959
- 498100 string characters out of 5469835
- 1392688 words of memory out of 5000000
- 51119 multiletter control sequences out of 15000+600000
- 693503 words of font info for 116 fonts, out of 8000000 for 9000
+ 25640 strings out of 469959
+ 522355 string characters out of 5469835
+ 1244887 words of memory out of 5000000
+ 51360 multiletter control sequences out of 15000+600000
+ 693555 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 112i,12n,113p,567b,939s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 112i,12n,113p,567b,984s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\schni\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt0900.pk><C:/Users/schni/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Users/schni/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/schni/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/schni/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/schni/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/schni/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (190 pages, 1274636 bytes).
+Output written on main.pdf (188 pages, 1542160 bytes).
 PDF statistics:
- 1216 PDF objects out of 1440 (max. 8388607)
- 290 named destinations out of 1000 (max. 500000)
- 212 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1618 PDF objects out of 1728 (max. 8388607)
+ 289 named destinations out of 1000 (max. 500000)
+ 862 words of extra memory for PDF output out of 10000 (max. 10000000)
 

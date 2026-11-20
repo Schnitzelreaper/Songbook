@@ -1,0 +1,56 @@
+titel: 99 Luftballons
+interpret: Nena
+info: Capo 2
+---
+
+[  D             Em                  G             A]
+{1.}Hast du etwas Zeit für mich? Dann singe ich ein Lied für dich
+[    D              Em              G             A]
+von neunundneunzig Luftballons auf ihrem Weg zum Horizont
+[D                    Em                   G             A]
+Denkst du vielleicht g'rad' an mich, dann singe ich ein Lied für dich
+[    D              Em              G              A]
+von neunundneunzig Luftballons und dass sowas von sowas kommt...
+
+[  D              Em              G             A]
+{2.}Neunundneunzig Luftballons auf ihrem Weg zum Horizont
+[      D            Em             G                A]
+hielt man für UFOs aus dem All. Darum schickte ein General 
+[    D              Em          G              A]
+'ne Fliegerstaffel hinterher, Alarm zu geben, wenn's so wär
+[  D               Em           G              A]
+Dabei war'n da am Horizont nur neunundneunzig Luftballons
+
+[  D              Em            G             A]
+{3.}Neunundneunzig Düsenflieger, jeder war ein großer Krieger
+[D                Em                G              A]
+Hielten sich für Captain Kirk, das gab ein großes Feuerwerk
+[    D              Em                 G                   A]
+Die Nachbarn haben nichts gerafft und fühlten sich gleich angemacht
+[  D                 Em           G              A]
+Dabei schoss man am Horizont auf neunundneunzig Luftballons
+
+[  D              Em               G                  A]
+{4.}Neunundneunzig Kriegsminister - Streichholz und Benzinkanister -
+[D                Em             G               A]
+Hielten sich für schlaue Leute, witterten schon fette Beute
+[D                  Em             G               A]
+Riefen "Krieg" und wollten Macht. Mann, wer hätte das gedacht
+[D              Em                 G              A]
+Dass es einmal soweit kommt wegen neunundneunzig Luftballons
+
+[D   Em         G              A]
+         Wegen neunundneunzig Luftballons
+[D   Em         G   A]
+
+@schlagmuster{standard-16}[Ganzes Lied]
+@seite
+[  D              Em          G             A]
+{5.}Neunundneunzig Jahre Krieg ließen keinen Platz für Sieger
+[D              Em                G              A]
+Kriegsminister gibt's nicht mehr und auch keine Düsenflieger
+[D               Em            G                A]
+Heute zieh' ich meine Runden, seh' die Welt in Trümmern liegen
+[D                Em            G                 A]
+Hab' 'nen Luftballon gefunden, denk' an dich und lass' ihn fliegen...
+@anmerkung{99 Luftballons entstand in der letzten Phase des Kalten Krieges als die Nato beschloss Atomwaffen in Deutschland zu stationieren.}

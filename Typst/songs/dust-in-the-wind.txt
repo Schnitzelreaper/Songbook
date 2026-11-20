@@ -1,0 +1,47 @@
+titel: Dust in the Wind
+interpret: Kansas
+---
+
+{Intro:}
+[C Cmaj7 Cadd9 C Asus2 Asus4 Am Asus2]
+[Cadd9 C Cmaj7 Cadd9 Am Asus2 Asus4 Am]
+
+
+[  C     G/B Am  G           Dm7           Am              G/B]
+{1.}I close my eyes only for a moment and the moment's gone.
+[C   G/B Am    G              Dm7        Am]
+All my dreams pass before my eyes a curiosity.
+
+{Chorus:}
+[D/F#    G        Am    D/F#          G           Am     G/B]
+Dust in the wind, all we are is dust in the wind.
+
+
+[  C    G/B Am    G              Dm7         Am            G/B]
+{2.}Same old song, just a drop of water in an endless sea.
+[C   G/B Am  G               Dm7                Am]
+All we do,  crumbles to the ground though we refuse to see.
+
+{Chorus:}
+[D/F#    G        Am    D/F#          G           Am]
+Dust in the wind, all we are is dust in the wind.
+
+{Instrumental:}
+[C Cmaj7 Cadd9 C Asus2 Asus4 Am Asus2]
+[Cadd9 C Cmaj7 Cadd9 Am Asus2 Asus4 Am]
+
+
+[       C     G/B  Am  G                Dm7           Am]
+{3.}Now, don't hang on, nothing lasts forever but the earth and sky.
+[   C     G/B Am      G              Dm7           Am]
+It slips a - way and all your money won't another minute buy.
+
+{Chorus:}
+[D/F#    G        Am    D/F#          G           Am]
+Dust in the wind, all we are is dust in the wind.
+[D/F#    G        Am    D/F#          G           Am]
+Dust in the wind, everything is dust in the wind.
+
+{Outro:}
+[Am Asus2 Asus4 Am Asus2 Asus4  x3]
+@griffe{Cmaj7, Cadd9, Asus2, Asus4, G/B, Dm7, D/F#}

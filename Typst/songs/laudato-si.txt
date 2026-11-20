@@ -1,0 +1,43 @@
+titel: Laudato si
+interpret: Neues Geistliches Lied
+info: Capo -
+---
+
+{Refrain:}
+[G                         Em] @schlagmuster{standard}[Ganzes Lied]
+Laudato si, o mio Signor, laudato si, o mio Signor,
+[C                         D]
+laudato si, o mio Signor, laudato si, o mio Signor!
+
+[      G]
+{1.}Sei gepriesen, du hast die welt geschaffen,
+[      Em]
+sei gepriesen für Sonne, Mond und Sterne,
+[      C]
+sei gepriesen für Meer und Kontinente,
+[      D]
+sei gepriesen, denn du bist wunderbar, Herr!
+
+{Refrain} ([G]...)
+
+[      G]
+{2.}Sei gepriesen für Licht und Dunkelheiten!
+[      Em]
+Sei gepriesen für Nächte und für Tage!
+[      C]
+Sei gepriesen für Jahre und Sekunden!
+[      D]
+Sei gepriesen, denn du bist wunderbar, Herr!
+
+{Refrain} ([G]...)
+
+[      G]
+{3.}Sei gepriesen für Wolken, Wind und Regen!
+[      Em]
+Sei gepriesen, du lässt die Quellen springen!
+[      C]
+Sei gepriesen, du lässt die Felder reifen!
+[      D]
+Sei gepriesen, denn du bist wunderbar, Herr!
+
+{Refrain} ([G]...)

@@ -1,0 +1,94 @@
+titel: Tage Wie Diese
+interpret: Die Toten Hosen
+info: Capo -
+---
+
+{Intro:}
+|D (Dmaj7)| D (Dmaj7)| G    | G
+
+[                D]
+{1.}Ich wart seit Wochen auf diesen Tag
+[             G]
+Und tanz vor Freude über den Asphalt
+[               Bm7]
+Als wär's ein Rythmus, als gäb's ein Lied,
+[                G]
+Dass mich immer weiter durch die Straßen zieht
+
+Pre-Refrain:
+[             Cadd9           G               D]
+Komm dir entgegen, dich abzuholen, wie ausgemacht
+[               Cadd9                G                    D]
+Zu der selben Uhrzeit, am selben Treffpunkt, wie letztes Mal
+
+[                D]
+{1.}Durch das Gedränge der Menschenmenge
+[            G]
+Bahnen wir uns den altbekannten Weg
+[            Bm7]
+Entlang der Gassen zu den Rheinterrassen
+[            G]
+Über die Brücken bis hin zu der Musik
+
+Pre-Refrain:
+[          Cadd9             G                    D]
+Wo alles laut ist, wo alle drauf sind, um durchzudreh'n
+[                Cadd9                G                D]
+Wo die Anderen warten, um mit uns zu starten und abzugeh'n
+
+{Refrain:}
+[              D                        G]
+An Tagen wie diesen wünscht man sich Unendlichkeit
+[              Em                   G]
+An Tagen wie diesen haben wir noch ewig Zeit
+[                 D]
+Wünsch ich mir Unendlichkeit
+
+[               D]
+{1.}Das hier ist ewig, ewig für heute
+[                 G]
+Wir steh'n nicht still für eine ganze Nacht
+[         Bm7]
+Komm ich trag dich durch die Leute
+[          G]
+Hab keine Angst, ich gebe auf dich Acht
+
+Pre-Refrain:
+[                 Cadd9          G                        D]
+Wir lassen uns treiben, tauchen unter, schwimmen mit dem Strom
+[                 Cadd9                    G                  D]
+Dreh'n unsere Kreise, kommen nicht mehr runter, sind schwerelos
+
+{Refrain:}
+[              D                        G]
+An Tagen wie diesen wünscht man sich Unendlichkeit
+[              Em7                  G]
+An Tagen wie diesen haben wir noch ewig Zeit
+[                     Cadd9 G                    D]
+In dieser Nacht der Nächte, die uns so viel verspricht
+[                 Cadd9 G                   D]
+Erleben wir das Beste,  kein Ende ist in Sicht
+
+{Bridge:}
+[                G]
+Kein Ende in Sicht...
+[                Bm7]
+Kein Ende in Sicht...
+[                G         A]
+Kein Ende in Sicht...
+
+{Refrain:}
+[              D                        G]
+An Tagen wie diesen wünscht man sich Unendlichkeit
+[              Em                   G]
+An Tagen wie diesen haben wir noch ewig Zeit                                                                      
+[                     Cadd9 G                    D]
+In dieser Nacht der Nächte, die uns so viel verspricht
+[                Cadd9 G                   D]
+Erleben wir das Beste, kein Ende ist in Sicht
+[                Cadd9 G                 D]
+Erleben wir das Beste, und kein Ende in Sicht...
+[               G      A      D]
+Kein Ende in Sicht...
+
+@griffe{Bm7, Cadd9, Em7}

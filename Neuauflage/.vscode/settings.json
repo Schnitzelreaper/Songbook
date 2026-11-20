@@ -1,0 +1,46 @@
+{
+  // Build-Varianten für das Liederbuch (LaTeX Workshop), ohne Perl/latexmk.
+  "latex-workshop.latex.tools": [
+    {
+      "name": "pdflatex",
+      "command": "pdflatex",
+      "args": ["-synctex=1", "-interaction=nonstopmode", "-file-line-error", "%DOC%"]
+    },
+    {
+      // zeichnet alle Griffbilder einmal nach griffe-cache.pdf (siehe griffe-cache.tex)
+      "name": "griffcache",
+      "command": "pdflatex",
+      "args": ["-interaction=nonstopmode", "-file-line-error", "griffe-cache.tex"]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      // Standard beim Speichern: ein Lauf (~3-4 s). Nutzt die Werte aus dem
+      // vorigen Lauf; nach Änderungen, die Seiten verschieben, stimmt alles
+      // spätestens nach dem nächsten Speichern.
+      "name": "Schnell (1x pdflatex)",
+      "tools": ["pdflatex"]
+    },
+    {
+      // Zum Drucken/Committen: Griff-Cache neu bauen und alles sauber
+      // durchrechnen lassen. Auch nach Änderungen an chords.tex /
+      // griffe-zusatz.tex (bis dahin werden geänderte Griffe live gezeichnet).
+      "name": "Komplett (Griff-Cache + 3x pdflatex)",
+      "tools": ["griffcache", "pdflatex", "pdflatex", "pdflatex"]
+    }
+  ],
+  // beim Speichern immer die erste Variante ("Schnell")
+  "latex-workshop.latex.recipe.default": "first",
+  // nur beim Speichern bauen (nicht bei jeder Dateiänderung von außen)
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  // .aux bei Fehlern NICHT löschen, sonst muss alles von vorn eingerechnet werden
+  "latex-workshop.latex.autoClean.run": "never",
+  // Aufräumen (Clean up auxiliary files) ohne latexmk/Perl: Hilfsdateien
+  // einfach per Dateimuster löschen
+  "latex-workshop.latex.clean.method": "glob",
+  // kein automatisches Formatieren beim Speichern: latexindent braucht Perl,
+  // und die Akkordzeilen sind ohnehin von Hand ausgerichtet
+  "[latex]": {
+    "editor.formatOnSave": false
+  }
+}

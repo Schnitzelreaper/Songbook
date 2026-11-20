@@ -1,0 +1,50 @@
+titel: 74 - 75
+interpret: The Connells
+info: (im Original Eb Tuning) Capo -
+---
+
+{Intro:}
+[| Am  | C G | Am  | Am  | x2]
+[  F      C          F                    C    G       F]
+{1.}Got no reason for coming to me and the rain running down
+[           C        Am*]
+There's no reason
+[F       C          F                      C   G       F]
+and the same voice coming to me like it's all slowing down
+[      C          G]
+and believe me
+
+{Chorus:}[   Am              C                G          F]
+I was the one who let you know, I was your sorry ever after
+[        Am            C      G]
+seventy-four, seventy-five
+
+[  F        C     F                          C G     F]
+{2.}It's not easy, nothing to say 'cause it's already said
+[           C      Am*]
+It's never easy
+[       F            C           Am        C       F]
+When I look on your eyes then I find that I'll do fine
+[       Am           C              G]
+When I look on your eyes then I do better
+
+{Chorus:}
+[          Am              C                G          F]
+I was the one who let you know, I was your sorry ever after
+[        Am            C      G]
+seventy-four, seventy-five
+[          Am              C                G           F]
+Givin' me more and I'll defy 'cause you're really only after
+[        Am            C      G]
+seventy-four, seventy-five
+
+{Interlude:}
+[| Am  | C G | Am  | Am  | ]
+
+{Verse 1}
+@schlagmuster{boulevard}[Verse]
+{Chorus (2x)}
+
+{Outro: (3x)}@schlagmuster{holz}[Chorus & Interlude]
+[Am C G F        Am            C      G]
+        Seventy-four, seventy-five

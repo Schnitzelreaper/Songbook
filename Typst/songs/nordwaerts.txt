@@ -1,0 +1,50 @@
+titel: Nordwärts, nordwärts
+interpret: Volkslied
+info: Capo -
+---
+
+[  Am                   G                Dm            Am]
+{1.}Nordwärts, nordwärts wolln wir ziehen zu den Bergen und den Seen,
+[C            G             Am        Dm  Em  Am]
+wollen neues Land erleben, wolln auf Fahrten geh'n.
+
+[  Am              G              Dm            Am]
+{2.}Wollen frei, so wie ein Vogel, wiegen uns im kalten Wind,
+[C                 G              Am       Dm   Em   Am]
+wolln den Ruf der Wildnis hören, wenn wir glücklich sind.
+
+[  Am                   G            Dm           Am]
+{3.}Wolln durch Moor und Sümpfe waten abends legen uns zur Ruh,
+[C               G               Am     Dm Em  Am]
+Klampfen sollen leis erklingen, singen im-mer zu.
+
+[  Am           G                 Dm             Am]
+{4.}In der Kohte brennt ein Feuer, füllt uns alle mit Bedacht.
+[C                     G              Am       Dm  Em  Am]
+Schlaf senkt sich auf uns hernieder, doch die Wildnis wacht.
+
+[  Am                G              Dm             Am]
+{5.}Käutzchenschreie, Bäume rauschen bis zum frühen Morgengrau.
+[C         G              Am          Dm Em  Am]
+Über ausgequalmten Feuer strahlt der Himmel blau.
+
+[  Am              G                 Dm           Am]
+{6.}Wenn wir wieder Heimwärts ziehen, sehnet jeder sich zurück.
+[C               G                Am    Dm  Em  Am]
+Denkt an die vergangnen Fahrten, an vergangnes Glück.
+
+[  Am                   G                 Dm            Am]
+{7.}Nordwärts, nordwärts wolln wir wieder, zu den Bergen und den Seen,
+[C               G           Am      Dm  Em  Am]
+dieses Land nochmal erleben und auf Fahrten gehn.
+
+
+
+@griffe{Dm}
+
+
+
+
+
+
+@schlagmuster{standard}[Ganzes Lied]

@@ -1,0 +1,98 @@
+titel: Nur ein Wort
+interpret: Wir Sind Helden
+info: (im Original Eb Tuning) Capo -
+---
+
+{Intro:}
+[| C | Em | Am | F |]
+
+[  C                 Em                        Am]
+{1.}Ich sehe, was du denkst, ich denke, was du fühlst.
+[                F]
+Ich fühle, was du willst. Aber ich hör' dich nicht, ich
+[C                         Em                         Am]
+hab' mir ein Wörterbuch geliehen, dir A bis Z ins Ohr geschrien.
+[                        F                           C]
+Ich stapel tausend wirre Worte auf, die dich am Ärmel ziehn.
+
+{Pre-Chorus:}
+[C         Em                  Am              G]
+Und wo du hingehen willst, ich häng' an deinen Beinen.
+[    F                Em                    Dm        Em        F   G]
+Wenn du schon auf den Mund fallen musst, warum dann nicht auf meinen?
+
+{Chorus: (2x)}
+[C                         Em                        Am]
+Oh, bitte gib mir nur ein Oh, bitte gib mir nur ein Oh.
+[                       F                           C]
+Bitte gib mir nur ein, bitte bitte gib mir nur ein Oh.
+
+{Interlude:}
+[| C | Em | Am | F |]
+
+[  C                             Em]
+{2.}Es ist verrückt, wie schön du schweigst,
+[                            Am]
+Wie du dein hübsches Köpfchen neigst
+[                        F                               C]
+und so der ganzen lauten Welt und mir die kalte Schulter zeigst.
+[                        Em                               Am]
+Dein Schweigen ist dein Zelt, du stellst es mitten in die Welt,
+[                                F]
+spannst die Schnüre und staunst stumm, 
+[                               C]
+wenn nachts ein Mädchen drüber fällt.
+
+{Pre-Chorus:}
+[C         Em              Am                G]
+Zu deinen Füssen red' ich mich um Kopf und Kragen.
+[    F              Em            Dm    Em     F    G]
+Ich will in deine tiefen Wasser große Wellen schlagen.
+
+{Chorus} [(C Em Am G)]
+
+{Break:}
+<(Klatschen)>
+[| C | Em | Am | F |]
+<(mit Gitarre)>
+[| C | Em | Am | F |]
+
+{Pre-Chorus:}
+[C         Em              Am         G]
+In meinem Blut werfen die Endorphine Blasen,
+[     F              Em           Dm    Em    F     G]
+wenn hinter deinen stillen Hasenaugen die Gedanken rasen.
+
+{Chorus:}
+[C                         Em                        Am]
+Oh, bitte gib mir nur ein Oh, bitte gib mir nur ein Oh.
+[                       F                           C]
+Bitte gib mir nur ein, bitte bitte gib mir nur ein Oh.
+<                                (ich sehe, was du denkst)>
+[C                         Em                        Am]
+Oh, bitte gib mir nur ein Oh, bitte gib mir nur ein Oh.
+<    (ich denke, was du fühlst, ich fühle was du willst,)>
+[                       F                           C]
+Bitte gib mir nur ein, bitte bitte gib mir nur ein Wort.
+<(aber ich hör dich nicht ich hör nur mich, ich hör nicht auf dich Oh)>
+[C                         Em                        Am]
+Oh, bitte gib mir nur ein Oh, bitte gib mir nur ein Oh
+<   (bitte gib mir nur ein, - Oh bitte gib mir nur ein -)>
+[                       F                           C]
+Bitte gib mir nur ein, bitte bitte gib mir nur ein Oh.
+<  (Oh bitte, Oh bitte)         (ich sehe was du denkst)>
+[C                         Em                        Am]
+Oh, bitte gib mir nur ein oh, bitte gib mir nur ein Oh.
+<        (ich denke was du fühlst, ich fühle was du willst,)>
+[                       F                           C]
+Bitte gib mir nur ein, bitte bitte gib mir nur ein Wort.
+<(aber ich hör dich nicht ich hör nur mich, ich hör nicht auf dich Oh)>
+
+{Outro:}@griffe{Dm}
+[C                        Em                        Am]
+Oh bitte gib mir nur ein Oh, bitte gib mir nur ein Oh.
+<  (bitte gib mir nur ein - Woooo......rt)>
+[                        F                           C]
+Bitte gib mir nur ein, bitte bitte gib mir nur ein Wort.
+<(bitte gib mir nur eiiii...)>
+@anmerkung{Endorphine sind weithin bekannt als „Glückshormone“. Neben einer euphorisierenden Wirkung können sie viele weitere Effekte auf den Körper ausüben. Blasen werfen können sie in wirklich nicht.}

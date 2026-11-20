@@ -1,0 +1,92 @@
+titel: Auf Uns
+interpret: Andreas Bourani
+info: Capo 2
+---
+
+{Intro:}
+[| C | % | Am | G]
+
+[C                                   Am                         G]
+{1.}Wer friert uns diesen Moment ein, besser kann es nicht sein.
+[C]
+Denkt an die Tage die hinter uns liegen,
+[             Am                              G]
+wielang' wir Freude und Tränen schon teiln'.
+[C]
+Hier geht jeder für jeden durchs Feuer,
+[Am                                   G]
+im Regen stehn' wir niemals allein.
+[C                                      Am]
+Und solange unsre Herzen uns steuern, wird das auch immer so sein.
+
+{Pre-Refrain:}
+[             F                                 G]
+Ein Hoch auf das was vor uns liegt dass es das Beste für uns gibt
+[             F                             G]
+Ein Hoch auf das was uns vereint auf diese Zeit (auf diese Zeit)
+
+{Refrain:}
+[             F        G            C]
+Ein Hoch auf uns(uns) auf dieses Leben,
+[           F   G          C]
+auf den Moment der immer bleibt
+[             F         G               C]
+Ein hoch auf uns (uns) auf jetzt und ewig
+[          F     G          C]
+auf einen Tag ... Unendlichkeit
+
+[C                                             Am                         G]
+{2.}Wir haben Flügel, schwörn' uns ewige Treue, vergolden uns diesen Tag
+[C                           Am]
+Ein Leben lang ohne Reue, vom ersten Schritt bis ins Grab.
+
+{Pre-Refrain:}
+[             F                                 G]
+Ein Hoch auf das was vor uns liegt dass es das Beste für uns gibt
+[             F                             G]
+Ein Hoch auf das was uns vereint auf diese Zeit (auf diese Zeit)
+
+{Refrain:}
+[             F        G            C]
+Ein Hoch auf uns(uns) auf dieses Leben,
+[           F   G          C]
+auf den Moment der immer bleibt
+[             F         G               C]
+Ein hoch auf uns (uns) auf jetzt und ewig
+[          F     G          C]
+auf einen Tag ... Unendlichkeit (Unendlichkeit)
+
+{Bridge:}
+[F                        G      C                                Am]
+Ein Feuerwerk aus Endorphinen, ein Feuerwerk zieht durch die Nacht.
+[F                         G]
+So viele Lichter sind geblieben
+[C                      G    C    F      G                 C    F  G  C]
+ein Augenblick der uns unsterblich macht... (unsterblich macht). . . .
+
+{Pre-Refrain:}
+[             F                                 G]
+Ein Hoch auf das was vor uns liegt dass es das Beste für uns gibt
+[             F                             G]
+Ein Hoch auf das was uns vereint auf diese Zeit (auf diese Zeit)
+
+{Refrain:}
+[             F        G            C]
+Ein Hoch auf uns(uns) auf dieses Leben,
+[           F   G          C]
+auf den Moment der immer bleibt
+[             F         G               C]
+Ein hoch auf uns (uns) auf jetzt und ewig
+[          F     G          C]
+auf einen Tag ... Unendlichkeit
+
+{Outro:}
+[             F                   G]
+Ein Hoch auf uns, ein Feuerwerk aus Endorphinen
+[             C                              Am]
+Ein Hoch auf uns, ein Feuerwerk zieht durch die Nacht.
+[             F                        G]
+Ein Hoch auf uns, so viele Lichter sind geblieben...
+[        C . . .]
+... auf uns
+@anmerkung{Offizieller WM-Song als Deutschland 2014 die Fusball-Weltmeisterschaft gewann}

@@ -1,0 +1,150 @@
+titel: Je Ne Parle Pas Français
+interpret: Namika
+info: Capo 3
+---
+@illustration[30mm]{franzosen}{100mm}{7mm}
+{Intro:}
+[|Am Dm |Em Am |Am Dm |Em Am|]@schlagmuster{francais}[Verse, Pre-Hook, Hook & Bridge]
+
+[              Am           Dm]
+{1.}Ich hab' mich... irgendwie verlaufen
+[            Em               Am]@schlagmuster{francais-b}[Post-Hook]
+Hab' kein'n Plan, wohin ich geh'
+[         Am      Dm]
+Steh' mit meinem kleinen Koffer
+[             Em        Am]
+Hier auf der Champs-Élysées
+[          Am           Dm]
+Auf einmal sprichst du mich an
+[        Em                     Am]
+„Salut, qu'est-ce que vous cherchez ?“
+[             Am      Dm]
+Ich sag', „Pardon, es tut mir leid
+[             Em                Am]
+Ich kann dich leider nicht versteh'n!“
+
+{Pre-Hook:}
+[F]
+Doch du redest immer weiter
+[           Em             Am]
+Ich find's irgendwie charmant
+[F]
+Und male zwei Tassen Kaffee
+[        G]
+Mit 'nem Stift auf deine Hand
+
+{Hook:}
+[      Am        Dm]
+Je ne parle pas français
+[     Em        Am]
+Aber bitte red weiter
+[       Am        Dm]
+Alles, was du so erzählst
+[        Em        Am]
+Hört sich irgendwie nice an
+[        F              Dm]
+Und die Zeit bleibt einfach steh'n
+[                  Em          Am]
+Ich wünscht', ich könnte dich versteh'n
+[      Am        Dm]
+Je ne parle pas français
+[     Em        Am]
+Aber bitte red weiter
+
+{Post-Hook:}
+[Am Dm Em Am]
+Oh la la la la la la la la la
+Oh la la la la la la la la la
+
+[     Am       Dm]
+{2.}Deine langen, wilden Haare
+[          Em          Am]
+Die kleine Narbe im Gesicht
+[         Am         Dm]
+Selbst der Staub auf deiner Jeans
+[      Em            Am]
+Hat Esprit, wenn du sprichst
+[         Am             Dm]
+Die Kippe schmeckt nach Liberté
+[     Em             Am]
+Solang wir beide sie uns teil'n
+[     Am        Dm]
+Du erzählst in Körpersprache
+[             E                Am]
+Und ich hör' zwischen deinen Zeil'n
+
+{Pre-Hook:}
+[F]
+Ich häng' an deinen Lippen
+[    Em                    Am]
+Ich will hier nicht mehr fort
+[F]
+Und du redest und redest
+[     G]
+Doch ich versteh' kein Wort
+
+{Hook:}
+[      Am        Dm]
+Je ne parle pas français
+[     Em        Am]
+Aber bitte red weiter
+[       Am        Dm]
+Alles, was du so erzählst
+[        Em        Am]
+Hört sich irgendwie nice an
+[        F              Dm]
+Und die Zeit bleibt einfach steh'n
+[                  Em          Am]
+Ich wünscht', ich könnte dich versteh'n
+[      Am        Dm]
+Je ne parle pas français
+[     Em        Am]
+Aber bitte red weiter
+
+{Post-Hook:}
+[Am Dm Em Am]
+Oh la la la la la la la la la
+Oh la la la la la la la la la
+
+{Bridge:}@griffe{Dm}
+[           Am               F]
+Die Sonne fällt hinter die Häuser
+[         C                G]
+Schiffe zieh'n an uns vorbei
+[    Am              F]
+Und alles, was wir woll'n
+[           C                 G]
+Dass der Moment noch etwas bleibt
+[       Am            F]
+Um uns über tausend Menschen
+[          C            G]
+Sie reden aufeinander ein
+[            Am               F]
+Doch die Sprache, die wir sprechen
+[         C              G]
+Die verstehen nur wir zwei
+
+{Hook:}
+[      Am        Dm]
+Je ne parle pas français
+[     Em        Am]
+Aber bitte red weiter
+[       Am        Dm]
+Alles, was du so erzählst
+[        Em        Am]
+Hört sich irgendwie nice an
+[        F              Dm]
+Und die Zeit bleibt einfach steh'n
+[                  Em          Am]
+Ich wünscht', ich könnte dich versteh'n
+[      Am        Dm]
+Je ne parle pas français
+[     E         Am]
+Aber bitte red weiter
+
+{Post-Hook:}
+[Am Dm Em Am]
+Oh la la la la la la la la la
+Oh la la la la la la la la la
+Oh la la la la la la la la la
+Oh la la la la la la la la la@illustration[40mm]{manif}{85mm}{140mm}

@@ -1,0 +1,101 @@
+titel: Africa
+interpret: Toto
+info: Capo 2
+---
+
+{Intro:}
+[G  Bm   G  Bm   G  Bm   G  Bm]
+
+{1.}[A                C#m     F#m]
+I hear the drums echoing tonight
+[    F#m      G                Bm       F#m  G  Bm]
+She hears only whispers of some quiet conversation
+[A            C#m               F#m]
+She's coming in, twelve thirty flight
+[         F#m    G                      Bm               F#m  G Bm]
+The moonlit wings reflect the stars that guide me towards salvation
+[A            C#m               F#m]
+I stopped an old man along the way
+[      F#m        G             Bm               F#m G   Bm]
+Hoping to find some old forgotten words or ancient melodies
+[A            C#m         F#m]
+He turned to me as if to say
+[F#m           G                  Bm]
+Hurry boy, it's waiting there for you
+
+{Chorus:}
+[Em                C               G        D]
+It's gonna take a lot to drag me away from you
+[Em                     C              G               D]
+There's nothing that a hundred men or more could ever do
+[Em          C             G   D]
+I bless the rains down in Africa
+[Em              C              G]
+Gonna take some time to do the things we never
+[Bm     D    Em     D   G     Bm]
+Had                oo, ooo
+
+{Link:}[ G  Bm]
+
+{2.}[A             C#m            F#m]
+The wild dogs cry out in the night
+[  F#m              G                Bm       F#m G   Bm]
+As they grow restless longing for some solitary company
+[A           C#m              F#m]
+I know that I must do what's right
+[          F#m       G           Bm               F#m G   Bm]
+As sure as Kilimanjaro rises like Olympus above the Serengeti
+[A         C#m                F#m]
+I seek to cure what's deep inside...
+[F#m              G               Bm]
+Frightened of this thing that I've become
+
+{Chorus:}
+[Em                C               G        D]
+It's gonna take a lot to drag me away from you
+[Em                     C              G               D]
+There's nothing that a hundred men or more could ever do
+[Em          C             G   D]
+I bless the rains down in Africa
+[Em              C              G]
+Gonna take some time to do the things we never
+[Bm     D    Em     D   G     Bm]
+Had                oo, ooo...
+
+{Link:}
+[G  Bm]
+
+{Music Break:}
+[A   C#m   F#m ]
+[(F#m)           G                 Bm]
+Hurry boy, she's waiting there for you
+
+{Chorus:}
+[Em                C               G        D]
+It's gonna take a lot to drag me away from you
+[Em                     C              G               D]
+There's nothing that a hundred men or more could ever do
+[Em          C             G   D]
+I bless the rains down in Africa
+[Em          C             G   D]
+I bless the rains down in Africa
+[Em          C             G   D]
+I bless the rains down in Africa
+[Em          C             G   D]
+I bless the rains down in Africa
+[Em          C             G   D]
+I bless the rains down in Africa
+[Em              C              G]
+Gonna take some time to do the things we never@griffe{C#m, F#m, Bm}
+[Bm     D    Em     D   G      Bm]
+Had--------------- oo, ooo...
+
+{Outro:}
+[      G  Bm   G  Bm   G  Bm   G  Bm]@schlagmuster{africa-c}[chorus]
+
+
+
+@schlagmuster{boulevard}[Verse & Music Break]
+
+
+@schlagmuster{africa}[Intro & Link]

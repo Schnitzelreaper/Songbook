@@ -1,0 +1,44 @@
+% ============================================================
+%  griffe-cache.tex — zeichnet alle Griffbilder aus chords.tex und
+%  griffe-zusatz.tex EINMAL (normal + grau, je eine PDF-Seite) nach
+%  griffe-cache.pdf und schreibt griffe-cache-index.tex.
+%  main.tex bindet die Griffe dann nur noch als PDF ein (schnell).
+%
+%  Neu bauen, wenn sich Griffe geändert haben (macht das Rezept
+%  "Komplett" automatisch):   pdflatex griffe-cache.tex
+%  Veraltete oder fehlende Griffe zeichnet main.tex einfach live.
+% ============================================================
+\documentclass[a5paper,10pt]{article}
+\input{style.tex}
+\griffcachebauentrue
+
+\ExplSyntaxOn
+\cs_set_eq:NN \griffprimshipout \tex_shipout:D % ohne Seitenhintergrund/Hooks
+\ExplSyntaxOff
+
+\newwrite\griffindex
+\newcount\griffseite
+
+% eine Cache-Seite für \grifftmp (normal oder grau, je nach \griffgrau)
+\newcommand{\griffcacheeine}{%
+  \griffschluessel{\grifftmp}%
+  \setbox0=\hbox{\grifftmp}%
+  \global\advance\griffseite by 1
+  \pdfpagewidth=\wd0
+  \pdfpageheight=\dimexpr\ht0+\dp0\relax
+  \griffprimshipout\vbox{\box0}%
+  \immediate\write\griffindex{\string\griffcacheseite{\griffschluesseltext}{\the\griffseite}}%
+}
+\newcommand{\griffcachename}[1]{%
+  \letcs\grifftmp{griffdef:#1}%
+  \begingroup\griffcacheeine\endgroup
+  \begingroup\griffgrau\griffcacheeine\endgroup
+}
+
+\begin{document}
+\hoffset=-1in \voffset=-1in
+\immediate\openout\griffindex=griffe-cache-index.tex
+\forlistloop{\griffcachename}{\griffalle}
+\immediate\closeout\griffindex
+\typeout{Griff-Cache: \the\griffseite\space Seiten geschrieben.}
+\end{document}

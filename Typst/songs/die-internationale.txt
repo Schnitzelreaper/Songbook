@@ -1,0 +1,90 @@
+titel: Die Internationale
+interpret: Volkslied, Emil Luckhardt dt. Version
+info: Capo: 2nd fret
+---
+[         G                    C Am]
+{1.}Wacht auf, Verdammte dieser Erde@schlagmuster{8er-downstrokes}[Ganzes Lied]
+[      D        D7                G]
+Die stets man noch zum Hungern zwingt!@griffe{D7, A7}
+[                            C  Am]
+Das Recht wie Glut im Kraterherde
+[         D         D7         G]
+Nun mit Macht zum Durchbruch dringt
+[        D     A7              D]
+Reinen Tisch macht mit den Bedrängern!
+[           A       A7    D]
+Heer der Sklaven, wache auf!
+[    D7                             G]
+Ein Nichts zu sein, tragt es nicht länger
+[          D         A7     D     D7]
+Alles zu werden, strömt zuhauf!
+
+{Chorus:}
+[         G          C  Am           D         G]
+Völker, hört die Signale! Auf, zum letzten Gefecht!
+[         D7   G  D    A          A7      D   D7]
+Die Internationale Erkämpft das Menschenrecht!
+[          G          C  Am          D         G]
+Völker, hört die Signale! Auf, zum letzten Gefecht!
+[    E         Am      G          D       G]
+Die Internationale Erkämpft das Menschenrecht!
+
+[      G                      C Am]
+{2.}Es rettet uns kein höhres Wesen
+[      D          D7             G]
+Kein Gott, kein Kaiser, noch Tribun
+[                        C Am]
+Uns aus dem Elend zu erlösen
+[        D       D7     G]
+Können wir nur selber tun!
+[        D   A7          D]
+Leeres Wort: des Armen Rechte!
+[        A        A7         D]
+Leeres Wort: des Reichen Pflicht!
+[   D7                        G]
+Unmündig nennt man uns und Knechte
+[               D        A7     D    D7]
+Duldet die Schmach nun länger nicht!
+
+
+
+
+{Chorus:}[  G          C  Am           D         G]
+Völker, hört die Signale! Auf, zum letzten Gefecht!
+[         D7   G  D    A          A7      D   D7]
+Die Internationale Erkämpft das Menschenrecht!
+[          G          C  Am          D         G]
+Völker, hört die Signale! Auf, zum letzten Gefecht!
+[    E         Am      G          D       G]
+Die Internationale Erkämpft das Menschenrecht!
+[      G                      C Am]
+
+{3.}In Stadt und Land, ihr Arbeitsleute
+[     D         D7             G]
+Wir sind die stärkste der Partei'n
+[                            C  Am]
+Die Müßiggänger schiebt beiseite!
+[       D        D7     G]
+Diese Welt muss unser sein!
+[        D7  A7                 D]
+Unser Blut sei nicht mehr der Raben
+[         A         A7     D]
+Und der nächt'gen Geier Fraß!
+[      D7                      G]
+Erst wenn wir sie vertrieben haben
+[                  D         A7    D    D7]
+Dann scheint die Sonn' ohn' Unterlass!
+
+{Chorus:}[  G          C  Am           D         G]
+Völker, hört die Signale! Auf, zum letzten Gefecht!
+[         D7   G  D    A          A7      D   D7]
+Die Internationale Erkämpft das Menschenrecht!
+[          G          C  Am          D         G]
+Völker, hört die Signale! Auf, zum letzten Gefecht!
+[    E         Am      G          D       G]
+Die Internationale Erkämpft das Menschenrecht!
+
+
+@illustration[100mm]{kommis}{30mm}{143mm}
+
+@anmerkung{Die Internationale ist das weltweit am weitesten verbreitete Kampflied der sozialistischen Arbeiterbewegung, die sich ideologisch – gemäß dem marxistischen Motto „Proletarier aller Länder, vereinigt euch!“ – dem proletarischen Internationalismus verpflichtet sieht. Fragt eure Leiter vielleicht mal was Proletarier sind, und warum sie sich vereinigen sollten :)}

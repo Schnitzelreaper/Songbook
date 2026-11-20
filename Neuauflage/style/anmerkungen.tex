@@ -89,9 +89,8 @@
 \cs_new:Npn \__note_fits_p:
   {
     \dim_compare_p:nNn { \pagegoal } < { \c_max_dim } &&
-    % eine Zeile Reserve, damit die Entscheidung bei \griffe und am
-    % Songende (nach \end{alltt}) gleich ausfällt
-    \dim_compare_p:nNn { \pagetotal + \l__note_need_dim + \baselineskip } < { \pagegoal }
+    % passt unten noch hin (1pt Toleranz für Rundungen)
+    \dim_compare_p:nNn { \pagetotal + \l__note_need_dim } < { \pagegoal + 1pt }
   }
 % am Songende (nach \end{alltt}) aufrufen
 \cs_new_protected:Npn \anmerkungausgeben

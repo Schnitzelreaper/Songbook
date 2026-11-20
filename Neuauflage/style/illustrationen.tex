@@ -13,26 +13,43 @@
 %    abzuschneiden (Werte in pt: links unten rechts oben)
 %  - Liegt IM VORDERGRUND (über Text/Akkorden).
 %  - Erscheint auf der Seite, auf der die Zeile mit dem Befehl landet
-%    (z.B. hinten an eine Songzeile hängen). Seite wird über die .aux
-%    ermittelt -> zwei Durchläufe (latexmk erledigt das).
+%    (z.B. hinten an eine Songzeile hängen) - schon im ersten Durchlauf
+%    richtig: Jede Illustration bekommt eine fortlaufende Nummer und setzt
+%    eine unsichtbare Markierung (\InsertMark) in ihre Zeile. Beim Ausgeben
+%    einer Seite werden genau die Illustrationen gezeichnet, deren
+%    Markierungen auf dieser Seite gelandet sind (Nummern nach der letzten
+%    Markierung der Vorseite bis zur letzten dieser Seite).
 \makeatletter
+\NewMarkClass{illustration}
+\newcounter{illustrationnr}
 \NewDocumentCommand{\illustration}{ O{40mm} m m m O{} }{%
-  \edef\illu@tmp{\write\@auxout{\string\illustrationseite
-    {\noexpand\the\ReadonlyShipoutCounter}%
+  \stepcounter{illustrationnr}%
+  % Daten jetzt merken, gezeichnet wird beim Ausgeben der Seite
+  \expandafter\xdef\csname illu@daten@\arabic{illustrationnr}\endcsname{%
+    \noexpand\illustrationzeichnen
     {\detokenize{#1}}{\detokenize{#2}}{\detokenize{#3}}{\detokenize{#4}}%
-    {\detokenize{#5}}}}%
-  \illu@tmp
-}
-% aus der .aux: Illustration für Seite #1 vormerken
-\newcommand{\illustrationseite}[6]{%
-  \csgappto{illu@seite@#1}{\illustrationzeichnen{#2}{#3}{#4}{#5}{#6}}%
+    {\detokenize{#5}}}%
+  \InsertMark{illustration}{\arabic{illustrationnr}}%
 }
 \newcommand{\illustrationzeichnen}[5]{%
   \AtPageUpperLeft{\put(\LenToUnit{#3},\LenToUnit{-#4}){%
     \raisebox{-\height}{\includegraphics[width=#1,#5]{graphics/illustrationen/#2.pdf}}}}%
 }
-% beim zweiten Lesen der .aux (\end{document}) nicht doppelt eintragen
-\AtEndDocument{\renewcommand{\illustrationseite}[6]{}}
-\AddToShipoutPictureFG{\csuse{illu@seite@\the\ReadonlyShipoutCounter}}
+% beim Ausgeben einer Seite: alle Illustrationen dieser Seite zeichnen
+\newcount\illu@nr
+\newcount\illu@bis
+\newcommand{\illustrationenderseite}{%
+  \edef\illu@tmp{\TopMark{illustration}}%
+  \illu@nr=0\ifx\illu@tmp\@empty\else\illu@tmp\fi\relax
+  \edef\illu@tmp{\LastMark{illustration}}%
+  \illu@bis=0\ifx\illu@tmp\@empty\else\illu@tmp\fi\relax
+  \loop\ifnum\illu@nr<\illu@bis
+    \advance\illu@nr\@ne
+    \csuse{illu@daten@\the\illu@nr}%
+  \repeat
+}
+\AddToShipoutPictureFG{\illustrationenderseite}
+% Einträge aus älteren .aux-Dateien (frühere Version) ignorieren
+\providecommand{\illustrationseite}[6]{}
 \makeatother
 

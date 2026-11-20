@@ -1,0 +1,99 @@
+titel: Summer Of 69
+interpret: Bryan Adams
+info: Capo -
+griff: Bb  x,x,.,.,.,.  3:3:3,4:3:4,5:3:2,6:1:1
+griff: Bb/D  x,x,o,.,.,.  4:3:3,5:3:4,6:1:1
+---
+
+{Intro:}
+[D]@schlagmuster{summer-of-69-v}[Strophe]
+
+
+1. I got my first real six-string
+[A]@schlagmuster{16-3er-vers}[Instrumental & Outro]
+   Bought it at the five-and-dime
+[D]
+   Played it 'til my fingers bled
+[A]@schlagmuster{standard-16}[Refrain & Bridge]
+   It was the summer of '69
+
+[D                                A]
+2. Me and some guys from school, Had a band and we tried real hard
+[D                                A]
+   Jimmy quit, Jody got married, I shoulda known we'd never get far
+
+{Chorus:}
+[Bm             A              D                     G]
+    Oh, when I look back now, That summer seemed to last forever
+[Bm           A               D                G]
+    And if I had the choice, Yeah, I'd always wanna be there
+[Bm                 A               D]
+    Those were the best days of my life
+
+
+{Instrumental:}
+[(D)   A]
+
+[D                                A]
+3.  Ain't no use in complainin', When you got a job to do
+[D]
+    Spent my evenin's down at the drive in
+[A]
+    And that's when I met you, yeah
+
+{Chorus:}
+[Bm                   A             D                      G]
+    Standin' on your mama's porch, You told me that you'd wait forever
+[Bm                   A             D                  G]
+    Oh, and when you held my hand, I knew that it was now or never
+[Bm                 A               D]
+    Those were the best days of my life
+[(D)            A                               D       A]
+         Oh yeah        Back in the summer of '69     Ohhh
+
+{Bridge:}
+[F               Bb                    C]
+   Man, we were killin' time, We were young and restless
+[   Bb                F       Bb                  C]
+We needed to unwind, I guess nothin' can last forever, forever no
+
+{Instrumental:}
+[D    A ]
+
+[D                                  A]
+4. And now the times are changin', Look at everything that's come and gone
+[D]
+   Sometimes when I play that old six-string
+[A]
+   I think about you, wonder what went wrong
+
+{Chorus:}
+[Bm                   A             D                     G]
+    Standin' on your mama's porch, You told me that it'd last forever
+[Bm                   A             D                  G]
+    Oh, and when you held my hand, I knew that it was now or never
+[Bm                 A               D]
+    Those were the best days of my life
+
+{Outro}
+[(D)            A                               D         A]
+         Oh yeah        Back in the summer of '69     Uh-huh
+[                      D         A]
+It was the summer of '69.    Oh yeah
+[                   D          A]
+Me and my baby in '69.       Ohhhhh, oh
+[D                   A                          D]
+         It was the summer, summer, summer of '69
+[  A      D      A      D      A]
+Yeah
+@anmerkung{69 bezieht sich tatsächlich nicht auf das Jahr 1969...}
+
+
+
+
+
+
+
+
+
+@griffe{Bb, Bm}

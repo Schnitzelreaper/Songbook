@@ -47,12 +47,48 @@
                     {\def\grifftmp{\griffzeichnen{#1}{#2}{#3}[#4][#5]}}}%
 }
 \newcommand{\griffspeichern}[1]{%
-  \ifblank{#1}{}{\global\cslet{griffdef:\detokenize{#1}}\grifftmp}%
+  \ifblank{#1}{}{%
+    \global\cslet{griffdef:\detokenize{#1}}\grifftmp
+    % Namen für den Griff-Cache merken (griffe-cache.tex)
+    \ifgriffsammeln
+      \edef\grifflokalname{\detokenize{#1}}%
+      \xifinlist{\grifflokalname}{\griffalle}{}{\listxadd{\griffalle}{\grifflokalname}}%
+    \fi}%
 }
+\newcommand{\griffalle}{}
 \NewDocumentCommand{\griff}{ m m m o o }{%
   \IfNoValueTF{#4}{\griffbauen{#1}{#2}{#3}}{%
     \IfNoValueTF{#5}{\griffbauen{#1}{#2}{#3}[#4]}{\griffbauen{#1}{#2}{#3}[#4][#5]}}%
-  \ifgriffsammeln\griffspeichern{#1}\else\grifftmp\fi
+  \ifgriffsammeln\griffspeichern{#1}\else\griffausgeben\grifftmp\fi
+}
+
+% ------------------------------------------------------------
+% Griff-Cache: Jedes Griffbild wird einmal (griffe-cache.tex ->
+% griffe-cache.pdf) gezeichnet und hier nur noch als PDF-Seite eingebunden
+% (viel schneller als jedes Mal TikZ). Schlüssel = komplette Definition des
+% Griffs (+ normal/grau): Ist ein Griff geändert oder neu, passt kein
+% Cache-Eintrag -> er wird wie früher live gezeichnet. Nie ein falsches Bild.
+% Cache neu bauen: Rezept "Komplett" (oder pdflatex griffe-cache.tex).
+% ------------------------------------------------------------
+\newif\ifgriffgrauaktiv
+\newif\ifgriffcachebauen % nur in griffe-cache.tex true
+\newcommand{\griffcachedatei}{griffe-cache.pdf}
+% aus griffe-cache-index.tex: Schlüssel -> Seite
+\newcommand{\griffcacheseite}[2]{\csgdef{griffcache:\detokenize{#1}}{#2}}
+% #1: Makro, das \griffzeichnen{...} enthält
+\newcommand{\griffschluessel}[1]{%
+  \edef\griffschluesseltext{\ifgriffgrauaktiv g\else n\fi:\detokenize\expandafter{#1}}%
+}
+\newcommand{\griffausgeben}[1]{%
+  \griffschluessel{#1}%
+  \ifcsdef{griffcache:\griffschluesseltext}%
+    {% jede Cache-Seite nur einmal pro Lauf laden, danach die Box wiederverwenden
+     \ifcsdef{griffbox:\griffschluesseltext}{}{%
+       \expandafter\newsavebox\csname griffbox:\griffschluesseltext\endcsname
+       \global\expandafter\setbox\csname griffbox:\griffschluesseltext\endcsname
+         \hbox{\includegraphics[page=\csuse{griffcache:\griffschluesseltext}]{\griffcachedatei}}}%
+     \expandafter\usebox\csname griffbox:\griffschluesseltext\endcsname}%
+    {#1}%
 }
 \NewDocumentCommand{\defgriff}{ m m m o o }{%
   \IfNoValueTF{#4}{\griffbauen{#1}{#2}{#3}}{%
@@ -86,6 +122,10 @@
     \let\\\relax \let\hfill\relax
     \setbox0=\vbox{\hsize=\textwidth \input{chords}\input{griffe-zusatz}}%
   \endgroup
+  % Griff-Cache laden (falls vorhanden)
+  \ifgriffcachebauen\else
+    \IfFileExists{\griffcachedatei}{\InputIfFileExists{griffe-cache-index.tex}{}{}}{}%
+  \fi
   \fi
 }
 

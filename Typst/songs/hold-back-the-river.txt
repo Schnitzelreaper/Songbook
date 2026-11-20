@@ -1,0 +1,45 @@
+titel: Hold Back The River
+interpret: James Bay
+info: Capo 4
+---
+
+[  Am7      C          F     C        F       C        G]
+{1.}Tried to keep you close to me, but life got in between
+[Am7       C         F      C          F        C                G]
+Tried to square not being there, but think that I should have been
+
+{Chorus:}
+[F]
+Hold back the river, let me look in your eyes
+[F]
+Hold back the river so I
+[C]
+Can stop for a minute and see where you hide
+[C]
+Hold back the river, hold back
+
+[  Am7    C     F        C         F       C                G]
+{2.}Once upon a different life, we rode our bikes into the sky
+[    Am7      C      F        C           F       C                G]
+But now we crawl against the tide, those distant days are flashing by
+
+{Chorus (2x)} [(F...)]
+
+{Interlude:}
+[Am7  C    F   C     F   C    G]
+Ooh oho, oho, oho, oho, oho, ohooh
+
+{Bridge:}
+[C                                     F]
+Lonely water, lonely water won't you let us wander
+[Dm]
+Let us hold each other
+[C                                     F]
+Lonely water, lonely water won't you let us wander
+[Dm]
+Let us hold each other
+
+{Chorus (2x)} [(F...)]
+
+{Bridge (2x)} [(C...)]
+@griffe{Am7, Dm}

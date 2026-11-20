@@ -1,0 +1,100 @@
+titel: Viva La Vida
+interpret: Coldplay
+info: Capo 1
+---
+
+{Intro:}
+[C   D   G   Em   x2]
+
+[            C        D                 G                    Em]
+{1.}I used to rule the world, Seas would rise when I gave the word
+[                     C      D               G                 Em]
+Now in the morning I sleep alone, Sweep the streets I used to own
+
+[|C |D |G |Em |]
+
+[            C        D              G                  Em]
+{2.}I used to roll the dice, Feel the fear in my enemy's eyes
+[              C           D]
+Listen as the crowd would sing:
+[         G                      Em]
+"Now the old king is dead! Long live the king!"
+[             C        D             G                    Em]
+One minute I held the key, Next the walls were closed on me
+[                         C       D]
+And I discovered that my castles stand
+[     G                       Em]
+Upon pillars of salt and pillars of sand
+
+{Chorus:}
+[  C              D                  G             Em]
+I hear Jerusalem bells are ringing, Roman Cavalry choirs are singing
+[C                D                    G                 Em]
+Be my mirror, my sword and shield, My missionaries in a foreign field
+[C                 D              G                         Em]
+For some reason I can't explain, Once you'd gone there was never
+[         C      D                  Bm               Em]
+Never an honest word, And that was when I ruled the world
+
+[|C |D |G |Em |]
+
+[                        C    D                   G               Em]
+{3.}It was the wicked and wild wind, Blew down the doors to let me in
+[                          C        D]
+Shattered windows and the sound of drums
+[       G                     Em]
+People couldn't believe what I'd become
+[         C      D            G                Em]
+Revolutionaries wait, For my head on a silver plate
+[                   C      D           G                         Em]
+Just a puppet on a lonely string, Oh, who would ever want to be king?
+
+{Chorus:}
+[  C              D                  G             Em]
+I hear Jerusalem bells are ringing, Roman Cavalry choirs are singing
+[C                D                    G                 Em]
+Be my mirror, my sword and shield, My missionaries in a foreign field
+[C                 D                G                      Em]
+For some reason I can't explain, I know Saint Peter won't call my name
+[         C      D                  Bm               Em]
+Never an honest word, But that was when I ruled the world
+
+{Interlude:}
+[|C |Em |D |D |]
+
+[  C   D         G   Em   C   D         G   Em]
+Ohhhhhh       Ohhhhhh   Ohhhhhh       Ohhhhhh
+
+{Chorus:}
+[  C              D                  G             Em]
+I hear Jerusalem bells are ringing, Roman Cavalry choirs are singing
+[C                D                    G                 Em]
+Be my mirror, my sword and shield, My missionaries in a foreign field
+[C                 D                G                      Em]
+For some reason I can't explain, I know Saint Peter won't call my name
+[         C      D                  Bm               Em]
+Never an honest word, But that was when I ruled the world
+
+{Outro:}@griffe{Bm}
+[C   D       Bm   Em ]
+Oooooh      Ooooooh  
+[C   D       Bm   Em ]
+Oooooh      Ooooooh  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@illustration[80mm]{liberte}{35mm}{110mm}
+@schlagmuster{viva}[Whole Song]

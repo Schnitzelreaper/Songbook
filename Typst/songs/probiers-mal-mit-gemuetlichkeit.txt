@@ -1,0 +1,64 @@
+titel: Probier's mal mit Gemütlichkeit
+interpret: Das Dschungelbuch
+---
+
+{Refrain:}
+[              D    D7]
+Probier's mal mit Gemütlichkeit,
+[    G          G7                 D             B7          E7       A]
+mit Ruhe und Gemütlichkeit jagst du den Alltag und die Sorgen weg.
+[            D       D7               G         G7]
+Und wenn du stets gemütlich bist und etwas appetitlich ist,
+[      D        B7     E7        A7      D]
+dann nimm es dir, egal von welchem Fleck.
+
+[              A7                         D]
+{1.}Was soll ich woanders, wo's mir nicht gefällt?
+[               A7                        D   D7]
+Ich gehe nicht fort hier, auch nicht für Geld.
+[           G             Gm             D            E7]
+Die Bienen summen in der Luft, erfüllen sie mit Honigduft.
+[    Bm7                  B7                  Em]
+Und schaust du unter'nen Stein, entdeckst du Ameisen,
+[B7           Em        A    D                 B7]
+die hier gut gedeih'n. Nimm da von zwei, drei vier.
+[           Em                A7                D    Em A7       D]
+Denn mit Gemütlichkeit kommt auch das Glück zu dir! Es kommt zu dir!
+
+{Refrain:}
+[              D    D7]
+Probier's mal mit Gemütlichkeit,
+[    G          G7                 D             B7          E7       A]
+mit Ruhe und Gemütlichkeit vertreibst du deinen ganzen Sorgenkram.
+[            D       D7               G         G7]
+Und wenn du stets gemütlich bist und etwas appetitlich ist,
+[      D        B7     E7        A7      D]
+dann nimm es dir, egal woher es kam.
+
+[                          A7                        D]
+{2.}Na, und pflückst du gern Beeren und du piekst dich dabei,
+[                  A7                        D      D7]
+dann lass dich belehren; Schmerz geht bald vorbei!
+[            G                 Gm     D        E7]
+Du musst bescheiden und nicht gierig im Leben sein,
+[      Bm7                 B7                Em]
+sonst tust du dir weh, du bist verletzt und zahlst nur drauf,
+[B7                          Em]
+drum pflücke gleich mit dem richt'gen Dreh!
+@seite
+[A           D        B7]
+Hast du das jetzt kapiert?
+[           Em                A7                D    Em A7       D]
+Denn mit Gemütlichkeit kommt auch das Glück zu dir! Es kommt zu dir!
+
+{Refrain:}
+[              D    D7]
+Probier's mal mit Gemütlichkeit,
+[    G          G7                 D             B7          E7       A]
+mit Ruhe und Gemütlichkeit wirfst du die dummen Sorgen über Bord.
+[            D       D7               G         G7]
+Und wenn du stets gemütlich bist und etwas appetitlich ist,
+[      D        B7     E7        A7      D]
+greif zu, denn später ist es vielleicht fort.
+@illustration[60mm]{balu}{50mm}{120mm}
+@griffe{D7, G7, B7, E7, A7, Bm7}

@@ -3,8 +3,8 @@
 %  (wird von style.tex eingebunden)
 % ============================================================
 % ============================================================
-%  Schlagmuster (rechts am Rand, über den Text gelegt; braucht zwei
-%  Durchläufe, latexmk erledigt das) & Griffe (normal im Textfluss)
+%  Schlagmuster (rechts am Rand, über den Text gelegt; steht schon im
+%  ersten Durchlauf richtig, siehe \amrandablegen)
 % ============================================================
 \usepackage{tikzpagenodes}
 \usepackage{svg} % nur für reine .svg-Dateien (braucht Inkscape + --shell-escape)
@@ -14,8 +14,9 @@
 \newcommand{\schlagmusterskala}{0.32}
 \newlength{\griffeabstand}\setlength{\griffeabstand}{3mm}  % Abstand zw. Griffen
 \newlength{\griffeoben}\setlength{\griffeoben}{3mm}       % Abstand zum Text darüber
-\newcommand{\schlagmusterdeckkraft}{0.44} % 0.44 * Schwarz auf Papier ~ inkmeta (#8e8e8e)
-\newcommand{\schlagmusterfont}{\serif\itshape\fontsize{7.5}{8}\selectfont\color{inkmeta}}
+\newcommand{\schlagmusterdeckkraft}{0.22} % Schwarz mit 22 % Deckkraft auf Papier ~ #c4c4c2
+% Beschriftung: schwarz, wird mit derselben Deckkraft wie das Bild gesetzt
+\newcommand{\schlagmusterfont}{\serif\itshape\fontsize{7.5}{8}\selectfont\color{black}}
 \newsavebox{\overlaybox}
 
 % Bild aus graphics/: bevorzugt PDF, sonst SVG
@@ -35,17 +36,45 @@
 \NewDocumentCommand{\schlagmuster}{ O{\schlagmusterskala} m o }{%
   \edef\schlagmusterdatei{\detokenize{#2}}% alltt macht "-" aktiv
   \sbox{\overlaybox}{\schlagmusterbild{#1}{\schlagmusterdatei}}%
-  % Fläche als Hindernis für \griffe merken (ganze Breite rechts blockiert)
+  % Fläche als Hindernis für \anmerkung merken (ganze Breite rechts blockiert)
   \griffschreiben{1073741823}%
     {\number\dimexpr0.8\baselineskip\IfNoValueF{#3}{+4mm}\relax}%
     {\number\dimexpr\ht\overlaybox+\dp\overlaybox-0.8\baselineskip\relax}%
-  \begin{tikzpicture}[remember picture,overlay]
-    % schwarzes Bild halbtransparent -> wirkt im selben Grau wie inkmeta
-    \node[anchor=north east,inner sep=0pt,opacity=\schlagmusterdeckkraft] (sm)
-      at ($(current page text area.east |- 0,0)+(0,0.8\baselineskip)$)
-      {\usebox{\overlaybox}};
-    \IfNoValueF{#3}{\node[anchor=south east,inner sep=0pt] at ($(sm.north east)+(0,0.5mm)$)
-      {\schlagmusterfont #3};}
-  \end{tikzpicture}%
+  % schwarzes Bild und schwarze Beschriftung mit derselben Deckkraft
+  % -> beide exakt im selben Grau
+  \sbox{\randbild}{\tikz\node[inner sep=0pt,opacity=\schlagmusterdeckkraft]{\usebox{\overlaybox}};}%
+  \IfNoValueTF{#3}{\sbox{\randtext}{}}{\sbox{\randtext}{\tikz\node[inner sep=0pt,opacity=\schlagmusterdeckkraft]{\schlagmusterfont #3};}}%
+  \amrandablegen
+}
+
+% ------------------------------------------------------------
+% \amrandablegen: \randbild (und darüber \randtext, falls nicht leer) rechts
+% am Textrand ablegen, Oberkante des Bildes auf Höhe der aktuellen Zeile.
+% Ohne Werte aus dem vorigen Lauf (kein TikZ "remember picture") -> steht
+% schon im ersten Durchlauf richtig. Verändert den Text nicht:
+%  - \strut macht die Zeilentiefe eindeutig (= genau Zeilenabstand, also
+%    keine Änderung an den Abständen),
+%  - \vadjust hängt eine Box OHNE Höhe direkt unter die Zeile, deren Inhalt
+%    nach oben auf Zeilenhöhe geschoben wird.
+% ------------------------------------------------------------
+\newsavebox{\randbild}
+\newsavebox{\randtext}
+\newlength{\randhoch}
+\newcommand{\amrandablegen}{%
+  \strut
+  % Abstand von der Zeilenunterkante bis zur Oberkante des Blocks
+  \setlength{\randhoch}{\dimexpr0.8\baselineskip+\dp\strutbox\relax}%
+  \ifdim\wd\randtext>0pt
+    \addtolength{\randhoch}{\dimexpr\ht\randtext+\dp\randtext+0.5mm\relax}%
+  \fi
+  \vadjust{\vbox to 0pt{%
+    \offinterlineskip
+    \kern-\randhoch
+    \ifdim\wd\randtext>0pt
+      \hbox to\textwidth{\hss\box\randtext}%
+      \kern0.5mm
+    \fi
+    \hbox to\textwidth{\hss\box\randbild}%
+    \vss}}%
 }
 

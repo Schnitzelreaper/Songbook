@@ -33,6 +33,7 @@
 \definecolor{inkheading}{HTML}{282828}% Überschriften
 \definecolor{inkmeta}{HTML}{8e8e8e}   % Interpret / Capo-Zeile
 \definecolor{inksketch}{HTML}{b8b6b6} % Skizzen / Griffbilder
+\definecolor{inkgriffe}{HTML}{c3c3c1} % Griffbilder im Songtext (\griffe) = Schwarz mit 22 % Deckkraft auf paperbg, wie die Schlagmuster
 \definecolor{rulecolor}{HTML}{999999} % Trennlinien / Punktlinien
 
 % ---------- Seitenhintergrund ----------
@@ -72,6 +73,11 @@
 
 % ---------- Inhaltsverzeichnis-Optik ----------
 \renewcommand{\contentsname}{Inhaltsverzeichnis}
+% Überschrift wie beim Impressum: großer Titel, Linie darunter
+\renewcommand{\cfttoctitlefont}{\cattitlefont}
+\renewcommand{\cftaftertoctitle}{\par{\color{rulecolor}\hrule height 0.7pt}}
+\setlength{\cftbeforetoctitleskip}{0pt}
+\setlength{\cftaftertoctitleskip}{4mm}
 \renewcommand{\cftsecfont}{\serif\color{inkmain}}
 \renewcommand{\cftsecpagefont}{\serif\color{inkmeta}}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}

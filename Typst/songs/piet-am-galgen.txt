@@ -1,0 +1,42 @@
+titel: Piet am Galgen
+interpret: Erik Martin
+info: Capo -
+---
+
+[      Am                      C]
+{1.}Was kann ich denn dafür? So kurz vor meiner Tür@schlagmuster{standard}[Ganzes Lied]
+[   G                            Am]
+da fingen Sie mich ein und bald endet meine Pein.
+[    Am                       C]
+Ich hatte niemals Glück. Mein trostloses Geschick
+[     G                             Am]
+nahm keinen von Euch ein. Ja, heut soll gestorben sein.
+
+{Refrain:}
+[    Am                    D]
+||: Wenn der Nebel auf das Moor sich senkt,
+[    F       G      Am]
+der Piet am Galgen hängt. (baumelbaumelbaumel) :||
+
+[      Am                        C]
+{2.}Sie nahmen mir die Schuh' und auch den Rock dazu.
+[    G                            Am]
+Sie banden mir die Händ und mein Haus, es hat gebrennt.
+[    Am                         C]
+Ich sah den Galgen steh'n. Sie zwangen mich zu gehn.
+[    G                          Am]
+Sie wollten meinen Tod, keiner half mir in der Not.
+
+{Refrain}
+
+[      Am                       C]
+{3.}Was kratzt da am Genick? Ich spür den rauhen Strick.
+[    G                                Am]
+Ein Mönch der betet dort und spricht für mich fromme Wort.
+[    Am                            C]
+Die Wort, die ich nicht kenn, wer lehrte sie mich denn?
+[     G                           Am]
+Fünf Raben fliegen her, doch ich sehe sie nicht mehr.
+
+{Refrain}
+@anmerkung{Erik Martin (Mac) hat die Geschichte vom armen Piet erfunden. Die Anregung dazu hatte er, als er als Pfadfinder in der Nähe einer uralten Bauernhofruine zeltete. Daraus entstand ein ganzer Geschichtenzyklus und auch das Lied.}

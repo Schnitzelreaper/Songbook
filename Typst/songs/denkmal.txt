@@ -1,0 +1,79 @@
+titel: Denkmal
+interpret: Wir sind Helden
+info: Capo 4
+---
+
+{1.}[C                    Am]
+Komm mal ans Fenster komm her zu mir@schlagmuster{monsun}[Ganzes Lied] 
+[             C                        Am]
+Siehst du da drüben gleich da hinterm Wellblechzaun
+[   C                        Am]
+Da drüben auf dem Platz vor Aldi haben sie
+[      C                   Am     C]
+unser Abbild in Stein gehauen
+[                         Am]
+Komm auf die Straße komm her zu mir
+[        C                    Am]
+Überall Blumen und Girlanden halb zerknüllt
+[        C                          Am]
+Sieht so aus als hatten die unser Denkmal heute Nacht
+[      C                   Am]
+schon ohne uns enthüllt
+
+{Chorus:}
+[         G               C         Am (Em)     F       C]
+Hol den Vorschlaghammer, Sie haben uns     ein Denkmal gebaut
+[          Am        Em                F     C]
+und jeder Vollidiot weiß dass das die Liebe versaut
+[             Em            F              G     C]
+Ich werd die schlechtesten Sprayer dieser Stadt engagieren
+[           Am              F]
+Die sollen Nachts noch die Trümmer mit Parolen beschmieren
+
+{2.}[C                       Am]
+Komm auf die Beine komm her zu mir
+[             C                        Am]
+Es wird bald hell und wir haben nicht ewig Zeit
+[   C                                            Am]
+Wenn uns jetzt hier wer erwischt sind wir für immer vereint
+[    C             Am]
+in Beton und Seligkeit
+
+{Chorus:}
+[         G               C         Am   Em     F       C]
+Hol den Vorschlaghammer, Sie haben uns     ein Denkmal gebaut
+[          Am        Em                F     C]
+und jeder Vollidiot weiß dass das die Liebe versaut
+[             Em            F              G     C]
+Ich werd die schlechtesten Sprayer dieser Stadt engagieren
+[           Am              F                   G]
+Die sollen Nachts noch die Trümmer mit Parolen beschmieren
+
+{Bridge:}
+[                           F             C          Am Em G]
+Siehst du die Inschrift da unten bei den Schuhen
+[                     F                              C       Am G F]
+Da steht in goldener Schrift wir sollen in Ewigkeit ruhen
+
+{Chorus:}
+[         G               C         Am   Em     F       C]
+Hol den Vorschlaghammer, Sie haben uns     ein Denkmal gebaut
+[          Am        Em                F     C]
+und jeder Vollidiot weiß dass das die Liebe versaut
+[             Em            F              G     C]
+Ich werd die schlechtesten Sprayer dieser Stadt engagieren
+[           Am              F                   G]
+Die sollen Nachts noch die Trümmer mit Parolen beschmieren
+
+{Outro:}
+[C         Am   Em     F       C]
+Sie haben uns     ein Denkmal gebaut
+[          Am        Em                F     C]
+und jeder Vollidiot weiß dass das die Liebe versaut
+[             Em            F              G     C]
+Ich werd die schlechtesten Sprayer dieser Stadt engagieren
+[           Am              F                   G]
+Die sollen Nachts noch die Trümmer mit Parolen beschmieren
+
+@illustration[40mm]{denkmal}{50mm}{120mm}
+@anmerkung{Judith Holofernes von Wir Sind Helden besuchte die Liedermacherakademie Sago von Christof Stählin. Dieser legte für die Jahresaufgabe 1998 das Thema „Denkmal“ fest. Ihr erster Impuls war, dass da nur ein „lahmes, blutleeres Kopfgeseier“ entstehen könne. Beim Spazieren dachte sie aber an ihre sich dem Ende neigende Beziehung, die von außen als sehr stabil bewertet wurde.}

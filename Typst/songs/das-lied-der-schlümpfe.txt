@@ -1,0 +1,51 @@
+titel: Das Lied der Schlümpfe
+interpret: Vader Abraham
+info: Capo -
+---
+
+[A                      D        A                           E7    A]
+{1.}Sagt mal, von wo kommt ihr denn her? (Aus Schlumpfhausen, bitte sehr)
+[A                D       A                      E7      A]
+Sehen alle da so aus wie ihr? (Ja, die sehen so aus wie wir.)
+[A                 D        A                       E7      A]
+Soll ich euch ein Lied beibringen? (Ja, wir wollen mit dir singen.)
+[A                          D       A                         E7     A]
+Ich kenn ein Lied mit 'nem schönen Chor. (Spiel es uns bitte einmal vor!)
+
+{Refrain:}
+[A]
+La, la, lala, lalalala, lala, la, la, lala, lalalala, lala, 
+la, la, lala, lalalala, lala, la, la, la, la
+[E7]
+La, la, lala, lalalala, lala, la, la, lala, lalalala, lala, 
+la, la, lala, lalalala, lala, la, la, la, la
+
+[A                         D     A                           E7    A]
+{2.}Geht ihr denn durch einen Wasserhahn? (Wir gehen durch 'nen Wasserhahn.)
+[A                  D        A                         E7       A]
+Und auch durch ein Schlüsselloch? (Ja, auch durch ein Schlüsselloch.)
+[A                  D          A                              E7   A]
+Gibt es eigentlich sehr viele Schlümpfe? (Ja, so viel wie kaputte Strümpfe)
+[A                D      A                       E7    A]
+Finden Schlümpfe tanzen fein? (Ja, aber nur auf einem Bein.)
+
+{Refrain:} [(A E7)]
+La, la, lala, …
+
+[A              D         A                            E7      A]
+{3.}Warum seid ihr Schlümpfe klein? (Wir wollen gar nicht grösser sein.)
+[A                    D       A                         E7         A]
+Nehmt ihr die Mützen mit ins Bett? (Ja, sonst sind wir nicht komplett.)
+[A                     D          A                       E7       A]
+Habt ihr auch Schulen in Schlumpfhausen? (Ja, da gibt es nur noch Pausen.)
+[A               D        A                     E7   A]
+Was mögt ihr am liebsten tun? (Schlümpfen ohne auszuruh'n.)
+
+{Refrain:} [(A E7)]
+La, la, lala, … @griffe{E7}
+
+
+
+
+@schlagmuster{standard}[Ganzes Lied]
+@illustration[30mm]{schlumpf}{60mm}{170mm}

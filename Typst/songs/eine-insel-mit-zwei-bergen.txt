@@ -1,0 +1,82 @@
+titel: Eine Insel Mit Zwei Bergen
+interpret: Augsburger Puppenkiste
+info: Capo -
+---
+
+[  G  D  G]
+{1.}Ei-ne Insel mit zwei Bergen
+[       D]
+und im tiefen, weiten Meer
+[         D7]
+Mit viel Tunnels und Geleisen
+[        G]
+und dem Eisenbahnverkehr
+
+Nun, wie mag die Insel heißen,
+[        D]
+ringshe-rum ist schöner Strand
+[      D7]
+Jeder sollte einmal reisen,
+[         G]
+In das schöne Lummerland!
+[   Am | G | D | G]
+Lalal...
+
+[  G  D  G]
+{2.}Ei-ne Insel mit zwei Bergen
+[        D]
+Und dem Fotoatelier
+[       D7]
+In dem letzten macht man Bilder,
+[        G]
+Auf den ersten "dulijö"
+[G]
+Diese Breiten, diese Tiefen,
+[      D]
+Diese Höhen sind bekannt
+[        D7]
+Und man spricht von den Motiven
+[        G]
+Auf dem schönen Lummerland!
+[   Am | G | D | G]
+Lalal...
+
+[  G  D  G]
+{3.}Eine Insel mit zwei Bergen
+[        D]
+Und dem Fernsprechtelefon 
+[          D7]
+wählt man nur die richtige Nummer,
+[                G]
+klappt auch die Verbindung schon.
+[G]
+"Hallo, hier ist falsch verbunden!"
+[        D]
+"Wollen sie sich jetzt beschwer´n?"
+[       D7]
+"Nein, warum? Das kann passier´n!"
+[       G]
+"Also dann auf Wiederhör´n!"
+[   Am | G | D | G]
+Lalal...
+
+[  G  D  G]
+{4.}Eine Insel mit zwei Bergen
+[        D]
+Und dem Laden von Frau Waas:
+[      D7]
+Hustenbonbons, Alleskleber
+[      G]
+Regen-schirme, Leberkas,
+[G]
+Körbe, Hüte, Lampen, Würste,
+[       D]
+Blumen-kohl und Fensterglas,
+[      D7]
+Leder-hosen, Kukucksuhren
+[         G]
+Und noch dies und dann noch das!
+[   Am | G | D | G]
+Lalal...
+@anmerkung{Jim Knopf und Lukas der Lokomotivführer gilt als Gegengeschichte zu nationalsozialistischen Bilderwelten und zeitgenössischer Fehlinterpretationen des Darwinismus.}
+@griffe{D7}

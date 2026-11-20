@@ -73,13 +73,16 @@
 \endgroup
 
 % --- Bausteine ---
+% Größe der Griffbilder im Songtext (1 = wie in der Grifftabelle)
+\newcommand{\griffeskalierung}{0.75}
 \newcommand{\griffgrau}{% nur in \griffe grau, Grifftabelle bleibt unverändert
-  \colorlet{inkheading}{inkmeta}\colorlet{inkmain}{inkmeta}%
-  \colorlet{inkchords}{inkmeta}\colorlet{rulecolor}{inkmeta}%
+  \colorlet{inkheading}{inkgriffe}\colorlet{inkmain}{inkgriffe}%
+  \colorlet{inkchords}{inkgriffe}\colorlet{rulecolor}{inkgriffe}%
+  \griffgrauaktivtrue % für den Griff-Cache (graue Variante)
 }
 \newcommand{\griffeinzelnbild}[1]{%
   \ifcsdef{griffdef:\detokenize{#1}}%
-    {\csuse{griffdef:\detokenize{#1}}}%
+    {\expandafter\griffausgeben\csname griffdef:\detokenize{#1}\endcsname}%
     {\PackageWarning{style}{Griff '\detokenize{#1}' nicht definiert}%
      \griffzeichnen{#1}{.,.,.,.,.,.}{}}%
 }
@@ -115,11 +118,10 @@
   \griffschreiben{1073741823}%
     {\number\dimexpr0.8\baselineskip\relax}%
     {\number\dimexpr\ht\griffueberlagerbox+\dp\griffueberlagerbox-0.8\baselineskip\relax}%
-  \begin{tikzpicture}[remember picture,overlay]
-    \node[anchor=north east,inner sep=0pt]
-      at ($(current page text area.east |- 0,0)+(0,0.8\baselineskip)$)
-      {\usebox{\griffueberlagerbox}};
-  \end{tikzpicture}%
+  % am rechten Textrand ablegen (siehe \amrandablegen in schlagmuster.tex)
+  \sbox{\randbild}{\usebox{\griffueberlagerbox}}%
+  \sbox{\randtext}{}%
+  \amrandablegen
 }
 \makeatother
 
@@ -287,7 +289,7 @@
 \cs_new_protected:Npn \__griff_block:nn #1#2
   {
     \__griff_items:n {#2}
-    \tl_set:Nn \l__griff_scale_tl { 1 }
+    \tl_set:Nn \l__griff_scale_tl { \griffeskalierung }
     \int_compare:nNnTF {#1} > { 0 }
       { \int_set:Nn \l__griff_k_int { \int_min:nn {#1} { \l__griff_n_int } } }
       { \int_set_eq:NN \l__griff_k_int \l__griff_n_int }

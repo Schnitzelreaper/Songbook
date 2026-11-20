@@ -1,0 +1,50 @@
+titel: Die Moorsoldaten
+interpret: Volkslied
+info: Capo -
+---
+
+[   Em                           Am       Em    B7       Em]@griffe{B7}
+{1.}Wohin auch das Auge blicket, Moor und Heide nur ringsum.
+[   G                              Am     Em     B7       Em]
+Vogelsang uns nicht erquicket, Eichen stehen kahl und krumm.
+[   D   G                D        Em             B7         Em]
+Wir sind die Moorsoldaten und ziehen mit dem Spaten ins Moor.
+[   D   G                D        Em             B7         Em]
+Wir sind die Moorsoldaten und ziehen mit dem Spaten ins Moor.
+
+[   Em                         Am      Em    B7    Em]
+{2.}Hier in dieser öden Heide, ist das Lager aufgebaut,
+[   G                            Am     Em      B7        Em]
+Wo wir fern von jeder Freude hinter Stacheldraht verstaut.
+[   D   G                D        Em             B7         Em]
+Wir sind die Moorsoldaten und ziehen mit dem Spaten ins Moor.
+[   D   G                D        Em             B7         Em]
+Wir sind die Moorsoldaten und ziehen mit dem Spaten ins Moor.
+
+[   Em                          Am     Em       B7     Em]
+{3.}Morgens ziehen die Kolonnen in das Moor zur Arbeit hin.
+[   G                               Am       Em     B7        Em]
+Graben bei dem Brand der Sonne, doch zur Heimat steht der Sinn.
+[   D   G                D        Em             B7         Em]
+Wir sind die Moorsoldaten und ziehen mit dem Spaten ins Moor.
+[   D   G                D        Em             B7         Em]
+Wir sind die Moorsoldaten und ziehen mit dem Spaten ins Moor.
+
+[   Em                               Am      Em      B7       Em]
+{4.}Auf und nieder geh'n die Posten, keiner, keiner, kann hindurch.
+[   G                                  Am      Em     B7       Em]
+Flucht wird nur das Leben kosten, vierfach ist umzäunt die Burg.
+[   D   G                D        Em             B7         Em]
+Wir sind die Moorsoldaten und ziehen mit dem Spaten ins Moor.
+[   D   G                D        Em             B7         Em]
+Wir sind die Moorsoldaten und ziehen mit dem Spaten ins Moor.
+
+[   Em                                Am   Em           B7     Em]
+{5.}Doch für uns gibt es kein Klagen, ewig kann's nicht Winter sein.
+[   G                             Am      Em      B7     Em]
+Einmal werden froh wir sagen: Heimat, du bist wieder mein!
+[   D    G                  D    Em                 B7         Em]
+Dann zieh'n die Moorsoldaten nicht mehr mit dem Spaten ins Moor!
+[   D    G                  D    Em                 B7         Em]
+Dann zieh'n die Moorsoldaten nicht mehr mit dem Spaten ins Moor!
+@anmerkung{Die Moorsoldaten wurde 1933 von politischen Häftlingen im KZ Börgermoor geschrieben.}

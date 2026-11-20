@@ -1,0 +1,47 @@
+titel: Behind Blue Eyes
+interpret: Limp Bizkit
+---
+
+{Intro:}
+[| Em  G  | D     | C     | Asus2 |]
+
+[  Em                     G           D]
+{1.}No one knows what it's like, to be the bad man,
+[          C       A]
+To be the sad man, behind blue eyes
+[Em                     G       D               C                    A]
+No one knows what it's like to be hated, To be fated, to telling only lies
+
+{Chorus:}
+[       C     D                 G           C           D       E]
+But my dreams, they aren't as empty, As my conscience seems to be
+[       Bm            C                D                      Asus2]
+I have hours, only lonely, My love is vengeance that's never free
+
+[  Em                     G                    Dsus2]
+{2.}No one knows what it's like to feel these feelings
+[       C               Asus2]
+Like I do, and I blame you
+[Em                   G             Dsus2]
+No one bites back as hard on their anger
+[        C                          Asus2]
+None of my pain and woe, can show through
+
+{Chorus:} [(C D G C...)]
+
+[  Em                      G               Dsus2           C]
+{3.}No one knows what it's like, To be mistreated, to be defeated
+[Asus2             Em                   G]
+Behind blue eyes, No one knows how to say
+[              Dsus2           C              Asus2]
+That they're sorry and don't worry, I'm not telling lies
+
+{Chorus:} [(C D G C...)]
+
+{Outro:}
+[Em                     G               Dsus2]
+No one knows what it's like, to be the bad man,
+[          C          A]
+To be the sad man, behind blue eyes
+@schlagmuster{boulevard}[Whole Song]
+@griffe{Asus2, Dsus2, Bm}

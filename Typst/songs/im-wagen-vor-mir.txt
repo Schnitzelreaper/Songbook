@@ -1,0 +1,78 @@
+titel: Im Wagen vor mir
+interpret: Henry Valentino
+---
+
+{Refrain:}
+[C          Am         F          G]@schlagmuster{im-wagen-vor-mir}[Ganzes Lied]
+Ratta rada radadadada Ratta rada radadadada
+[C          Am         F          G]
+Ratta rada radadadada Ratta rada radadadada
+
+[    C             F                G]
+{1.}Im Wagen vor mir fährt ein junges Mädchen
+[    C              F                     G]
+sie fährt allein und sie scheint hübsch zu sein
+[    C               F             G               Am]
+Ich weiss nicht ihren Namen und ich kenne nicht ihr Ziel
+[    F           Dm             G]
+Ich merke nur sie fährt mit viel Gefühl
+[    C           F                G]
+Im Wagen vor mir fährt ein junges Mädchen
+[    C               F             G]
+Ich möcht gern wissen was sie grade denkt
+[    C              F           G             C]
+Hört sie den selben Sender oder ist ihr Radio aus?
+[    F              G              C]
+Fährt sie zum Rendez-vous oder nach Haus?
+
+{Refrain} [(C Am F G)]
+
+[    C              F               G]
+{2.}Was will der blöde Kerl da hinter mir nur? <(Ist sie nicht süss?)>
+[    C              F               G]
+Ich frag mich warum überholt der nicht? <(so weiches Haar)>
+[    C                F             G             Am]
+Der hängt nun schon ne halbe Stunde ständig hinter mir
+[    F                Dm             G]
+Nun dämmerts schon und der fährt ohne Licht <(so schön mit 90)>
+[    C                   F         G]
+Der könnt schon hundert Kilometer weg sein <(Was bin ich froh)>
+[    C              F           G]
+Mensch fahr an meiner Ente doch vorbei <(Ich fühl mich richtig gut)>
+[    C              F            G             Am]
+Will der mich kontrollieren oder will er mich entführen?
+[    F         G            C]
+Oder ist das in Zivil die Polizei?
+
+{Refrain} [(C Am F G)]
+
+[    C                    F              G]
+{3.}Wie schön, dass ich heut endlich einmal Zeit hab
+[    C                 F              G]
+Ich muss nicht rasen wie ein wilder Stier
+[    C           F            G               Am]
+Ich träum so in Gedanken ganz allein und ohne Schranken
+[    F                 Dm             G]
+Und wünscht das schöne Mädchen wär bei mir
+[    C              F              G]
+Nun wird mir diese Sache langsam mulmig <(Die Musik ist gut)>
+[    C             F               G]
+Ich fahr die allernächste Abfahrt raus <(Heut ist ein schöner Tag)>
+[    C               F              G              Am]
+Dort werd ich mich verstecken hinter irgendwelchen Hecken
+[    F                   Dm               G]
+Verdammt, dadurch komm ich zu spät nach Haus
+
+[    C                F              G]
+{4.}Bye bye mein schönes Mädchen, gute Reise
+[    C               F                  G]
+Sie hat den Blinker an, hier fährt sie ab
+[    C                 F                G             Am]
+Für mich wird in zwei Stunden auch die Fahrt zuende gehn
+[    F                  G                 C]
+Doch dich, mein Mädchen, werd ich nie mehr sehn
+
+{Refrain} [(C Am F G)]
+
+@illustration[100mm]{ente}{30mm}{140mm}
+@griffe{Dm}

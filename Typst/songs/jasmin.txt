@@ -1,0 +1,68 @@
+titel: Jasmin
+interpret: Kai Deutsch
+info: Capo -
+---
+
+{Intro:}
+[Am   F   C   G]@schlagmuster{standard-16}[Ganzes Lied]
+
+[       Am                      F]
+{1.}Seit Tagen schon wandern wir im Schein der südlichen
+[C                    G]
+Sonne durch felsiges Land.
+[     Am                      F]
+Auf Wegen nach Süden, durch Wälder und Täler am
+[C               G]
+Fiume Isarco entlang.
+
+{Refrain: (2x)}
+[F                    C]
+Rechts und links des Weges auf dem wir nun
+[G               Am]
+unserm Ziele zu zieh’n, sah ich,
+[F                    C]
+wachsen kriechend, erklimmend und duftend und
+[    E              Am]
+strahlend weiße Jasmin.
+
+[      Am                       F]
+{2.}Der Weg führt uns weiter auf jenen fernen Gipfel, auf
+[C                         G]
+dem uns’rer Freunde Zelte steh’n.
+[      Am                   F]
+Wo am Abend beim Feuer die Lieder und Becher uns
+[C                    G]
+allen in der Runde geh’n.
+
+{Refrain: (2x)}
+[F                      C]
+Ach, ich wünschte, ihr hättet gesehen,
+[G                     Am]
+Freunde, was ich heut sah,
+[     F               C]
+meine Wunderblume so freundlich, so zart und so
+[E                        Am]
+liebreizend schön und so nah.
+
+@seite
+[     Am                            F]
+{3.}So wahr’ ich die Erinnerung’n an diese schönen Tage,
+[C                   G]
+Wälder und Täler in mir,
+[    Am                    F]
+so dass ich vielleicht ja eines fernen Tages
+[C                           G]
+wieder hier sein werde, bei dir.
+
+{Refrain: (2x)}
+[F                    C]
+Ach, du Blume meines Herzens, ich wünschte nur
+[G                       Am]
+ich könnte dich mit mir nehm’,
+[        F                    C]
+denn ich könnte dich Tag und Nacht, still und stumm zwar, doch auf
+[E           Am]
+ewig nur anseh’n.
+
+@illustration[100mm]{jasmin}{25mm}{100mm}
+@anmerkung{Der Eisack (italienisch Isarco, ladinisch Isarch, lateinisch Isarcus) ist der zweitlängste Fluss Südtirols, sein Einzugsgebiet beträgt etwa 4200 km². Er entspringt südlich des Sattelbergs in den Stubaier Alpen in einer Höhe von 2039 m s.l.m. und erreicht über die Steilstufe des Eisackfalls die Passhöhe des Brenners.}

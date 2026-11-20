@@ -176,15 +176,26 @@
 }
 
 % ---------- Kategorie-Trenner ----------
+% Eigene Trennseite: Buchstabe und Titel mittig auf der Seite.
+% (Die Seite wird vom ersten Song mit \clearpage abgeschlossen; deshalb hier
+% kein \clearpage am Ende, sonst stimmt die Seitenplanung von \songliste nicht.)
+\newcommand{\catbuchstfont}{\serif\bfseries\fontsize{\SzCatBuchst}{\LdCatBuchst}\selectfont\color{inkheading}}
+\newcommand{\catseitefont}{\serif\bfseries\fontsize{\SzCatSeite}{\LdCatSeite}\selectfont\color{inkheading}}
 \newcommand{\category}[1]{%
   \stepcounter{categorycount}%
   \clearpage % Kategorien dürfen auch links beginnen
   \thispagestyle{fancy}%
   \phantomsection
   \addcontentsline{toc}{part}{\makebox[\tocnumw][l]{\alphnum{categorycount}}#1}
-  \vspace*{2mm}
-  {\cattitlefont #1\par}
-  {\color{rulecolor}\hrule height 0.7pt}
-  \vspace{4mm}
+  \vspace*{\fill}%
+  \begin{center}
+    {\catbuchstfont \alphnum{categorycount}\par}%
+    \vspace{4mm}%
+    {\color{rulecolor}\rule{30mm}{0.7pt}\par}%
+    \vspace{5mm}%
+    {\catseitefont #1\par}%
+  \end{center}%
+  \vspace*{\fill}%
+  \vspace*{12mm}% optische Mitte etwas über der geometrischen
 }
 
